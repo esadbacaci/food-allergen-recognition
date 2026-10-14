@@ -117,10 +117,11 @@ def _worker_init(worker_id):
 
 def make_loaders(batch_size, seed, img_size=224, aug="strong", num_workers=8,
                  eval_workers=4, eval_batch_size=128, image_dir="images"):
-    """Every Windows worker process loads the full PyTorch/CUDA runtime (~1.5 GB commit),
-    so only the training loader keeps persistent workers; evaluation workers are
-    started per pass and released afterwards (36 persistent workers exhausted the
-    page file on the 16 GB development machine)."""
+    """Every Windows worker process loads the full PyTorch/CUDA runtime (~1.5 GB commit), so
+    the number of workers is bounded: 8 training + 4 evaluation workers (36 workers exhausted
+    the page file on the 16 GB development machine). The validation loader keeps its workers
+    alive between epochs (re-spawning them cost ~20 s of idle GPU per epoch); the test
+    loader, used once per run, does not."""
     classes = read_class_map()
     class_ids = [c["class_id"] for c in classes]
     class_to_idx = {c: i for i, c in enumerate(class_ids)}
@@ -143,7 +144,7 @@ def make_loaders(batch_size, seed, img_size=224, aug="strong", num_workers=8,
                               batch_size=batch_size, shuffle=True, drop_last=True,
                               generator=g, **opts(num_workers, True))
     val_loader = DataLoader(ManifestDataset(by_split["val"], class_to_idx, eval_t, root),
-                            batch_size=eval_batch_size, shuffle=False, **opts(eval_workers, False))
+                            batch_size=eval_batch_size, shuffle=False, **opts(eval_workers, True))
     test_loader = DataLoader(ManifestDataset(by_split["test"], class_to_idx, eval_t, root),
                              batch_size=eval_batch_size, shuffle=False, **opts(eval_workers, False))
 

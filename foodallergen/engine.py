@@ -7,6 +7,7 @@ One run = one (model, recipe, seed). Outputs in <run_dir>:
   logits_val.npz / logits_test.npz (float16 logits + labels), metrics.json, DONE
 """
 import csv
+import gc
 import json
 import math
 import platform
@@ -186,6 +187,10 @@ def run(cfg, run_dir):
                         best_acc=best_acc, best_epoch=best_epoch, history=history,
                         best_state=best_state, torch_rng=torch.get_rng_state()),
                    run_dir / "last.pt")
+
+    # release the 8 persistent training workers before the final val/test passes (memory)
+    data["train"] = None
+    gc.collect()
 
     with open(run_dir / "history.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(history[0]))
