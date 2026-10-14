@@ -11,6 +11,7 @@ Commands: /durum (progress + current run, epoch by epoch), /son (last finished r
 Automatic messages: a run finished (validation accuracy), errors in run_all_stderr.log,
 no new epoch for 40 minutes while the chain should be running, chain finished.
 """
+import http.client
 import json
 import sys
 import time
@@ -41,7 +42,7 @@ def load_config():
 def api(cfg, method, **params):
     url = f"https://api.telegram.org/bot{cfg['token']}/{method}"
     data = urllib.parse.urlencode(params).encode()
-    with urllib.request.urlopen(url, data=data, timeout=60) as r:
+    with urllib.request.urlopen(url, data=data, timeout=40) as r:
         return json.loads(r.read().decode())
 
 
@@ -80,11 +81,12 @@ def main():
     err_size = ERR.stat().st_size if ERR.exists() else 0
     stall_warned = False
     done_announced = "ALL_EXPERIMENTS_DONE" in (LOG.read_text(encoding="utf-8", errors="ignore") if LOG.exists() else "")
+    net_fail = 0
     print("Bot çalışıyor. Telegram'da botunuza /start yazın. Kapatmak için bu pencereyi kapatın.", flush=True)
     while True:
         try:
             # ---- commands
-            params = {"timeout": 30}
+            params = {"timeout": 25}
             if offset is not None:
                 params["offset"] = offset
             for upd in api(cfg, "getUpdates", **params).get("result", []):
@@ -130,6 +132,13 @@ def main():
                 stall_warned = True
             if idle < 5:
                 stall_warned = False
+            net_fail = 0
+        except (OSError, http.client.HTTPException) as e:  # network drop, reset, timeout
+            net_fail += 1
+            wait = min(300, 10 * 2 ** min(net_fail, 5))
+            print(f"{time.strftime('%H:%M:%S')} Telegram bağlantısı kesildi ({type(e).__name__}); "
+                  f"{wait} sn sonra yeniden denenecek. Eğitim etkilenmez.", flush=True)
+            time.sleep(wait)
         except Exception:
             traceback.print_exc()
             time.sleep(30)
