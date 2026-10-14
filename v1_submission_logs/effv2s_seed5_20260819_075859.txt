@@ -1,0 +1,10 @@
+[effv2s_seed5] Cihaz: cuda | Config: {'batch_size': 32, 'optimizer': 'adamw', 'lr': 0.001, 'weight_decay': 0.0001, 'scheduler': 'cosine', 'label_smoothing': 0.1, 'patience': 4}
+[effv2s_seed5] Train: 107844 | Val: 23109 | Test: 23110
+[effv2s_seed5] Epoch 1/20 [605.8s] Train Loss:2.8281 Acc:0.4830 | Val Loss:2.2573 Acc:0.6328
+[effv2s_seed5]   --> yeni en iyi model kaydedildi
+[effv2s_seed5] Epoch 2/20 [604.3s] Train Loss:2.1536 Acc:0.6659 | Val Loss:1.9653 Acc:0.7197
+[effv2s_seed5]   --> yeni en iyi model kaydedildi
+[effv2s_seed5] Epoch 3/20 [605.2s] Train Loss:1.9599 Acc:0.7193 | Val Loss:1.8687 Acc:0.7473
+[effv2s_seed5]   --> yeni en iyi model kaydedildi
+[effv2s_seed5] Epoch 4/20 [603.4s] Train Loss:1.8303 Acc:0.7585 | Val Loss:1.8162 Acc:0.7578
+[effv2s_seed5]   --> yeni en iyi model kaydedildi

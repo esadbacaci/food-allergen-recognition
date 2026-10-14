@@ -1,0 +1,35 @@
+[fair_vit_seed42] Cihaz: cuda | Ortak config: {'batch_size': 16, 'lr': 0.001, 'weight_decay': 0.0001, 'label_smoothing': 0.1, 'patience': 5}
+[fair_vit_seed42] Epoch 1/20 [1720.5s] Train Loss:4.9677 Acc:0.0435 | Val Loss:4.5963 Acc:0.0822
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 2/20 [1697.4s] Train Loss:4.4842 Acc:0.1052 | Val Loss:4.3973 Acc:0.1123
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 3/20 [1702.3s] Train Loss:4.1709 Acc:0.1580 | Val Loss:4.0297 Acc:0.1748
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 4/20 [1691.3s] Train Loss:3.8990 Acc:0.2074 | Val Loss:3.8051 Acc:0.2222
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 5/20 [1691.1s] Train Loss:3.6782 Acc:0.2507 | Val Loss:3.6036 Acc:0.2701
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 6/20 [1690.3s] Train Loss:3.4838 Acc:0.2927 | Val Loss:3.4869 Acc:0.2944
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 7/20 [1690.6s] Train Loss:3.3083 Acc:0.3294 | Val Loss:3.3441 Acc:0.3301
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 8/20 [1690.6s] Train Loss:3.1414 Acc:0.3682 | Val Loss:3.2485 Acc:0.3527
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 9/20 [1689.9s] Train Loss:2.9789 Acc:0.4059 | Val Loss:3.1974 Acc:0.3747
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 10/20 [1688.8s] Train Loss:2.8205 Acc:0.4453 | Val Loss:3.1059 Acc:0.3949
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 11/20 [1688.5s] Train Loss:2.6577 Acc:0.4848 | Val Loss:3.0444 Acc:0.4107
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 12/20 [1689.1s] Train Loss:2.4897 Acc:0.5294 | Val Loss:3.0069 Acc:0.4294
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 13/20 [1689.1s] Train Loss:2.3366 Acc:0.5706 | Val Loss:2.9701 Acc:0.4430
+[fair_vit_seed42]   --> yeni en iyi model kaydedildi
+[fair_vit_seed42] Epoch 14/20 [1689.2s] Train Loss:2.1884 Acc:0.6154 | Val Loss:2.9843 Acc:0.4450
+[fair_vit_seed42] Epoch 15/20 [1689.1s] Train Loss:2.0543 Acc:0.6592 | Val Loss:2.9969 Acc:0.4487
+[fair_vit_seed42] Epoch 16/20 [1689.0s] Train Loss:1.9338 Acc:0.6993 | Val Loss:3.0274 Acc:0.4529
+[fair_vit_seed42] Epoch 17/20 [1688.8s] Train Loss:1.8394 Acc:0.7338 | Val Loss:3.0441 Acc:0.4582
+[fair_vit_seed42] Epoch 18/20 [1697.5s] Train Loss:1.7670 Acc:0.7621 | Val Loss:3.0471 Acc:0.4596
+[fair_vit_seed42] Erken durdurma (patience=5)
+[fair_vit_seed42] TEST Accuracy:0.4411 MacroF1:0.4629 MacroPrec:0.4645 MacroRec:0.4776
+[fair_vit_seed42] Tahminler kaydedildi -> C:\Users\Esad\Desktop\food-model\revizyon\04_fair_comparison\predictions\fair_vit_seed42.npz

@@ -1,0 +1,40 @@
+[effv2s_seed2] Cihaz: cuda | Config: {'batch_size': 32, 'optimizer': 'adamw', 'lr': 0.001, 'weight_decay': 0.0001, 'scheduler': 'cosine', 'label_smoothing': 0.1, 'patience': 4}
+[effv2s_seed2] Train: 107844 | Val: 23109 | Test: 23110
+[effv2s_seed2] Epoch 1/20 [600.5s] Train Loss:2.8040 Acc:0.4890 | Val Loss:2.2343 Acc:0.6364
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 2/20 [598.9s] Train Loss:2.1484 Acc:0.6660 | Val Loss:2.0239 Acc:0.6998
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 3/20 [599.2s] Train Loss:1.9573 Acc:0.7207 | Val Loss:1.8958 Acc:0.7407
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 4/20 [598.9s] Train Loss:1.8206 Acc:0.7606 | Val Loss:1.7895 Acc:0.7679
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 5/20 [598.9s] Train Loss:1.7178 Acc:0.7891 | Val Loss:1.7585 Acc:0.7742
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 6/20 [599.3s] Train Loss:1.6231 Acc:0.8162 | Val Loss:1.6968 Acc:0.7947
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 7/20 [599.4s] Train Loss:1.5481 Acc:0.8384 | Val Loss:1.6670 Acc:0.8037
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 8/20 [610.1s] Train Loss:1.4718 Acc:0.8623 | Val Loss:1.6264 Acc:0.8113
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 9/20 [610.3s] Train Loss:1.4038 Acc:0.8843 | Val Loss:1.6322 Acc:0.8121
+[effv2s_seed2] Epoch 10/20 [599.4s] Train Loss:1.3416 Acc:0.9044 | Val Loss:1.5925 Acc:0.8237
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 11/20 [598.6s] Train Loss:1.2867 Acc:0.9214 | Val Loss:1.5695 Acc:0.8319
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 12/20 [599.1s] Train Loss:1.2388 Acc:0.9371 | Val Loss:1.5503 Acc:0.8327
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 13/20 [599.1s] Train Loss:1.1940 Acc:0.9531 | Val Loss:1.5513 Acc:0.8357
+[effv2s_seed2] Epoch 14/20 [599.1s] Train Loss:1.1608 Acc:0.9628 | Val Loss:1.5310 Acc:0.8425
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 15/20 [599.7s] Train Loss:1.1330 Acc:0.9723 | Val Loss:1.5322 Acc:0.8443
+[effv2s_seed2] Epoch 16/20 [601.0s] Train Loss:1.1115 Acc:0.9793 | Val Loss:1.5248 Acc:0.8451
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 17/20 [602.1s] Train Loss:1.0945 Acc:0.9838 | Val Loss:1.5202 Acc:0.8483
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 18/20 [599.4s] Train Loss:1.0837 Acc:0.9872 | Val Loss:1.5167 Acc:0.8501
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 19/20 [599.3s] Train Loss:1.0761 Acc:0.9892 | Val Loss:1.5120 Acc:0.8526
+[effv2s_seed2]   --> yeni en iyi model kaydedildi
+[effv2s_seed2] Epoch 20/20 [599.9s] Train Loss:1.0735 Acc:0.9899 | Val Loss:1.5134 Acc:0.8509
+[effv2s_seed2] TEST Accuracy:0.8513 MacroF1:0.8627 MacroPrec:0.8640 MacroRec:0.8635
+[effv2s_seed2] Tahminler kaydedildi -> C:\Users\Esad\Desktop\food-model\revizyon\02_original_hparams\predictions\effv2s_seed2.npz

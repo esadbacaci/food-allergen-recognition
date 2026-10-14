@@ -1,0 +1,39 @@
+[fair_resnet18_seed42] Cihaz: cuda | Ortak config: {'batch_size': 16, 'lr': 0.001, 'weight_decay': 0.0001, 'label_smoothing': 0.1, 'patience': 5}
+[fair_resnet18_seed42] Epoch 1/20 [275.9s] Train Loss:4.2034 Acc:0.1483 | Val Loss:3.3872 Acc:0.3072
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 2/20 [272.6s] Train Loss:3.2284 Acc:0.3544 | Val Loss:2.9383 Acc:0.4415
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 3/20 [272.7s] Train Loss:2.8286 Acc:0.4608 | Val Loss:2.7520 Acc:0.4963
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 4/20 [283.2s] Train Loss:2.5931 Acc:0.5274 | Val Loss:2.6187 Acc:0.5330
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 5/20 [273.0s] Train Loss:2.4244 Acc:0.5741 | Val Loss:2.4041 Acc:0.5841
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 6/20 [272.6s] Train Loss:2.2908 Acc:0.6135 | Val Loss:2.3559 Acc:0.6037
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 7/20 [269.2s] Train Loss:2.1773 Acc:0.6474 | Val Loss:2.2743 Acc:0.6349
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 8/20 [273.2s] Train Loss:2.0747 Acc:0.6790 | Val Loss:2.2107 Acc:0.6469
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 9/20 [273.1s] Train Loss:1.9878 Acc:0.7074 | Val Loss:2.1532 Acc:0.6652
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 10/20 [271.2s] Train Loss:1.8998 Acc:0.7341 | Val Loss:2.1494 Acc:0.6676
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 11/20 [273.8s] Train Loss:1.8233 Acc:0.7589 | Val Loss:2.1018 Acc:0.6852
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 12/20 [273.0s] Train Loss:1.7569 Acc:0.7825 | Val Loss:2.0848 Acc:0.6914
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 13/20 [274.4s] Train Loss:1.6932 Acc:0.8044 | Val Loss:2.0450 Acc:0.7063
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 14/20 [273.2s] Train Loss:1.6358 Acc:0.8247 | Val Loss:2.0879 Acc:0.7015
+[fair_resnet18_seed42] Epoch 15/20 [270.7s] Train Loss:1.5863 Acc:0.8416 | Val Loss:2.0314 Acc:0.7118
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 16/20 [272.8s] Train Loss:1.5429 Acc:0.8595 | Val Loss:2.0212 Acc:0.7163
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] Epoch 17/20 [271.4s] Train Loss:1.5125 Acc:0.8713 | Val Loss:2.0358 Acc:0.7197
+[fair_resnet18_seed42] Epoch 18/20 [328.0s] Train Loss:1.4870 Acc:0.8820 | Val Loss:2.0470 Acc:0.7166
+[fair_resnet18_seed42] Epoch 19/20 [286.7s] Train Loss:1.4716 Acc:0.8873 | Val Loss:2.0786 Acc:0.7131
+[fair_resnet18_seed42] Epoch 20/20 [350.9s] Train Loss:1.4633 Acc:0.8898 | Val Loss:2.0086 Acc:0.7210
+[fair_resnet18_seed42]   --> yeni en iyi model kaydedildi
+[fair_resnet18_seed42] TEST Accuracy:0.7219 MacroF1:0.7377 MacroPrec:0.7358 MacroRec:0.7440
+[fair_resnet18_seed42] Tahminler kaydedildi -> C:\Users\Esad\Desktop\food-model\revizyon\04_fair_comparison\predictions\fair_resnet18_seed42.npz
