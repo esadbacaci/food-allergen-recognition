@@ -7,3 +7,6 @@ __pycache__/
 *.npz
 /data/*.tmp
 .ipynb_checkpoints/
+# contains dataset photographs (not redistributable)
+data/allergen_db_v2/expert_audit/_thumbs/
+data/allergen_db_v2/expert_audit/*.xlsx
