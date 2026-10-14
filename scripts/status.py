@@ -95,7 +95,7 @@ def main():
         _, secs = epochs_done(rd)
         per_model[m] += [s / cost for s in secs[1:]]  # skip first epoch (worker start-up)
     # fallback seconds/epoch at 224 px when a model has not run yet (measured benchmarks)
-    fallback = {"resnet18": 80, "effb0": 140, "effv2s": 300, "convnext_t": 270, "swin_t": 360, "vit_b16": 600}
+    fallback = {"resnet18": 80, "effb0": 140, "effv2s": 300, "convnext_t": 270, "swin_t": 360, "vit_b16": 600, "maxvit_t": 420}
     sec_per_epoch = {m: (sum(v) / len(v) if v else fallback[m]) + 40 for m, v in
                      ((m, per_model[m]) for m in fallback)}  # +40 s validation
 

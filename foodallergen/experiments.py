@@ -12,7 +12,7 @@ import json
 
 from . import paths
 
-MODELS = ["resnet18", "effb0", "effv2s", "convnext_t", "swin_t", "vit_b16"]
+MODELS = ["resnet18", "effb0", "effv2s", "convnext_t", "swin_t", "vit_b16", "maxvit_t"]
 LR_GRID = [3e-5, 1e-4, 3e-4, 1e-3]
 SEEDS = [1, 2, 3]
 SWEEP_SEED = 0
@@ -32,8 +32,11 @@ ABLATIONS = {
 }
 
 
+PHYSICAL_BATCH = {"maxvit_t": 32}  # 8 GB GPU; effective batch stays 64 (gradient accumulation)
+
+
 def base_cfg(model):
-    return dict(model=model, llrd=LLRD.get(model))
+    return dict(model=model, llrd=LLRD.get(model), physical_batch=PHYSICAL_BATCH.get(model, 64))
 
 
 def selected_lr():
@@ -75,7 +78,7 @@ def final_runs():
     choice = json.loads(FINAL_CHOICE_FILE.read_text())
     m = choice["model"]
     extra = dict(FINAL)
-    if m == "vit_b16":  # torchvision ViT-B/16 weights are tied to 224 px position embeddings
+    if m in ("vit_b16", "maxvit_t"):  # ViT position embeddings / MaxViT 7x7 partitions need 224 px
         extra["img_size"] = 224
     for seed in SEEDS:
         yield paths.RUNS / "final" / m / f"seed{seed}", dict(base_cfg(m), lr=choice["lr"], seed=seed, **extra)

@@ -21,7 +21,7 @@ import torch.nn as nn
 from sklearn.metrics import f1_score
 
 from .data import gpu_preprocess, make_loaders
-from .models import TRANSFORMERS, build_model, param_groups
+from .models import build_model, param_groups, uses_channels_last
 
 DEFAULTS = dict(
     model="effb0", seed=1, epochs=20, warmup_epochs=2, lr=1e-3, weight_decay=0.05,
@@ -104,7 +104,7 @@ def run(cfg, run_dir):
                         cfg["num_workers"], cfg["eval_workers"], image_dir=cfg["image_dir"])
     n_cls = len(data["class_ids"])
     model = build_model(cfg["model"], n_cls).to(device)
-    channels_last = cfg["model"] not in TRANSFORMERS
+    channels_last = uses_channels_last(cfg["model"])
     if channels_last:
         model = model.to(memory_format=torch.channels_last)
 

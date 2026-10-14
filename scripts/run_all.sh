@@ -1,5 +1,5 @@
 #!/bin/bash
-# Unattended experiment chain (about 3.5 days on one RTX 5060). Safe to restart: finished
+# Unattended experiment chain (about 3.5 days on one RTX 5060; MaxViT-T added 2026-10-14 for reviewer 2). Safe to restart: finished
 # runs are skipped and interrupted runs resume from their last completed epoch.
 #   bash scripts/run_all.sh >> ../03_deneyler/run_all.log 2>&1
 cd "$(dirname "$0")/.."
@@ -14,7 +14,7 @@ stamp "5/8 final model (320 px)";  python scripts/run.py final
 stamp "6/8 recipe ablation";       python scripts/run.py ablation
 stamp "7/8 evaluation"
 python scripts/evaluate.py
-for m in resnet18 effb0 effv2s convnext_t swin_t vit_b16; do
+for m in resnet18 effb0 effv2s convnext_t swin_t vit_b16 maxvit_t; do
   python scripts/evaluate_allergen.py --model "$m"
 done
 python scripts/evaluate_allergen.py --group final --model "$(python -c "import json;print(json.load(open('data/final_choice.json'))['model'])")"

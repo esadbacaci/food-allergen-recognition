@@ -12,12 +12,19 @@ SPECS = {
     "convnext_t": (tvm.convnext_tiny, tvm.ConvNeXt_Tiny_Weights.IMAGENET1K_V1, "classifier.2"),
     "swin_t":     (tvm.swin_t, tvm.Swin_T_Weights.IMAGENET1K_V1, "head"),
     "vit_b16":    (tvm.vit_b_16, tvm.ViT_B_16_Weights.IMAGENET1K_V1, "heads.head"),
+    "maxvit_t":   (tvm.maxvit_t, tvm.MaxVit_T_Weights.IMAGENET1K_V1, "classifier.5"),  # hybrid CNN-Transformer
 }
 DISPLAY = {
     "resnet18": "ResNet-18", "effb0": "EfficientNet-B0", "effv2s": "EfficientNetV2-S",
     "convnext_t": "ConvNeXt-T", "swin_t": "Swin-T", "vit_b16": "ViT-B/16",
+    "maxvit_t": "MaxViT-T",
 }
 TRANSFORMERS = {"swin_t", "vit_b16"}
+
+
+def uses_channels_last(name):
+    """channels_last memory format only for the pure CNNs."""
+    return name not in TRANSFORMERS and name != "maxvit_t"
 
 
 def _get(module, dotted):
