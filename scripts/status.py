@@ -47,6 +47,47 @@ def epochs_done(run_dir):
     return len(secs), secs
 
 
+def epoch_lines(run_dir):
+    log = run_dir / "train.log"
+    if not log.exists():
+        return []
+    return [line for line in log.read_text(encoding="utf-8").splitlines()
+            if " epoch " in line and "s | train loss" in line]
+
+
+def parse_epoch(line):
+    """'... epoch 3/5 75s | train loss .. acc A | val loss .. acc V top5 T f1 F *' -> dict"""
+    ep = line.split(" epoch ")[1].split()[0]
+    val = line.split("| val loss")[1].split()
+    tr = line.split("| train loss")[1].split()
+    return dict(epoch=ep, sec=line.split(" epoch ")[1].split()[1], train_acc=float(tr[2]),
+                val_acc=float(val[2]), top5=float(val[4]), f1=float(val[6]), best="*" in line)
+
+
+def detail(last_finished=8):
+    """Current run with every epoch so far, plus the most recently finished runs."""
+    out = []
+    runs = [(g, rd) for g, rd, *_ in planned()]
+    current = next(((g, rd) for g, rd in runs if not (rd / "DONE").exists() and epoch_lines(rd)), None)
+    if current:
+        g, rd = current
+        out.append(f"ŞU AN: {rd.relative_to(paths.RUNS)}")
+        for line in epoch_lines(rd):
+            e = parse_epoch(line)
+            out.append(f"  epoch {e['epoch']:>5} ({e['sec']}) eğitim %{e['train_acc']*100:5.1f} | "
+                       f"doğrulama %{e['val_acc']*100:5.1f}  top5 %{e['top5']*100:5.1f}  F1 {e['f1']:.3f}"
+                       f"{'  <- en iyi' if e['best'] else ''}")
+    done = sorted(((rd / "DONE").stat().st_mtime, g, rd) for g, rd in runs if (rd / "DONE").exists())
+    if done:
+        out.append(f"SON BİTEN {min(last_finished, len(done))} KOŞU (doğrulama doğruluğu, en iyi epoch):")
+        for _, g, rd in done[-last_finished:]:
+            m = json.loads((rd / "metrics.json").read_text())
+            test = f" | test %{m['test']['acc']*100:.2f}" if "test" in m else ""
+            out.append(f"  {str(rd.relative_to(paths.RUNS)):34s} doğrulama %{m['val']['acc']*100:.2f} "
+                       f"(epoch {m['best_epoch']}){test}")
+    return "\n".join(out)
+
+
 def main():
     plan = planned()
     per_model = defaultdict(list)
@@ -81,6 +122,8 @@ def main():
         print("  UYARI: run_all_stderr.log içinde hata kaydı var, kontrol edin.")
     h = remaining / 3600
     print(f"  tahmini kalan süre: {h:.1f} saat (~{time.strftime('%d.%m %H:%M', time.localtime(time.time() + remaining))})")
+    print()
+    print(detail())
 
 
 if __name__ == "__main__":
