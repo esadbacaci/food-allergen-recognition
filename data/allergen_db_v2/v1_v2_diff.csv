@@ -1,0 +1,374 @@
+class_id,allergen,v1_level,v2_level,kind
+apple-pie,MLK,,often,v2_only (v1 omission?)
+baby-back-ribs,AGS,,always,class_not_in_v1
+baby-back-ribs,CEL,,possible,class_not_in_v1
+baby-back-ribs,FSH,,possible,class_not_in_v1
+baby-back-ribs,GAR,,often,class_not_in_v1
+baby-back-ribs,GLU,,possible,class_not_in_v1
+baby-back-ribs,MUS,,often,class_not_in_v1
+baby-back-ribs,SOY,,possible,class_not_in_v1
+baby-back-ribs,SUL,,possible,class_not_in_v1
+baklava,EGG,,possible,v2_possible_only
+baklava,MLK,,always,v2_only (v1 omission?)
+beef-carpaccio,EGG,,possible,v2_possible_only
+beef-carpaccio,MLK,,often,v2_only (v1 omission?)
+beef-carpaccio,MUS,low,possible,v1_present_v2_possible
+beef-carpaccio,SUL,low,,v1_only
+beef-tartare,EGG,,always,v2_only (v1 omission?)
+beef-tartare,FSH,,possible,v2_possible_only
+beef-tartare,GLU,,possible,v2_possible_only
+beet-salad,GAR,low,possible,v1_present_v2_possible
+beet-salad,MLK,,often,v2_only (v1 omission?)
+beet-salad,MUS,,possible,v2_possible_only
+beet-salad,NUT,,often,v2_only (v1 omission?)
+beignets,MLK,,always,v2_only (v1 omission?)
+bibimbap,AGS,,often,v2_only (v1 omission?)
+bibimbap,EGG,,always,v2_only (v1 omission?)
+bibimbap,GAR,,often,v2_only (v1 omission?)
+bibimbap,GLU,,often,v2_only (v1 omission?)
+bibimbap,SES,,always,v2_only (v1 omission?)
+bread-pudding,NUT,,possible,v2_possible_only
+bread-pudding,SUL,,possible,v2_possible_only
+breakfast-burrito,AGS,,often,v2_only (v1 omission?)
+breakfast-burrito,MAZ,medium,,v1_only
+breakfast-burrito,MLK,,often,v2_only (v1 omission?)
+bruschetta,MLK,,possible,v2_possible_only
+caesar-salad,GLU,,always,v2_only (v1 omission?)
+caesar-salad,MUS,,often,v2_only (v1 omission?)
+cannoli,NUT,,often,v2_only (v1 omission?)
+cannoli,SOY,,possible,v2_possible_only
+cannoli,SUL,,possible,v2_possible_only
+caprese-salad,SUL,,possible,v2_possible_only
+carrot-cake,MLK,,always,v2_only (v1 omission?)
+ceviche,CRU,,possible,v2_possible_only
+ceviche,GAR,medium,,v1_only
+ceviche,MAZ,,possible,v2_possible_only
+ceviche,MOL,,possible,v2_possible_only
+cheese-plate,GLU,,often,v2_only (v1 omission?)
+cheese-plate,NUT,,often,v2_only (v1 omission?)
+cheese-plate,SUL,,possible,v2_possible_only
+cheesecake,SOY,,possible,v2_possible_only
+chicken-curry,CEL,,possible,v2_possible_only
+chicken-curry,GAR,,always,v2_only (v1 omission?)
+chicken-curry,MUS,,possible,v2_possible_only
+chicken-curry,NUT,,possible,v2_possible_only
+chicken-quesadilla,MAZ,,possible,v2_possible_only
+chicken-wings,CEL,,possible,v2_possible_only
+chicken-wings,EGG,,possible,v2_possible_only
+chicken-wings,GAR,,often,v2_only (v1 omission?)
+chicken-wings,GLU,medium,possible,v1_present_v2_possible
+chicken-wings,MLK,,often,v2_only (v1 omission?)
+chicken-wings,SOY,,possible,v2_possible_only
+chocolate-cake,MLK,,always,v2_only (v1 omission?)
+chocolate-cake,NUT,low,possible,v1_present_v2_possible
+chocolate-cake,SOY,,possible,v2_possible_only
+chocolate-mousse,SOY,,possible,v2_possible_only
+churros,EGG,,possible,v2_possible_only
+churros,MLK,,often,v2_only (v1 omission?)
+churros,SOY,,possible,v2_possible_only
+clam-chowder,AGS,,often,v2_only (v1 omission?)
+clam-chowder,GLU,,often,v2_only (v1 omission?)
+club-sandwich,AGS,,often,v2_only (v1 omission?)
+club-sandwich,MLK,,possible,v2_possible_only
+club-sandwich,MUS,medium,possible,v1_present_v2_possible
+club-sandwich,SES,,possible,v2_possible_only
+crab-cakes,CEL,,often,v2_only (v1 omission?)
+crab-cakes,FSH,,possible,v2_possible_only
+crab-cakes,MUS,,often,v2_only (v1 omission?)
+croque-madame,AGS,,always,v2_only (v1 omission?)
+croque-madame,MUS,,often,v2_only (v1 omission?)
+cup-cakes,MLK,,always,v2_only (v1 omission?)
+cup-cakes,SOY,,possible,v2_possible_only
+donuts,MLK,,often,v2_only (v1 omission?)
+donuts,SOY,,possible,v2_possible_only
+dumplings,AGS,,often,v2_only (v1 omission?)
+dumplings,CRU,,possible,v2_possible_only
+dumplings,EGG,,possible,v2_possible_only
+dumplings,SES,,often,v2_only (v1 omission?)
+eggs-benedict,AGS,,often,v2_only (v1 omission?)
+eggs-benedict,GLU,,always,v2_only (v1 omission?)
+eggs-benedict,MLK,,always,v2_only (v1 omission?)
+escargots,GAR,,always,v2_only (v1 omission?)
+escargots,GLU,,possible,v2_possible_only
+escargots,MLK,,always,v2_only (v1 omission?)
+escargots,SUL,,possible,v2_possible_only
+filet-mignon,GAR,,often,v2_only (v1 omission?)
+filet-mignon,MLK,,often,v2_only (v1 omission?)
+filet-mignon,SUL,,possible,v2_possible_only
+fish-and-chips,EGG,,possible,v2_possible_only
+fish-and-chips,MUS,,possible,v2_possible_only
+fish-and-chips,SUL,,possible,v2_possible_only
+foie-gras,GLU,,possible,v2_possible_only
+foie-gras,MLK,,possible,v2_possible_only
+foie-gras,SUL,,possible,v2_possible_only
+french-fries,GLU,,possible,v2_possible_only
+french-onion-soup,AGS,,possible,v2_possible_only
+french-onion-soup,CEL,low,possible,v1_present_v2_possible
+french-onion-soup,GAR,low,,v1_only
+fried-calamari,EGG,medium,possible,v1_present_v2_possible
+fried-calamari,GAR,,possible,v2_possible_only
+fried-rice,CRU,,possible,v2_possible_only
+fried-rice,EGG,,often,v2_only (v1 omission?)
+fried-rice,FSH,,possible,v2_possible_only
+fried-rice,GAR,,possible,v2_possible_only
+fried-rice,GLU,,often,v2_only (v1 omission?)
+fried-rice,SES,,possible,v2_possible_only
+frozen-yogurt,GLU,,possible,v2_possible_only
+frozen-yogurt,NUT,,possible,v2_possible_only
+garlic-bread,MLK,,always,v2_only (v1 omission?)
+grilled-salmon,GAR,,possible,v2_possible_only
+grilled-salmon,MLK,,possible,v2_possible_only
+guacamole,GAR,medium,possible,v1_present_v2_possible
+guacamole,MAZ,,possible,v2_possible_only
+gyoza,AGS,,often,v2_only (v1 omission?)
+gyoza,SES,,often,v2_only (v1 omission?)
+hamburger,EGG,,often,v2_only (v1 omission?)
+hamburger,MLK,,often,v2_only (v1 omission?)
+hamburger,SES,,often,v2_only (v1 omission?)
+hamburger,SOY,,possible,v2_possible_only
+hot-and-sour-soup,AGS,,often,v2_only (v1 omission?)
+hot-and-sour-soup,EGG,,often,v2_only (v1 omission?)
+hot-and-sour-soup,GLU,,often,v2_only (v1 omission?)
+hot-and-sour-soup,SES,,possible,v2_possible_only
+hot-and-sour-soup,SOY,,always,v2_only (v1 omission?)
+hot-dog,CEL,,possible,v2_possible_only
+hot-dog,MLK,,possible,v2_possible_only
+hot-dog,SES,,possible,v2_possible_only
+hot-dog,SOY,,possible,v2_possible_only
+huevos-rancheros,MLK,,often,v2_only (v1 omission?)
+ice-cream,EGG,,possible,v2_possible_only
+ice-cream,GLU,,possible,v2_possible_only
+ice-cream,NUT,,possible,v2_possible_only
+ice-cream,SOY,,possible,v2_possible_only
+lasagna,CEL,,often,v2_only (v1 omission?)
+lasagna,EGG,,often,v2_only (v1 omission?)
+lasagna,SUL,,possible,v2_possible_only
+lobster-bisque,GLU,,possible,v2_possible_only
+lobster-bisque,MLK,,always,v2_only (v1 omission?)
+lobster-bisque,SUL,,often,v2_only (v1 omission?)
+lobster-roll-sandwich,CEL,,often,v2_only (v1 omission?)
+lobster-roll-sandwich,EGG,,often,v2_only (v1 omission?)
+lobster-roll-sandwich,MLK,,often,v2_only (v1 omission?)
+macaroni-and-cheese,EGG,,possible,v2_possible_only
+macaroni-and-cheese,MUS,,possible,v2_possible_only
+macarons,MLK,,often,v2_only (v1 omission?)
+miso-soup,FSH,,often,v2_only (v1 omission?)
+miso-soup,GAR,low,,v1_only
+miso-soup,GLU,,possible,v2_possible_only
+mussels,CEL,,possible,class_not_in_v1
+mussels,GAR,,often,class_not_in_v1
+mussels,GLU,,possible,class_not_in_v1
+mussels,MLK,,often,class_not_in_v1
+mussels,MOL,,always,class_not_in_v1
+mussels,SUL,,often,class_not_in_v1
+nachos,AGS,,possible,v2_possible_only
+omelette,EGG,,always,class_not_in_v1
+omelette,MLK,,often,class_not_in_v1
+onion-rings,MLK,,often,v2_only (v1 omission?)
+oysters,SUL,,possible,v2_possible_only
+pad-thai,CRU,,often,v2_only (v1 omission?)
+pad-thai,FSH,,always,v2_only (v1 omission?)
+paella,FSH,,possible,v2_possible_only
+peking-duck,GAR,medium,,v1_only
+peking-duck,GLU,,always,v2_only (v1 omission?)
+pho,AGS,,often,v2_only (v1 omission?)
+pho,FSH,,often,v2_only (v1 omission?)
+pho,GAR,low,,v1_only
+pho,GLU,,possible,v2_possible_only
+pho,RCE,,always,v2_only (v1 omission?)
+pho,SES,,possible,v2_possible_only
+pho,SOY,low,possible,v1_present_v2_possible
+pizza,AGS,,possible,v2_possible_only
+pork-chop,EGG,,possible,v2_possible_only
+pork-chop,GLU,,possible,v2_possible_only
+pork-chop,MLK,,possible,v2_possible_only
+poutine,AGS,,possible,v2_possible_only
+poutine,CEL,,possible,v2_possible_only
+poutine,GLU,,often,v2_only (v1 omission?)
+prime-rib,GAR,,often,v2_only (v1 omission?)
+prime-rib,MLK,,possible,v2_possible_only
+prime-rib,MUS,,possible,v2_possible_only
+prime-rib,SUL,,possible,v2_possible_only
+pulled-pork-sandwich,AGS,,always,class_not_in_v1
+pulled-pork-sandwich,CEL,,possible,class_not_in_v1
+pulled-pork-sandwich,EGG,,often,class_not_in_v1
+pulled-pork-sandwich,FSH,,possible,class_not_in_v1
+pulled-pork-sandwich,GLU,,always,class_not_in_v1
+pulled-pork-sandwich,MUS,,often,class_not_in_v1
+pulled-pork-sandwich,SES,,possible,class_not_in_v1
+pulled-pork-sandwich,SOY,,possible,class_not_in_v1
+ramen,AGS,,often,v2_only (v1 omission?)
+ramen,EGG,,often,v2_only (v1 omission?)
+ramen,FSH,,possible,v2_possible_only
+ramen,GAR,medium,,v1_only
+ramen,SES,,often,v2_only (v1 omission?)
+ravioli,AGS,,possible,v2_possible_only
+ravioli,MLK,,often,v2_only (v1 omission?)
+risotto,CEL,,possible,v2_possible_only
+samosa,MLK,,possible,v2_possible_only
+samosa,MUS,,possible,v2_possible_only
+samosa,SES,,possible,v2_possible_only
+sashimi,CRU,,possible,v2_possible_only
+sashimi,GLU,,possible,v2_possible_only
+sashimi,MOL,,possible,v2_possible_only
+sashimi,SES,low,,v1_only
+scallops,GAR,,often,v2_only (v1 omission?)
+scallops,MLK,,often,v2_only (v1 omission?)
+scallops,SUL,,possible,v2_possible_only
+seaweed-salad,GLU,,often,v2_only (v1 omission?)
+shrimp-and-grits,AGS,,often,v2_only (v1 omission?)
+shrimp-and-grits,GAR,,often,v2_only (v1 omission?)
+shrimp-and-grits,MAZ,,always,v2_only (v1 omission?)
+spaghetti-bolognese,CEL,,often,v2_only (v1 omission?)
+spaghetti-bolognese,GAR,medium,,v1_only
+spaghetti-bolognese,MLK,,often,v2_only (v1 omission?)
+spaghetti-bolognese,SUL,,possible,v2_possible_only
+spaghetti-carbonara,AGS,,always,v2_only (v1 omission?)
+spring-rolls,AGS,,possible,v2_possible_only
+spring-rolls,CRU,,possible,v2_possible_only
+spring-rolls,FSH,,possible,v2_possible_only
+spring-rolls,PNT,,possible,v2_possible_only
+spring-rolls,RCE,,possible,v2_possible_only
+steak,GAR,,possible,v2_possible_only
+steak,MLK,,possible,v2_possible_only
+strawberry-shortcake,MLK,,always,v2_only (v1 omission?)
+sushi,CRU,,possible,v2_possible_only
+sushi,EGG,,possible,v2_possible_only
+sushi,GLU,,possible,v2_possible_only
+sushi,SES,,often,v2_only (v1 omission?)
+tacos,AGS,,often,v2_only (v1 omission?)
+tacos,GLU,medium,possible,v1_present_v2_possible
+tacos,MLK,,possible,v2_possible_only
+takoyaki,FSH,,often,v2_only (v1 omission?)
+takoyaki,GAR,low,,v1_only
+tiramisu,GLU,,always,v2_only (v1 omission?)
+tiramisu,NUT,low,,v1_only
+tiramisu,SUL,,possible,v2_possible_only
+tuna-tartare,EGG,,possible,v2_possible_only
+tuna-tartare,GLU,,possible,v2_possible_only
+tuna-tartare,SES,,often,v2_only (v1 omission?)
+tuna-tartare,SOY,,often,v2_only (v1 omission?)
+adana-kebap,GAR,high,possible,v1_present_v2_possible
+adana-kebap,GLU,,often,v2_only (v1 omission?)
+asure,RCE,,possible,v2_possible_only
+asure,SES,,possible,v2_possible_only
+asure,SUL,,possible,v2_possible_only
+avokado,LTX,low,,v1_only
+beyaz-lahana-sarmasi,AGS,,often,v2_only (v1 omission?)
+beyaz-lahana-sarmasi,GAR,,possible,v2_possible_only
+beyaz-lahana-sarmasi,MLK,,possible,v2_possible_only
+biber-dolmasi,AGS,,often,v2_only (v1 omission?)
+biber-dolmasi,MLK,,possible,v2_possible_only
+biber-dolmasi,PIN,,possible,v2_possible_only
+borek,AGS,,possible,v2_possible_only
+borek,SES,,possible,v2_possible_only
+bruksel-lahanasi,MLK,,possible,v2_possible_only
+bulgur-pilavi,MLK,,often,v2_only (v1 omission?)
+canak-enginar,GLU,,possible,v2_possible_only
+cig-kofte,AGS,high,possible,v1_present_v2_possible
+cig-kofte,GAR,,often,v2_only (v1 omission?)
+cig-kofte,NUT,,possible,v2_possible_only
+domates-corbasi,CEL,low,possible,v1_present_v2_possible
+domates-corbasi,GLU,,often,v2_only (v1 omission?)
+doner,EGG,,possible,v2_possible_only
+doner,GAR,,often,v2_only (v1 omission?)
+doner,GLU,,often,v2_only (v1 omission?)
+doner,MLK,,often,v2_only (v1 omission?)
+doner,MUS,,possible,v2_possible_only
+ekmek,MLK,,possible,v2_possible_only
+ekmek,SES,,possible,v2_possible_only
+ekmek,SOY,,possible,v2_possible_only
+enginar,GLU,,possible,v2_possible_only
+et-sote,GAR,low,possible,v1_present_v2_possible
+et-sote,MLK,,often,v2_only (v1 omission?)
+gozleme,AGS,,possible,v2_possible_only
+gozleme,EGG,,possible,v2_possible_only
+hamsi,GLU,,possible,v2_possible_only
+hamsi,MAZ,,often,v2_only (v1 omission?)
+icli-kofte,AGS,,always,v2_only (v1 omission?)
+icli-kofte,EGG,,possible,v2_possible_only
+icli-kofte,GAR,low,,v1_only
+ispanak,AGS,,possible,v2_possible_only
+ispanak,EGG,,possible,v2_possible_only
+ispanak,MLK,,often,v2_only (v1 omission?)
+ispanak,RCE,,possible,v2_possible_only
+izmir-kofte,EGG,,possible,v2_possible_only
+izmir-kofte,GAR,low,,v1_only
+kabak-mucver,GAR,low,,v1_only
+kabak-mucver,MLK,,often,v2_only (v1 omission?)
+kalburabasti,MLK,,often,v2_only (v1 omission?)
+kalburabasti,NUT,,always,v2_only (v1 omission?)
+karnabahar,AGS,,possible,v2_possible_only
+karnabahar,EGG,,possible,v2_possible_only
+karnabahar,GLU,,possible,v2_possible_only
+karnabahar,MLK,,possible,v2_possible_only
+kazandibi,GLU,,possible,v2_possible_only
+kazandibi,RCE,,often,v2_only (v1 omission?)
+kebap,GLU,,often,v2_only (v1 omission?)
+kebap,MLK,,possible,v2_possible_only
+kebap,RCE,,possible,v2_possible_only
+kemal-pasa-tatlisi,MLK,,always,v2_only (v1 omission?)
+kemal-pasa-tatlisi,NUT,,possible,v2_possible_only
+kisir,NUT,,possible,v2_possible_only
+kivi,KIW,,always,v2_only (v1 omission?)
+kivi,LTX,low,,v1_only
+kiymali-pide,EGG,,possible,v2_possible_only
+kiymali-pide,MLK,,possible,v2_possible_only
+kofte,EGG,,possible,v2_possible_only
+kofte,GAR,medium,possible,v1_present_v2_possible
+kokorec,GLU,,often,v2_only (v1 omission?)
+kuru-fasulye,AGS,,often,v2_only (v1 omission?)
+kuru-fasulye,MLK,,possible,v2_possible_only
+lokma,EGG,,possible,v2_possible_only
+lokma,MLK,,possible,v2_possible_only
+manti,GAR,,always,v2_only (v1 omission?)
+manti,MLK,,always,v2_only (v1 omission?)
+menemen,GAR,low,,v1_only
+menemen,MLK,,possible,v2_possible_only
+mercimek-corbasi,GLU,,possible,v2_possible_only
+mercimek-corbasi,MLK,,often,v2_only (v1 omission?)
+midye-dolma,GAR,low,,v1_only
+midye-tava,EGG,medium,possible,v1_present_v2_possible
+midye-tava,GAR,,often,v2_only (v1 omission?)
+midye-tava,NUT,,often,v2_only (v1 omission?)
+mumbar-dolmasi,RCE,,always,v2_only (v1 omission?)
+muz,LTX,low,,v1_only
+patates-salatasi,EGG,medium,possible,v1_present_v2_possible
+patates-salatasi,MUS,medium,possible,v1_present_v2_possible
+patlican-kebabi,GAR,low,possible,v1_present_v2_possible
+patlican-kebabi,GLU,,often,v2_only (v1 omission?)
+peynirli-borek,SES,,possible,v2_possible_only
+pirinc-pilavi,GLU,,often,v2_only (v1 omission?)
+pirinc-pilavi,MLK,,often,v2_only (v1 omission?)
+salcali-makarna,MLK,low,possible,v1_present_v2_possible
+sandvic,AGS,,possible,v2_possible_only
+sandvic,EGG,,possible,v2_possible_only
+sandvic,MLK,,often,v2_only (v1 omission?)
+sandvic,MUS,,possible,v2_possible_only
+sehriye-corbasi,CEL,,possible,v2_possible_only
+sehriye-corbasi,MLK,,possible,v2_possible_only
+sucuklu-yumurta,GAR,,often,v2_only (v1 omission?)
+sucuklu-yumurta,MLK,,possible,v2_possible_only
+sulu-bamya-yemegi,AGS,,possible,v2_possible_only
+sulu-bezelye-yemegi,AGS,,possible,v2_possible_only
+sulu-mercimek-yemegi,AGS,,possible,v2_possible_only
+sulu-mercimek-yemegi,GLU,,possible,v2_possible_only
+sulu-mercimek-yemegi,RCE,,possible,v2_possible_only
+sulu-nohut-yemegi,AGS,,often,v2_only (v1 omission?)
+sulu-nohut-yemegi,MLK,,possible,v2_possible_only
+sulu-patates-yemegi,AGS,,possible,v2_possible_only
+tantuni,GAR,low,,v1_only
+tas-kebabi,GAR,low,,v1_only
+tas-kebabi,GLU,,possible,v2_possible_only
+tas-kebabi,MLK,,often,v2_only (v1 omission?)
+taze-fasulye,AGS,,possible,v2_possible_only
+taze-fasulye,GAR,low,,v1_only
+tavuk-sote,GAR,,possible,v2_possible_only
+tavuk-sote,MLK,,possible,v2_possible_only
+tulumba-tatlisi,MLK,,often,v2_only (v1 omission?)
+tursu,GAR,,often,v2_only (v1 omission?)
+tursu,SUL,,possible,v2_possible_only
+yaprak-sarma,AGS,,possible,v2_possible_only
+yayla-corbasi,GLU,,often,v2_only (v1 omission?)
+yogurtlu-makarna,GAR,,often,v2_only (v1 omission?)
+zeytinyagli-fasulye,GAR,medium,,v1_only

@@ -1,0 +1,105 @@
+class_id,allergen,flag,reason
+baby-back-ribs,GLU,unsupported,marked 'possible' but no listed ingredient implies GLU
+baby-back-ribs,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+baklava,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+beet-salad,GAR,unsupported,marked 'possible' but no listed ingredient implies GAR
+bread-pudding,NUT,unsupported,marked 'possible' but no listed ingredient implies NUT
+bruschetta,MLK,unsupported,marked 'possible' but no listed ingredient implies MLK
+cannoli,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+cheese-plate,MLK,unsupported,marked 'always' but no listed ingredient implies MLK
+cheese-plate,NUT,unsupported,marked 'often' but no listed ingredient implies NUT
+cheesecake,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+chicken-curry,CEL,unsupported,marked 'possible' but no listed ingredient implies CEL
+chicken-quesadilla,MAZ,unsupported,marked 'possible' but no listed ingredient implies MAZ
+chicken-wings,GAR,unsupported,marked 'often' but no listed ingredient implies GAR
+chicken-wings,GLU,unsupported,marked 'possible' but no listed ingredient implies GLU
+chicken-wings,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+chicken-wings,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+chocolate-cake,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+chocolate-cake,NUT,unsupported,marked 'possible' but no listed ingredient implies NUT
+chocolate-mousse,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+churros,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+churros,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+club-sandwich,MUS,unsupported,marked 'possible' but no listed ingredient implies MUS
+club-sandwich,MLK,unsupported,marked 'possible' but no listed ingredient implies MLK
+club-sandwich,SES,unsupported,marked 'possible' but no listed ingredient implies SES
+crab-cakes,AGS,missing,ingredient(s) meat imply AGS
+cup-cakes,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+donuts,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+dumplings,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+escargots,SUL,unsupported,marked 'possible' but no listed ingredient implies SUL
+fish-and-chips,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+fish-and-chips,MUS,unsupported,marked 'possible' but no listed ingredient implies MUS
+foie-gras,MLK,unsupported,marked 'possible' but no listed ingredient implies MLK
+french-fries,GLU,unsupported,marked 'possible' but no listed ingredient implies GLU
+french-onion-soup,CEL,unsupported,marked 'possible' but no listed ingredient implies CEL
+fried-calamari,GAR,unsupported,marked 'possible' but no listed ingredient implies GAR
+fried-rice,GAR,unsupported,marked 'possible' but no listed ingredient implies GAR
+frozen-yogurt,NUT,unsupported,marked 'possible' but no listed ingredient implies NUT
+frozen-yogurt,GLU,unsupported,marked 'possible' but no listed ingredient implies GLU
+guacamole,MAZ,unsupported,marked 'possible' but no listed ingredient implies MAZ
+guacamole,GAR,unsupported,marked 'possible' but no listed ingredient implies GAR
+gyoza,SUL,missing,ingredient(s) vinegar imply SUL
+hamburger,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+hot-and-sour-soup,SUL,missing,ingredient(s) vinegar imply SUL
+hot-and-sour-soup,SES,unsupported,marked 'possible' but no listed ingredient implies SES
+hot-dog,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+hot-dog,MLK,unsupported,marked 'possible' but no listed ingredient implies MLK
+hot-dog,SES,unsupported,marked 'possible' but no listed ingredient implies SES
+hot-dog,CEL,unsupported,marked 'possible' but no listed ingredient implies CEL
+ice-cream,NUT,unsupported,marked 'possible' but no listed ingredient implies NUT
+ice-cream,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+lobster-roll-sandwich,AGS,missing,ingredient(s) meat imply AGS
+macaroni-and-cheese,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+macarons,NUT,unsupported,marked 'always' but no listed ingredient implies NUT
+mussels,CEL,unsupported,marked 'possible' but no listed ingredient implies CEL
+nachos,MAZ,unsupported,marked 'always' but no listed ingredient implies MAZ
+pad-thai,RCE,unsupported,marked 'always' but no listed ingredient implies RCE
+paella,FSH,unsupported,marked 'possible' but no listed ingredient implies FSH
+pho,RCE,unsupported,marked 'always' but no listed ingredient implies RCE
+pho,SES,unsupported,marked 'possible' but no listed ingredient implies SES
+pork-chop,GLU,unsupported,marked 'possible' but no listed ingredient implies GLU
+pork-chop,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+poutine,CEL,unsupported,marked 'possible' but no listed ingredient implies CEL
+prime-rib,SUL,unsupported,marked 'possible' but no listed ingredient implies SUL
+prime-rib,MUS,unsupported,marked 'possible' but no listed ingredient implies MUS
+pulled-pork-sandwich,SES,unsupported,marked 'possible' but no listed ingredient implies SES
+pulled-pork-sandwich,CEL,unsupported,marked 'possible' but no listed ingredient implies CEL
+pulled-pork-sandwich,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+ramen,FSH,unsupported,marked 'possible' but no listed ingredient implies FSH
+risotto,CEL,unsupported,marked 'possible' but no listed ingredient implies CEL
+samosa,SES,unsupported,marked 'possible' but no listed ingredient implies SES
+scallops,SUL,unsupported,marked 'possible' but no listed ingredient implies SUL
+seaweed-salad,SUL,missing,ingredient(s) vinegar imply SUL
+seaweed-salad,RCE,missing,ingredient(s) rice imply RCE
+spring-rolls,SOY,unsupported,marked 'often' but no listed ingredient implies SOY
+spring-rolls,RCE,unsupported,marked 'possible' but no listed ingredient implies RCE
+spring-rolls,FSH,unsupported,marked 'possible' but no listed ingredient implies FSH
+spring-rolls,PNT,unsupported,marked 'possible' but no listed ingredient implies PNT
+adana-kebap,GAR,unsupported,marked 'possible' but no listed ingredient implies GAR
+beyaz-lahana-sarmasi,GAR,unsupported,marked 'possible' but no listed ingredient implies GAR
+biber-dolmasi,SUL,missing,ingredient(s) currants imply SUL
+cig-kofte,NUT,unsupported,marked 'possible' but no listed ingredient implies NUT
+domates-corbasi,CEL,unsupported,marked 'possible' but no listed ingredient implies CEL
+doner,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+doner,MUS,unsupported,marked 'possible' but no listed ingredient implies MUS
+ekmek,SES,unsupported,marked 'possible' but no listed ingredient implies SES
+ekmek,MLK,unsupported,marked 'possible' but no listed ingredient implies MLK
+ekmek,SOY,unsupported,marked 'possible' but no listed ingredient implies SOY
+et-sote,GAR,unsupported,marked 'possible' but no listed ingredient implies GAR
+gozleme,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+hamsi,MAZ,unsupported,marked 'often' but no listed ingredient implies MAZ
+icli-kofte,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+kazandibi,RCE,unsupported,marked 'often' but no listed ingredient implies RCE
+kebap,MLK,unsupported,marked 'possible' but no listed ingredient implies MLK
+kemal-pasa-tatlisi,NUT,unsupported,marked 'possible' but no listed ingredient implies NUT
+kofte,GAR,unsupported,marked 'possible' but no listed ingredient implies GAR
+lokma,MLK,unsupported,marked 'possible' but no listed ingredient implies MLK
+lokma,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+midye-dolma,SUL,missing,ingredient(s) currants imply SUL
+midye-tava,EGG,unsupported,marked 'possible' but no listed ingredient implies EGG
+patlican-kebabi,GAR,unsupported,marked 'possible' but no listed ingredient implies GAR
+peynirli-borek,SES,unsupported,marked 'possible' but no listed ingredient implies SES
+sandvic,MUS,unsupported,marked 'possible' but no listed ingredient implies MUS
+sehriye-corbasi,CEL,unsupported,marked 'possible' but no listed ingredient implies CEL
+yaprak-sarma,SUL,missing,ingredient(s) currants imply SUL

@@ -1,0 +1,20 @@
+{
+  "draft_classes": 207,
+  "draft_relations": {
+    "always": 261,
+    "often": 173,
+    "possible": 203
+  },
+  "rule_flags": {
+    "unsupported": 95,
+    "missing": 9
+  },
+  "v1_v2_diff": {
+    "v2_only (v1 omission?)": 133,
+    "class_not_in_v1": 24,
+    "v2_possible_only": 172,
+    "v1_present_v2_possible": 20,
+    "v1_only": 24
+  },
+  "adjudication_items": 264
+}

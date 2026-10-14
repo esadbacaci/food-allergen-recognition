@@ -1,0 +1,24 @@
+db_id,code,name_en,name_tr,group,legal_basis,definition,v1_name,v2_status
+1,GLU,Cereals containing gluten,Gluten içeren tahıllar,A_regulated,"Reg. (EU) 1169/2011 Annex II item 1; TGK Etiketleme Yönetmeliği Ek-1 item 1","Wheat (incl. spelt, khorasan), rye, barley, oats and their hybridised strains, and products thereof","Gluten (Buğday, Çavdar, Arpa, Yulaf, vb.)",kept
+2,MLK,Milk,Süt,A_regulated,"Annex II item 7; TGK Ek-1 item 7","Milk and products thereof (including lactose)","Süt (Laktoz, Kazein, Süt Tozu vb.)",kept
+3,EGG,Eggs,Yumurta,A_regulated,"Annex II item 3; TGK Ek-1 item 3","Eggs and products thereof",Yumurta,kept
+4,PNT,Peanuts,Yer fıstığı,A_regulated,"Annex II item 5; TGK Ek-1 item 5","Peanuts and products thereof",Yer Fıstığı,kept
+5,NUT,Tree nuts,Sert kabuklu meyveler,A_regulated,"Annex II item 8; TGK Ek-1 item 8","Almonds, hazelnuts, walnuts, cashews, pecans, Brazil nuts, pistachios, macadamia nuts and products thereof","Sert Kabuklu Meyveler (Badem, Fındık, Ceviz, Kaju vb.)",kept
+6,SOY,Soybeans,Soya,A_regulated,"Annex II item 6; TGK Ek-1 item 6","Soybeans and products thereof",Soya,kept
+7,FSH,Fish,Balık,A_regulated,"Annex II item 4; TGK Ek-1 item 4","Fish and products thereof",Balık,kept
+8,CRU,Crustaceans,Kabuklu deniz ürünleri (kabuklular),A_regulated,"Annex II item 2; TGK Ek-1 item 2","Crustaceans (shrimp, prawn, lobster, crab) and products thereof","Kabuklu Deniz Ürünleri (Karides, Istakoz, Yengeç vb.)",kept
+9,SES,Sesame seeds,Susam,A_regulated,"Annex II item 11; TGK Ek-1 item 11","Sesame seeds and products thereof (incl. tahini)",Susam,kept
+10,CEL,Celery,Kereviz,A_regulated,"Annex II item 9; TGK Ek-1 item 9","Celery (stalk, root/celeriac, seed) and products thereof",Kereviz,kept
+11,MUS,Mustard,Hardal,A_regulated,"Annex II item 10; TGK Ek-1 item 10","Mustard and products thereof",Hardal,kept
+12,SUL,Sulphur dioxide and sulphites,Kükürt dioksit ve sülfitler,A_regulated,"Annex II item 12; TGK Ek-1 item 12","At concentrations above 10 mg/kg or 10 mg/L in terms of total SO2",Sülfür Dioksit ve Sülfitler (>10 mg/kg),kept
+13,LUP,Lupin,Acı bakla (lupin),A_regulated,"Annex II item 13; TGK Ek-1 item 13","Lupin and products thereof",Lupin (Acı Bakla),kept
+14,MOL,Molluscs,Yumuşakçalar,A_regulated,"Annex II item 14; TGK Ek-1 item 14","Molluscs (mussels, clams, oysters, squid, octopus, snails) and products thereof","Yumuşakçalar (İstiridye, Midye, Kalamar vb.)",kept
+15,MAZ,Maize (corn),Mısır,B_additional_food,"Not regulated; reported food allergen (user-selectable)","Maize and maize products (excluding highly refined maize starch/oil)",Mısır,kept
+16,AGS,Mammalian meat (alpha-gal syndrome),Memeli eti (alfa-gal sendromu),C_syndrome,"Not regulated; delayed IgE reaction to galactose-α-1,3-galactose","Meat and offal of non-primate mammals (beef, lamb, pork, veal, goat)",Kırmızı Et (Alfa-Gal Sendromu),renamed
+17,RCE,Rice,Pirinç,B_additional_food,"Not regulated; reported food allergen (user-selectable)","Rice and rice products",Pirinç,kept
+18,SUN,Sunflower seed,Ayçiçeği tohumu,B_additional_food,"Not regulated; reported food allergen (user-selectable)","Sunflower seeds and seed products (excluding refined sunflower oil)",Ayçiçeği Tohumu,kept
+19,PIN,Pine nut,Çam fıstığı,B_additional_food,"Not regulated (pine nut is not on the Annex II tree-nut list); reported food allergen","Pine nuts (Pinus spp. seeds)",Çam Fıstığı,kept
+20,PNA,Pineapple,Ananas,B_additional_food,"Not regulated; reported food allergen (user-selectable)","Pineapple and pineapple products",Ananas,kept
+21,KIW,Kiwi fruit,Kivi,B_additional_food,"Not regulated; reported food allergen (user-selectable)","Kiwi fruit and kiwi products",Kiwi,kept
+22,GAR,Garlic,Sarımsak,B_additional_food,"Not regulated; reported food hypersensitivity (user-selectable)","Garlic and garlic products",Sarımsak,kept
+23,LTX,Latex (food contact),Lateks (gıda teması),removed,"Not a food; latex-fruit cross-reactivity is a property of the user, not of the dish","Removed from the dish-allergen relations in v2; foods with known latex-fruit cross-reactivity (banana, avocado, kiwi) are listed in the user information text instead",Lateks (Gıda ile temas),removed
