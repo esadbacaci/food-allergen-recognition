@@ -1,0 +1,207 @@
+index,class_id,display_en,display_tr,group,raw_produce,merged_from,n_train,n_val,n_test,n_food101,n_tr_kaggle,n_tr_collected
+0,adana-kebap,Adana kebab,Adana kebap,turkish,0,,225,48,48,0,0,321
+1,apple-pie,Apple pie,,food101,0,,676,74,250,1000,0,0
+2,armut,Pear,Armut,turkish,1,,214,45,46,0,0,305
+3,asure,Ashure (Noah's pudding),Aşure,turkish,0,,157,33,34,0,224,0
+4,avokado,Avocado,Avokado,turkish,1,,198,43,42,0,0,283
+5,ayran,Ayran (yogurt drink),Ayran,turkish,0,,229,49,49,0,0,327
+6,baby-back-ribs,Baby back ribs,,food101,0,,674,75,250,999,0,0
+7,baklava,Baklava,,food101,0,,1292,208,382,1000,524,358
+8,beef-carpaccio,Beef carpaccio,,food101,0,,674,75,250,999,0,0
+9,beef-tartare,Beef tartare,,food101,0,,675,74,250,999,0,0
+10,beet-salad,Beet salad,,food101,0,,674,75,250,999,0,0
+11,beignets,Beignets,,food101,0,,675,75,250,1000,0,0
+12,beyaz-lahana-sarmasi,Stuffed cabbage rolls,Beyaz lahana sarması,turkish,0,,169,36,36,0,0,241
+13,biber-dolmasi,Stuffed peppers,Biber dolması,turkish,0,,625,134,134,0,425,468
+14,bibimbap,Bibimbap,,food101,0,,676,74,250,1000,0,0
+15,borek,Börek (layered pastry),Börek,turkish,0,,491,106,105,0,702,0
+16,bread-pudding,Bread pudding,,food101,0,,675,75,250,1000,0,0
+17,breakfast-burrito,Breakfast burrito,,food101,0,,675,75,250,1000,0,0
+18,brokoli,Broccoli,Brokoli,turkish,1,,240,52,51,0,0,343
+19,bruksel-lahanasi,Brussels sprouts dish,Brüksel lahanası yemeği,turkish,0,,172,36,37,0,0,245
+20,bruschetta,Bruschetta,,food101,0,,675,75,250,1000,0,0
+21,bulgur-pilavi,Bulgur pilaf,Bulgur pilavı,turkish,0,,241,52,52,0,0,345
+22,cacik,Cacık (yogurt with cucumber),Cacık,turkish,0,,231,49,50,0,0,330
+23,caesar-salad,Caesar salad,,food101,0,,675,75,250,1000,0,0
+24,canak-enginar,Artichoke hearts in olive oil,Çanak enginar,turkish,0,,180,38,39,0,0,257
+25,cannoli,Cannoli,,food101,0,,675,75,250,1000,0,0
+26,caprese-salad,Caprese salad,,food101,0,,674,75,250,999,0,0
+27,carrot-cake,Carrot cake,,food101,0,,675,75,250,1000,0,0
+28,cay,Turkish tea,Çay,turkish,0,,257,55,55,0,0,367
+29,ceviche,Ceviche,,food101,0,,673,75,250,998,0,0
+30,cheese-plate,Cheese plate,,food101,0,,673,75,250,998,0,0
+31,cheesecake,Cheesecake,,food101,0,,675,75,250,1000,0,0
+32,chicken-curry,Chicken curry,,food101,0,,675,75,250,1000,0,0
+33,chicken-quesadilla,Chicken quesadilla,,food101,0,,673,75,250,998,0,0
+34,chicken-wings,Chicken wings,,food101,0,,675,75,250,1000,0,0
+35,chocolate-cake,Chocolate cake,,food101,0,,676,74,250,1000,0,0
+36,chocolate-mousse,Chocolate mousse,,food101,0,,675,75,250,1000,0,0
+37,churros,Churros,,food101,0,,674,75,250,999,0,0
+38,cig-kofte,Çiğ köfte (bulgur patties),Çiğ köfte,turkish,0,,474,101,102,0,286,391
+39,cilek,Strawberry,Çilek,turkish,1,,332,71,71,0,0,474
+40,cipura,Gilt-head sea bream,Çipura,turkish,0,,206,45,44,0,0,295
+41,clam-chowder,Clam chowder,,food101,0,,674,75,250,999,0,0
+42,club-sandwich,Club sandwich,,food101,0,,675,75,250,1000,0,0
+43,coban-salatasi,Shepherd's salad,Çoban salatası,turkish,0,,244,52,52,0,0,348
+44,crab-cakes,Crab cakes,,food101,0,,675,75,250,1000,0,0
+45,creme-brulee,Creme brulee,,food101,0,,675,75,250,1000,0,0
+46,croque-madame,Croque madame,,food101,0,,675,75,250,1000,0,0
+47,cup-cakes,Cup cakes,,food101,0,,675,75,250,1000,0,0
+48,deviled-eggs,Deviled eggs,,food101,0,,675,74,250,999,0,0
+49,domates,Tomato,Domates,turkish,1,,234,51,50,0,0,335
+50,domates-corbasi,Tomato soup,Domates çorbası,turkish,0,,297,63,64,0,0,424
+51,doner,Döner kebab,Döner,turkish,0,,228,49,49,0,0,326
+52,donuts,Donuts,,food101,0,,677,73,250,1000,0,0
+53,dumplings,Dumplings,,food101,0,,676,74,250,1000,0,0
+54,edamame,Edamame,,food101,0,,673,75,250,998,0,0
+55,eggs-benedict,Eggs benedict,,food101,0,,675,75,250,1000,0,0
+56,ekmek,Bread,Ekmek,turkish,0,,293,62,63,0,0,418
+57,elma,Apple,Elma,turkish,1,,314,68,67,0,0,449
+58,enginar,Artichoke dish,Enginar yemeği,turkish,0,,276,59,59,0,394,0
+59,erik,Plum,Erik,turkish,1,,223,48,48,0,0,319
+60,escargots,Escargots,,food101,0,,674,75,250,999,0,0
+61,et-sote,Sautéed beef,Et sote,turkish,0,,484,103,104,0,298,393
+62,falafel,Falafel,,food101,0,,675,75,250,1000,0,0
+63,filet-mignon,Filet mignon,,food101,0,,675,75,250,1000,0,0
+64,fish-and-chips,Fish and chips,,food101,0,,675,75,250,1000,0,0
+65,foie-gras,Foie gras,,food101,0,,676,74,250,1000,0,0
+66,french-fries,French fries,,food101,0,patates-kizartmasi,943,133,307,1000,0,383
+67,french-onion-soup,French onion soup,,food101,0,,674,75,250,999,0,0
+68,french-toast,French toast,,food101,0,,675,75,250,1000,0,0
+69,fried-calamari,Fried calamari,,food101,0,,674,74,250,998,0,0
+70,fried-rice,Fried rice,,food101,0,,676,74,250,1000,0,0
+71,frozen-yogurt,Frozen yogurt,,food101,0,,675,75,250,1000,0,0
+72,garlic-bread,Garlic bread,,food101,0,,675,75,250,1000,0,0
+73,gnocchi,Gnocchi,,food101,0,,674,75,250,999,0,0
+74,gozleme,Gözleme (stuffed flatbread),Gözleme,turkish,0,,360,78,77,0,515,0
+75,greek-salad,Greek salad,,food101,0,,675,75,250,1000,0,0
+76,grilled-cheese-sandwich,Grilled cheese sandwich,,food101,0,,674,75,250,999,0,0
+77,grilled-salmon,Grilled salmon,,food101,0,,676,73,250,999,0,0
+78,guacamole,Guacamole,,food101,0,,675,75,250,1000,0,0
+79,gyoza,Gyoza,,food101,0,,675,75,250,1000,0,0
+80,hamburger,Hamburger,,food101,0,,675,75,250,1000,0,0
+81,hamsi,Fried anchovies,Hamsi,turkish,0,,517,111,111,0,301,438
+82,haslanmis-yumurta,Boiled egg,Haşlanmış yumurta,turkish,0,,195,42,42,0,0,279
+83,havuc,Carrot,Havuç,turkish,1,,217,47,46,0,0,310
+84,hot-and-sour-soup,Hot and sour soup,,food101,0,,675,75,250,1000,0,0
+85,hot-dog,Hot dog,,food101,0,,674,75,250,999,0,0
+86,huevos-rancheros,Huevos rancheros,,food101,0,,674,75,250,999,0,0
+87,hummus,Hummus,,food101,0,,675,75,250,1000,0,0
+88,hunkar-begendi,Hünkâr beğendi (lamb on eggplant purée),Hünkâr beğendi,turkish,0,,345,74,74,0,246,247
+89,ice-cream,Ice cream,,food101,0,dondurma,963,136,312,1000,0,411
+90,icli-kofte,İçli köfte (stuffed bulgur balls),İçli köfte,turkish,0,,284,61,61,0,0,406
+91,incir,Fig,İncir,turkish,1,,172,36,37,0,0,245
+92,iskender,İskender kebab,İskender,turkish,0,,198,43,42,0,0,283
+93,ispanak,Spinach dish,Ispanak yemeği,turkish,0,,190,41,41,0,272,0
+94,izmir-kofte,İzmir meatballs,İzmir köfte,turkish,0,,275,59,59,0,393,0
+95,kabak-mucver,Zucchini fritters,Kabak mücver,turkish,0,,421,91,90,0,373,229
+96,kalburabasti,Kalburabastı (syrup pastry),Kalburabastı,turkish,0,,240,52,51,0,0,343
+97,karnabahar,Cauliflower dish,Karnabahar yemeği,turkish,0,,134,29,29,0,0,192
+98,karniyarik,Karnıyarık (stuffed eggplant),Karnıyarık,turkish,0,,470,101,101,0,309,363
+99,karpuz,Watermelon,Karpuz,turkish,1,,227,49,49,0,0,325
+100,kavun,Melon,Kavun,turkish,1,,279,60,60,0,0,399
+101,kayisi,Apricot,Kayısı,turkish,1,,230,50,49,0,0,329
+102,kazandibi,Kazandibi (caramelised milk pudding),Kazandibi,turkish,0,,190,40,41,0,0,271
+103,kebap,Kebab (mixed),Kebap,turkish,0,,550,117,118,0,785,0
+104,kemal-pasa-tatlisi,Kemalpaşa dessert,Kemalpaşa tatlısı,turkish,0,,216,46,46,0,0,308
+105,kiraz,Cherry,Kiraz,turkish,1,,244,52,52,0,0,348
+106,kisir,Kısır (bulgur salad),Kısır,turkish,0,,552,119,118,0,447,342
+107,kivi,Kiwi,Kivi,turkish,1,,195,42,42,0,0,279
+108,kiymali-borek,Börek with minced meat,Kıymalı börek,turkish,0,,167,35,36,0,0,238
+109,kiymali-pide,Pide with minced meat,Kıymalı pide,turkish,0,,214,45,46,0,0,305
+110,kofte,Meatballs (köfte),Köfte,turkish,0,,205,44,44,0,0,293
+111,kokorec,Kokoreç,Kokoreç,turkish,0,,214,46,46,0,0,306
+112,kuru-fasulye,White bean stew,Kuru fasulye,turkish,0,,524,113,112,0,426,323
+113,lahmacun,Lahmacun,Lahmacun,turkish,0,,370,80,79,0,171,358
+114,lasagna,Lasagna,,food101,0,,675,74,250,999,0,0
+115,levrek,European sea bass,Levrek,turkish,0,,214,45,46,0,0,305
+116,lobster-bisque,Lobster bisque,,food101,0,,675,75,250,1000,0,0
+117,lobster-roll-sandwich,Lobster roll sandwich,,food101,0,,674,75,250,999,0,0
+118,lokma,Lokma (syrup doughnuts),Lokma,turkish,0,,241,52,52,0,0,345
+119,macaroni-and-cheese,Macaroni and cheese,,food101,0,,675,75,250,1000,0,0
+120,macarons,Macarons,,food101,0,,674,75,250,999,0,0
+121,mango,Mango,Mango,turkish,1,,303,65,65,0,0,433
+122,manti,Mantı (Turkish dumplings),Mantı,turkish,0,,525,113,112,0,350,400
+123,menemen,Menemen (eggs with tomato),Menemen,turkish,0,,248,53,53,0,0,354
+124,mercimek-corbasi,Lentil soup,Mercimek çorbası,turkish,0,,253,54,54,0,0,361
+125,mercimek-koftesi,Lentil patties,Mercimek köftesi,turkish,0,,280,60,60,0,0,400
+126,midye-dolma,Stuffed mussels,Midye dolma,turkish,0,,241,52,52,0,0,345
+127,midye-tava,Fried mussels,Midye tava,turkish,0,,183,40,39,0,0,262
+128,miso-soup,Miso soup,,food101,0,,675,75,250,1000,0,0
+129,mumbar-dolmasi,Stuffed intestine (mumbar),Mumbar dolması,turkish,0,,203,43,44,0,0,290
+130,mussels,Mussels,,food101,0,,675,75,250,1000,0,0
+131,muz,Banana,Muz,turkish,1,,214,46,46,0,0,306
+132,nachos,Nachos,,food101,0,,676,74,250,1000,0,0
+133,nar,Pomegranate,Nar,turkish,1,,204,43,44,0,0,291
+134,omelette,Omelette,,food101,0,omlet,929,129,305,999,0,364
+135,onion-rings,Onion rings,,food101,0,,675,75,250,1000,0,0
+136,oysters,Oysters,,food101,0,,675,75,250,1000,0,0
+137,pad-thai,Pad thai,,food101,0,,674,75,250,999,0,0
+138,paella,Paella,,food101,0,,673,75,250,998,0,0
+139,pancakes,Pancakes,,food101,0,,673,75,250,998,0,0
+140,panna-cotta,Panna cotta,,food101,0,,673,75,250,998,0,0
+141,patates-puresi,Mashed potatoes,Patates püresi,turkish,0,,285,61,61,0,0,407
+142,patates-salatasi,Potato salad,Patates salatası,turkish,0,,330,70,71,0,0,471
+143,patlican-kebabi,Eggplant kebab,Patlıcan kebabı,turkish,0,,192,41,41,0,0,274
+144,peking-duck,Peking duck,,food101,0,,675,75,250,1000,0,0
+145,peynirli-borek,Börek with cheese,Peynirli börek,turkish,0,,187,40,40,0,0,267
+146,pho,Pho,,food101,0,,675,75,250,1000,0,0
+147,pirasa,Leeks in olive oil,Zeytinyağlı pırasa,turkish,0,,249,54,53,0,0,356
+148,pirinc-pilavi,Rice pilaf,Pirinç pilavı,turkish,0,,651,139,140,0,455,475
+149,pizza,Pizza,,food101,0,,675,75,250,1000,0,0
+150,pork-chop,Pork chop,,food101,0,,675,75,250,1000,0,0
+151,portakal,Orange,Portakal,turkish,1,,322,69,69,0,0,460
+152,poutine,Poutine,,food101,0,,675,75,250,1000,0,0
+153,prime-rib,Prime rib,,food101,0,,675,73,250,998,0,0
+154,pulled-pork-sandwich,Pulled pork sandwich,,food101,0,,675,75,250,1000,0,0
+155,ramen,Ramen,,food101,0,,675,75,250,1000,0,0
+156,ravioli,Ravioli,,food101,0,,673,75,250,998,0,0
+157,red-velvet-cake,Red velvet cake,,food101,0,,674,75,250,999,0,0
+158,risotto,Risotto,,food101,0,,675,75,250,1000,0,0
+159,sahlep,Salep (hot milk drink),Sahlep,turkish,0,,233,50,50,0,0,333
+160,salatalik,Cucumber,Salatalık,turkish,1,,241,52,52,0,0,345
+161,salcali-makarna,Pasta with tomato paste,Salçalı makarna,turkish,0,,171,36,37,0,0,244
+162,samosa,Samosa,,food101,0,,675,75,250,1000,0,0
+163,sandvic,Sandwich,Sandviç,turkish,0,,300,64,64,0,0,428
+164,sashimi,Sashimi,,food101,0,,675,75,250,1000,0,0
+165,scallops,Scallops,,food101,0,,675,75,250,1000,0,0
+166,seaweed-salad,Seaweed salad,,food101,0,,675,75,250,1000,0,0
+167,seftali,Peach,Şeftali,turkish,1,,225,48,48,0,0,321
+168,sehriye-corbasi,Vermicelli soup,Şehriye çorbası,turkish,0,,307,66,66,0,0,439
+169,shrimp-and-grits,Shrimp and grits,,food101,0,,675,75,250,1000,0,0
+170,simit,Simit (sesame bread ring),Simit,turkish,0,,328,71,70,0,469,0
+171,siyah-zeytin,Black olives,Siyah zeytin,turkish,0,,223,47,48,0,0,318
+172,spaghetti-bolognese,Spaghetti bolognese,,food101,0,,675,75,250,1000,0,0
+173,spaghetti-carbonara,Spaghetti carbonara,,food101,0,,671,75,250,996,0,0
+174,spring-rolls,Spring rolls,,food101,0,,675,75,250,1000,0,0
+175,steak,Steak,,food101,0,,675,75,250,1000,0,0
+176,strawberry-shortcake,Strawberry shortcake,,food101,0,,673,75,250,998,0,0
+177,su-boregi,Su böreği (water börek),Su böreği,turkish,0,,316,67,68,0,0,451
+178,sucuklu-yumurta,Eggs with sucuk,Sucuklu yumurta,turkish,0,,267,58,57,0,0,382
+179,sulu-bamya-yemegi,Okra stew,Bamya yemeği,turkish,0,,260,55,56,0,0,371
+180,sulu-barbunya-yemegi,Borlotti bean stew,Barbunya yemeği,turkish,0,,335,71,72,0,0,478
+181,sulu-bezelye-yemegi,Pea stew,Bezelye yemeği,turkish,0,,289,62,62,0,0,413
+182,sulu-mercimek-yemegi,Green lentil stew,Mercimek yemeği,turkish,0,,282,61,60,0,0,403
+183,sulu-nohut-yemegi,Chickpea stew,Nohut yemeği,turkish,0,,241,52,52,0,0,345
+184,sulu-patates-yemegi,Potato stew,Patates yemeği,turkish,0,,193,42,41,0,0,276
+185,sushi,Sushi,,food101,0,,675,75,250,1000,0,0
+186,sutlac,Rice pudding (sütlaç),Sütlaç,turkish,0,,265,57,57,0,0,379
+187,tacos,Tacos,,food101,0,,675,75,250,1000,0,0
+188,takoyaki,Takoyaki,,food101,0,,675,75,250,1000,0,0
+189,tantuni,Tantuni wrap,Tantuni,turkish,0,,241,52,52,0,0,345
+190,tarhana-corbasi,Tarhana soup,Tarhana çorbası,turkish,0,,244,53,52,0,0,349
+191,tas-kebabi,Tas kebab (meat stew),Tas kebabı,turkish,0,,183,39,39,0,0,261
+192,tavuk-sote,Sautéed chicken,Tavuk sote,turkish,0,,180,38,39,0,0,257
+193,taze-fasulye,Green beans (incl. in olive oil),Taze fasulye (zeytinyağlı dahil),turkish,0,zeytinyagli-fasulye,388,84,83,0,183,372
+194,tiramisu,Tiramisu,,food101,0,,675,75,250,1000,0,0
+195,tulumba-tatlisi,Tulumba (fried syrup dessert),Tulumba tatlısı,turkish,0,,237,50,51,0,0,338
+196,tuna-tartare,Tuna tartare,,food101,0,,675,75,250,1000,0,0
+197,turk-kahvesi,Turkish coffee,Türk kahvesi,turkish,0,,176,37,38,0,0,251
+198,tursu,Pickles (turşu),Turşu,turkish,0,,274,58,59,0,0,391
+199,uzum,Grapes,Üzüm,turkish,1,,332,72,71,0,0,475
+200,waffles,Waffles,,food101,0,,674,75,250,999,0,0
+201,yaprak-sarma,Stuffed vine leaves,Yaprak sarma,turkish,0,,274,58,59,0,0,391
+202,yayla-corbasi,Yogurt soup (yayla),Yayla çorbası,turkish,0,,267,58,57,0,0,382
+203,yesil-zeytin,Green olives,Yeşil zeytin,turkish,0,,244,52,52,0,0,348
+204,yogurt,Yogurt,Yoğurt,turkish,0,,240,52,51,0,0,343
+205,yogurtlu-makarna,Pasta with yogurt,Yoğurtlu makarna,turkish,0,,170,37,36,0,0,243

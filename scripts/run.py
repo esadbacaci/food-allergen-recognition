@@ -14,7 +14,16 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from foodallergen import engine  # noqa: E402
 from foodallergen.experiments import EXPERIMENTS  # noqa: E402
 
+def keep_awake():
+    """Ask Windows not to sleep while this process runs (released automatically on exit)."""
+    if sys.platform == "win32":
+        import ctypes
+        ES_CONTINUOUS, ES_SYSTEM_REQUIRED = 0x80000000, 0x00000001
+        ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS | ES_SYSTEM_REQUIRED)
+
+
 if __name__ == "__main__":
+    keep_awake()
     ap = argparse.ArgumentParser()
     ap.add_argument("groups", nargs="+", choices=list(EXPERIMENTS))
     ap.add_argument("--only", default=None, help="restrict to run dirs containing this text")

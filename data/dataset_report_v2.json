@@ -1,0 +1,190 @@
+{
+  "seed": 42,
+  "phash_threshold": 5,
+  "short_side": 320,
+  "v1": {
+    "images": 154063,
+    "unreadable": 0,
+    "food101_images_found_by_md5": 98992,
+    "food101_images_in_wrong_folder": {
+      "eggs-benedict -> omelette": 999,
+      "eggs-benedict -> pancakes": 1,
+      "midye-dolma -> mussels": 1000,
+      "prime-rib -> steak": 1
+    },
+    "food101_classes_absent_in_v1": [
+      "baby-back-ribs",
+      "pulled-pork-sandwich"
+    ],
+    "food101_images_missing_in_v1": 2008,
+    "turkish_images": 55063
+  },
+  "deduplication": {
+    "duplicate_pairs": 16363,
+    "exact_pairs": 13105,
+    "pairs_by_kind": {
+      "tr-tr (cross-class)": 606,
+      "tr-tr": 15611,
+      "f101-f101": 139,
+      "f101-f101 (cross-class)": 5,
+      "f101-tr (cross-class)": 2
+    },
+    "cross_class_groups": {
+      "canak-enginar | enginar": 48,
+      "adana-kebap | kebap": 33,
+      "borek | peynirli-borek": 18,
+      "borek | kiymali-borek": 16,
+      "borek | su-boregi": 11,
+      "cipura | levrek": 9,
+      "elma | portakal": 4,
+      "iskender | kebap": 4,
+      "kuru-fasulye | sulu-nohut-yemegi": 4,
+      "et-sote | tavuk-sote": 3,
+      "cacik | yogurt": 2,
+      "cig-kofte | mercimek-koftesi": 2,
+      "cilek | portakal": 2,
+      "domates-corbasi | mercimek-corbasi": 2,
+      "doner | iskender": 2,
+      "enginar | pirasa": 2,
+      "et-sote | tas-kebabi": 2,
+      "hunkar-begendi | tas-kebabi": 2,
+      "kiymali-borek | su-boregi": 2,
+      "manti | yogurtlu-makarna": 2,
+      "mercimek-corbasi | tarhana-corbasi": 2,
+      "siyah-zeytin | yesil-zeytin": 2,
+      "sulu-bezelye-yemegi | sulu-patates-yemegi": 2,
+      "adana-kebap | iskender": 1,
+      "adana-kebap | kebap | lahmacun": 1,
+      "ayran | lahmacun": 1,
+      "baklava | kemal-pasa-tatlisi": 1,
+      "beyaz-lahana-sarmasi | yaprak-sarma": 1,
+      "borek | simit": 1,
+      "borek | peynirli-borek | su-boregi": 1,
+      "borek | gozleme": 1,
+      "cacik | pirinc-pilavi": 1,
+      "cig-kofte | kisir | mercimek-koftesi": 1,
+      "cig-kofte | kisir": 1,
+      "cilek | uzum": 1,
+      "coban-salatasi | yogurtlu-makarna": 1,
+      "coban-salatasi | kisir | mercimek-koftesi": 1,
+      "domates | domates-corbasi": 1,
+      "domates-corbasi | tarhana-corbasi": 1,
+      "domates | kiraz": 1,
+      "doner | kiraz | omelette | siyah-zeytin": 1,
+      "doner | kebap": 1,
+      "doner | iskender | kebap": 1,
+      "menemen | omelette": 1,
+      "ekmek | tavuk-sote": 1,
+      "elma | uzum": 1,
+      "et-sote | hunkar-begendi": 1,
+      "et-sote | sulu-patates-yemegi | tas-kebabi": 1,
+      "hunkar-begendi | karniyarik | tas-kebabi": 1,
+      "hunkar-begendi | karniyarik": 1,
+      "kabak-mucver | kisir": 1,
+      "kebap | patlican-kebabi": 1,
+      "kebap | lahmacun": 1,
+      "kebap | tas-kebabi": 1,
+      "kemal-pasa-tatlisi | lokma": 1,
+      "kisir | mercimek-koftesi": 1,
+      "kiymali-pide | lahmacun": 1,
+      "kokorec | tantuni": 1,
+      "kuru-fasulye | sulu-barbunya-yemegi": 1,
+      "kuru-fasulye | taze-fasulye": 1,
+      "lokma | tulumba-tatlisi": 1,
+      "menemen | tavuk-sote": 1,
+      "mercimek-corbasi | sulu-mercimek-yemegi": 1,
+      "patates-puresi | patates-salatasi": 1,
+      "peynirli-borek | su-boregi": 1,
+      "pirasa | taze-fasulye": 1,
+      "salcali-makarna | yogurtlu-makarna": 1,
+      "sehriye-corbasi | yayla-corbasi": 1,
+      "sulu-bezelye-yemegi | taze-fasulye": 1,
+      "sulu-nohut-yemegi | taze-fasulye": 1,
+      "yayla-corbasi | yogurt": 1
+    },
+    "dropped_by_reason": {
+      "food101_train_duplicate_of_test": 48,
+      "duplicate_of_food101": 2,
+      "duplicate_within_class": 11145,
+      "cross_class_duplicate": 615
+    },
+    "food101_val_images_moved_to_train_group_aware": 17
+  },
+  "verification_cross_split_pairs_after_dedup": {},
+  "resize_failures": [],
+  "v2": {
+    "classes": 206,
+    "food101_classes": 101,
+    "turkish_classes": 105,
+    "images": 144253,
+    "by_split": {
+      "train": 98452,
+      "val": 14054,
+      "test": 31747
+    },
+    "by_source": {
+      "tr_collected": 34753,
+      "food101": 100952,
+      "tr_kaggle": 8548
+    },
+    "by_source_and_split": {
+      "food101/test": 25250,
+      "food101/train": 68144,
+      "food101/val": 7558,
+      "tr_collected/test": 5238,
+      "tr_collected/train": 24335,
+      "tr_collected/val": 5180,
+      "tr_kaggle/test": 1259,
+      "tr_kaggle/train": 5973,
+      "tr_kaggle/val": 1316
+    },
+    "images_per_class": {
+      "min": 192,
+      "max": 1882,
+      "mean": 700.3,
+      "median": 841.0
+    },
+    "smallest_classes": [
+      [
+        192,
+        "karnabahar"
+      ],
+      [
+        224,
+        "asure"
+      ],
+      [
+        238,
+        "kiymali-borek"
+      ],
+      [
+        241,
+        "beyaz-lahana-sarmasi"
+      ],
+      [
+        243,
+        "yogurtlu-makarna"
+      ],
+      [
+        244,
+        "salcali-makarna"
+      ],
+      [
+        245,
+        "bruksel-lahanasi"
+      ],
+      [
+        245,
+        "incir"
+      ],
+      [
+        251,
+        "turk-kahvesi"
+      ],
+      [
+        257,
+        "canak-enginar"
+      ]
+    ]
+  }
+}

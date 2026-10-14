@@ -6,8 +6,11 @@ database). Food-101 classes keep their official names (underscores -> hyphens).
 Turkish-cuisine classes keep their Turkish identifier and get an English display
 name, so the paper can report every class in one language.
 
-Synonym merges (same dish under two names in v1): the Turkish images are added to
-the Food-101 class and the Turkish class disappears.
+Synonym merges (same dish under two names in v1): the images of the first class are
+added to the second and the first class disappears. Three Turkish classes duplicated a
+Food-101 dish; taze-fasulye / zeytinyagli-fasulye were the same Turkish dish (59 shared
+near-duplicate images, checked visually). Generic/specific pairs (kebap / adana-kebap,
+borek / su-boregi, enginar / canak-enginar) are different classes and are kept.
 """
 
 # v1 folder -> v2 class (only for folders whose name changes)
@@ -15,6 +18,7 @@ SYNONYM_MERGES = {
     "patates-kizartmasi": "french-fries",
     "dondurma": "ice-cream",
     "omlet": "omelette",  # in v1 the omlet images sat inside eggs-benedict
+    "zeytinyagli-fasulye": "taze-fasulye",
 }
 
 # Turkish identifier -> (English display name, Turkish display name)
@@ -113,7 +117,7 @@ TURKISH_CLASSES = {
     "tantuni": ("Tantuni wrap", "Tantuni"),
     "tarhana-corbasi": ("Tarhana soup", "Tarhana çorbası"),
     "tas-kebabi": ("Tas kebab (meat stew)", "Tas kebabı"),
-    "taze-fasulye": ("Green beans", "Taze fasulye"),
+    "taze-fasulye": ("Green beans (incl. in olive oil)", "Taze fasulye (zeytinyağlı dahil)"),
     "tavuk-sote": ("Sautéed chicken", "Tavuk sote"),
     "tulumba-tatlisi": ("Tulumba (fried syrup dessert)", "Tulumba tatlısı"),
     "turk-kahvesi": ("Turkish coffee", "Türk kahvesi"),
@@ -124,7 +128,6 @@ TURKISH_CLASSES = {
     "yesil-zeytin": ("Green olives", "Yeşil zeytin"),
     "yogurt": ("Yogurt", "Yoğurt"),
     "yogurtlu-makarna": ("Pasta with yogurt", "Yoğurtlu makarna"),
-    "zeytinyagli-fasulye": ("Green beans in olive oil", "Zeytinyağlı fasulye"),
 }
 
 # Single-ingredient raw fruit / vegetable classes, mostly stock photographs on plain
