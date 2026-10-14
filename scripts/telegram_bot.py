@@ -26,6 +26,7 @@ import scripts.status as status  # noqa: E402
 
 CONFIG = paths.REPO / "telegram_config.json"
 STALL_MINUTES = 40
+HOT_C = 85
 LOG = paths.RUNS / "run_all.log"
 ERR = paths.RUNS / "run_all_stderr.log"
 
@@ -52,13 +53,24 @@ def send(cfg, text):
             api(cfg, "sendMessage", chat_id=cfg["chat_id"], text=text[i:i + 3900])
 
 
+def gpu_temp():
+    import subprocess
+    try:
+        out = subprocess.run(["nvidia-smi", "--query-gpu=temperature.gpu,power.draw,utilization.gpu",
+                              "--format=csv,noheader,nounits"], capture_output=True, text=True, timeout=20).stdout
+        t, p, u = [x.strip() for x in out.split(",")[:3]]
+        return int(float(t)), f"GPU {t}°C, {float(p):.0f} W, kullanım %{u}"
+    except Exception:
+        return None, "GPU bilgisi alınamadı"
+
+
 def progress_text():
     import io
     from contextlib import redirect_stdout
     buf = io.StringIO()
     with redirect_stdout(buf):
         status.main()
-    return buf.getvalue()
+    return buf.getvalue() + "\n" + gpu_temp()[1]
 
 
 def finished_runs():
@@ -82,6 +94,7 @@ def main():
     stall_warned = False
     done_announced = "ALL_EXPERIMENTS_DONE" in (LOG.read_text(encoding="utf-8", errors="ignore") if LOG.exists() else "")
     net_fail = 0
+    hot_warned = 0.0
     print("Bot çalışıyor. Telegram'da botunuza /start yazın. Kapatmak için bu pencereyi kapatın.", flush=True)
     while True:
         try:
@@ -132,6 +145,11 @@ def main():
                 stall_warned = True
             if idle < 5:
                 stall_warned = False
+            temp, info = gpu_temp()
+            if temp is not None and temp >= HOT_C and time.time() - hot_warned > 1800:
+                send(cfg, f"🌡️ Ekran kartı sıcak: {info}. Kasa havalandırmasını kontrol edin; kart kendini "
+                          f"korumak için yavaşlar, zarar görmez.")
+                hot_warned = time.time()
             net_fail = 0
         except (OSError, http.client.HTTPException) as e:  # network drop, reset, timeout
             net_fail += 1
