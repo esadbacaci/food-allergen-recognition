@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.onnx
+*.onnx.data
+*.npz
+/data/*.tmp
+.ipynb_checkpoints/

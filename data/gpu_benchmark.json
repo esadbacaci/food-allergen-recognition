@@ -1,0 +1,44 @@
+{
+  "resnet18": {
+    "physical_batch": 64,
+    "step_s": 0.043,
+    "img_per_s": 1486.7,
+    "peak_mem_mb": 971,
+    "epoch_min_per_100k": 1.1
+  },
+  "effb0": {
+    "physical_batch": 64,
+    "step_s": 0.0801,
+    "img_per_s": 799.5,
+    "peak_mem_mb": 2853,
+    "epoch_min_per_100k": 2.1
+  },
+  "effv2s": {
+    "physical_batch": 64,
+    "step_s": 0.1755,
+    "img_per_s": 364.8,
+    "peak_mem_mb": 5059,
+    "epoch_min_per_100k": 4.6
+  },
+  "convnext_t": {
+    "physical_batch": 64,
+    "step_s": 0.1558,
+    "img_per_s": 410.7,
+    "peak_mem_mb": 4196,
+    "epoch_min_per_100k": 4.1
+  },
+  "swin_t": {
+    "physical_batch": 64,
+    "step_s": 0.213,
+    "img_per_s": 300.5,
+    "peak_mem_mb": 4739,
+    "epoch_min_per_100k": 5.5
+  },
+  "vit_b16": {
+    "physical_batch": 64,
+    "step_s": 0.3558,
+    "img_per_s": 179.9,
+    "peak_mem_mb": 5624,
+    "epoch_min_per_100k": 9.3
+  }
+}

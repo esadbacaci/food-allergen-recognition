@@ -1,0 +1,11 @@
+# exact versions used for the reported experiments (CUDA 12.8 build of PyTorch)
+torch==2.11.0.dev20251229
+torchvision==0.25.0.dev20251229
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.7.2
+pandas==2.3.2
+matplotlib==3.10.5
+pillow==11.3.0
+onnx==1.21.0
+onnxruntime==1.23.2
