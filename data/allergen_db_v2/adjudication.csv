@@ -1,265 +1,265 @@
 class_id,allergen,v1_level,v2_level,source,decision,decided_by,note
-adana-kebap,GAR,high,possible,v1_present_v2_possible; rule:unsupported,,,
-adana-kebap,GLU,,often,v2_only (v1 omission?),,,
-apple-pie,MLK,,often,v2_only (v1 omission?),,,
-avokado,LTX,low,,v1_only,,,
-baby-back-ribs,GLU,,,rule:unsupported,,,
-baby-back-ribs,SOY,,,rule:unsupported,,,
-baklava,EGG,,,rule:unsupported,,,
-baklava,MLK,,always,v2_only (v1 omission?),,,
-beef-carpaccio,MLK,,often,v2_only (v1 omission?),,,
-beef-carpaccio,MUS,low,possible,v1_present_v2_possible,,,
-beef-carpaccio,SUL,low,,v1_only,,,
-beef-tartare,EGG,,always,v2_only (v1 omission?),,,
-beet-salad,GAR,low,possible,v1_present_v2_possible; rule:unsupported,,,
-beet-salad,MLK,,often,v2_only (v1 omission?),,,
-beet-salad,NUT,,often,v2_only (v1 omission?),,,
-beignets,MLK,,always,v2_only (v1 omission?),,,
-beyaz-lahana-sarmasi,AGS,,often,v2_only (v1 omission?),,,
-beyaz-lahana-sarmasi,GAR,,,rule:unsupported,,,
-biber-dolmasi,AGS,,often,v2_only (v1 omission?),,,
-biber-dolmasi,SUL,,,rule:missing,,,
-bibimbap,AGS,,often,v2_only (v1 omission?),,,
-bibimbap,EGG,,always,v2_only (v1 omission?),,,
-bibimbap,GAR,,often,v2_only (v1 omission?),,,
-bibimbap,GLU,,often,v2_only (v1 omission?),,,
-bibimbap,SES,,always,v2_only (v1 omission?),,,
-bread-pudding,NUT,,,rule:unsupported,,,
-breakfast-burrito,AGS,,often,v2_only (v1 omission?),,,
-breakfast-burrito,MAZ,medium,,v1_only,,,
-breakfast-burrito,MLK,,often,v2_only (v1 omission?),,,
-bruschetta,MLK,,,rule:unsupported,,,
-bulgur-pilavi,MLK,,often,v2_only (v1 omission?),,,
-caesar-salad,GLU,,always,v2_only (v1 omission?),,,
-caesar-salad,MUS,,often,v2_only (v1 omission?),,,
-cannoli,NUT,,often,v2_only (v1 omission?),,,
-cannoli,SOY,,,rule:unsupported,,,
-carrot-cake,MLK,,always,v2_only (v1 omission?),,,
-ceviche,GAR,medium,,v1_only,,,
-cheese-plate,GLU,,often,v2_only (v1 omission?),,,
-cheese-plate,MLK,,,rule:unsupported,,,
-cheese-plate,NUT,,often,v2_only (v1 omission?); rule:unsupported,,,
-cheesecake,SOY,,,rule:unsupported,,,
-chicken-curry,CEL,,,rule:unsupported,,,
-chicken-curry,GAR,,always,v2_only (v1 omission?),,,
-chicken-quesadilla,MAZ,,,rule:unsupported,,,
-chicken-wings,EGG,,,rule:unsupported,,,
-chicken-wings,GAR,,often,v2_only (v1 omission?); rule:unsupported,,,
-chicken-wings,GLU,medium,possible,v1_present_v2_possible; rule:unsupported,,,
-chicken-wings,MLK,,often,v2_only (v1 omission?),,,
-chicken-wings,SOY,,,rule:unsupported,,,
-chocolate-cake,MLK,,always,v2_only (v1 omission?),,,
-chocolate-cake,NUT,low,possible,v1_present_v2_possible; rule:unsupported,,,
-chocolate-cake,SOY,,,rule:unsupported,,,
-chocolate-mousse,SOY,,,rule:unsupported,,,
-churros,EGG,,,rule:unsupported,,,
-churros,MLK,,often,v2_only (v1 omission?),,,
-churros,SOY,,,rule:unsupported,,,
-cig-kofte,AGS,high,possible,v1_present_v2_possible,,,
-cig-kofte,GAR,,often,v2_only (v1 omission?),,,
-cig-kofte,NUT,,,rule:unsupported,,,
-clam-chowder,AGS,,often,v2_only (v1 omission?),,,
-clam-chowder,GLU,,often,v2_only (v1 omission?),,,
-club-sandwich,AGS,,often,v2_only (v1 omission?),,,
-club-sandwich,MLK,,,rule:unsupported,,,
-club-sandwich,MUS,medium,possible,v1_present_v2_possible; rule:unsupported,,,
-club-sandwich,SES,,,rule:unsupported,,,
-crab-cakes,AGS,,,rule:missing,,,
-crab-cakes,CEL,,often,v2_only (v1 omission?),,,
-crab-cakes,MUS,,often,v2_only (v1 omission?),,,
-croque-madame,AGS,,always,v2_only (v1 omission?),,,
-croque-madame,MUS,,often,v2_only (v1 omission?),,,
-cup-cakes,MLK,,always,v2_only (v1 omission?),,,
-cup-cakes,SOY,,,rule:unsupported,,,
-domates-corbasi,CEL,low,possible,v1_present_v2_possible; rule:unsupported,,,
-domates-corbasi,GLU,,often,v2_only (v1 omission?),,,
-doner,EGG,,,rule:unsupported,,,
-doner,GAR,,often,v2_only (v1 omission?),,,
-doner,GLU,,often,v2_only (v1 omission?),,,
-doner,MLK,,often,v2_only (v1 omission?),,,
-doner,MUS,,,rule:unsupported,,,
-donuts,MLK,,often,v2_only (v1 omission?),,,
-donuts,SOY,,,rule:unsupported,,,
-dumplings,AGS,,often,v2_only (v1 omission?),,,
-dumplings,EGG,,,rule:unsupported,,,
-dumplings,SES,,often,v2_only (v1 omission?),,,
-eggs-benedict,AGS,,often,v2_only (v1 omission?),,,
-eggs-benedict,GLU,,always,v2_only (v1 omission?),,,
-eggs-benedict,MLK,,always,v2_only (v1 omission?),,,
-ekmek,MLK,,,rule:unsupported,,,
-ekmek,SES,,,rule:unsupported,,,
-ekmek,SOY,,,rule:unsupported,,,
-escargots,GAR,,always,v2_only (v1 omission?),,,
-escargots,MLK,,always,v2_only (v1 omission?),,,
-escargots,SUL,,,rule:unsupported,,,
-et-sote,GAR,low,possible,v1_present_v2_possible; rule:unsupported,,,
-et-sote,MLK,,often,v2_only (v1 omission?),,,
-filet-mignon,GAR,,often,v2_only (v1 omission?),,,
-filet-mignon,MLK,,often,v2_only (v1 omission?),,,
-fish-and-chips,EGG,,,rule:unsupported,,,
-fish-and-chips,MUS,,,rule:unsupported,,,
-foie-gras,MLK,,,rule:unsupported,,,
-french-fries,GLU,,,rule:unsupported,,,
-french-onion-soup,CEL,low,possible,v1_present_v2_possible; rule:unsupported,,,
-french-onion-soup,GAR,low,,v1_only,,,
-fried-calamari,EGG,medium,possible,v1_present_v2_possible,,,
-fried-calamari,GAR,,,rule:unsupported,,,
-fried-rice,EGG,,often,v2_only (v1 omission?),,,
-fried-rice,GAR,,,rule:unsupported,,,
-fried-rice,GLU,,often,v2_only (v1 omission?),,,
-frozen-yogurt,GLU,,,rule:unsupported,,,
-frozen-yogurt,NUT,,,rule:unsupported,,,
-garlic-bread,MLK,,always,v2_only (v1 omission?),,,
-gozleme,EGG,,,rule:unsupported,,,
-guacamole,GAR,medium,possible,v1_present_v2_possible; rule:unsupported,,,
-guacamole,MAZ,,,rule:unsupported,,,
-gyoza,AGS,,often,v2_only (v1 omission?),,,
-gyoza,SES,,often,v2_only (v1 omission?),,,
-gyoza,SUL,,,rule:missing,,,
-hamburger,EGG,,often,v2_only (v1 omission?),,,
-hamburger,MLK,,often,v2_only (v1 omission?),,,
-hamburger,SES,,often,v2_only (v1 omission?),,,
-hamburger,SOY,,,rule:unsupported,,,
-hamsi,MAZ,,often,v2_only (v1 omission?); rule:unsupported,,,
-hot-and-sour-soup,AGS,,often,v2_only (v1 omission?),,,
-hot-and-sour-soup,EGG,,often,v2_only (v1 omission?),,,
-hot-and-sour-soup,GLU,,often,v2_only (v1 omission?),,,
-hot-and-sour-soup,SES,,,rule:unsupported,,,
-hot-and-sour-soup,SOY,,always,v2_only (v1 omission?),,,
-hot-and-sour-soup,SUL,,,rule:missing,,,
-hot-dog,CEL,,,rule:unsupported,,,
-hot-dog,MLK,,,rule:unsupported,,,
-hot-dog,SES,,,rule:unsupported,,,
-hot-dog,SOY,,,rule:unsupported,,,
-huevos-rancheros,MLK,,often,v2_only (v1 omission?),,,
-ice-cream,NUT,,,rule:unsupported,,,
-ice-cream,SOY,,,rule:unsupported,,,
-icli-kofte,AGS,,always,v2_only (v1 omission?),,,
-icli-kofte,EGG,,,rule:unsupported,,,
-icli-kofte,GAR,low,,v1_only,,,
-ispanak,MLK,,often,v2_only (v1 omission?),,,
-izmir-kofte,GAR,low,,v1_only,,,
-kabak-mucver,GAR,low,,v1_only,,,
-kabak-mucver,MLK,,often,v2_only (v1 omission?),,,
-kalburabasti,MLK,,often,v2_only (v1 omission?),,,
-kalburabasti,NUT,,always,v2_only (v1 omission?),,,
-kazandibi,RCE,,often,v2_only (v1 omission?); rule:unsupported,,,
-kebap,GLU,,often,v2_only (v1 omission?),,,
-kebap,MLK,,,rule:unsupported,,,
-kemal-pasa-tatlisi,MLK,,always,v2_only (v1 omission?),,,
-kemal-pasa-tatlisi,NUT,,,rule:unsupported,,,
-kivi,KIW,,always,v2_only (v1 omission?),,,
-kivi,LTX,low,,v1_only,,,
-kofte,GAR,medium,possible,v1_present_v2_possible; rule:unsupported,,,
-kokorec,GLU,,often,v2_only (v1 omission?),,,
-kuru-fasulye,AGS,,often,v2_only (v1 omission?),,,
-lasagna,CEL,,often,v2_only (v1 omission?),,,
-lasagna,EGG,,often,v2_only (v1 omission?),,,
-lobster-bisque,MLK,,always,v2_only (v1 omission?),,,
-lobster-bisque,SUL,,often,v2_only (v1 omission?),,,
-lobster-roll-sandwich,AGS,,,rule:missing,,,
-lobster-roll-sandwich,CEL,,often,v2_only (v1 omission?),,,
-lobster-roll-sandwich,EGG,,often,v2_only (v1 omission?),,,
-lobster-roll-sandwich,MLK,,often,v2_only (v1 omission?),,,
-lokma,EGG,,,rule:unsupported,,,
-lokma,MLK,,,rule:unsupported,,,
-macaroni-and-cheese,EGG,,,rule:unsupported,,,
-macarons,MLK,,often,v2_only (v1 omission?),,,
-macarons,NUT,,,rule:unsupported,,,
-manti,GAR,,always,v2_only (v1 omission?),,,
-manti,MLK,,always,v2_only (v1 omission?),,,
-menemen,GAR,low,,v1_only,,,
-mercimek-corbasi,MLK,,often,v2_only (v1 omission?),,,
-midye-dolma,GAR,low,,v1_only,,,
-midye-dolma,SUL,,,rule:missing,,,
-midye-tava,EGG,medium,possible,v1_present_v2_possible; rule:unsupported,,,
-midye-tava,GAR,,often,v2_only (v1 omission?),,,
-midye-tava,NUT,,often,v2_only (v1 omission?),,,
-miso-soup,FSH,,often,v2_only (v1 omission?),,,
-miso-soup,GAR,low,,v1_only,,,
-mumbar-dolmasi,RCE,,always,v2_only (v1 omission?),,,
-mussels,CEL,,,rule:unsupported,,,
-muz,LTX,low,,v1_only,,,
-nachos,MAZ,,,rule:unsupported,,,
-onion-rings,MLK,,often,v2_only (v1 omission?),,,
-pad-thai,CRU,,often,v2_only (v1 omission?),,,
-pad-thai,FSH,,always,v2_only (v1 omission?),,,
-pad-thai,RCE,,,rule:unsupported,,,
-paella,FSH,,,rule:unsupported,,,
-patates-salatasi,EGG,medium,possible,v1_present_v2_possible,,,
-patates-salatasi,MUS,medium,possible,v1_present_v2_possible,,,
-patlican-kebabi,GAR,low,possible,v1_present_v2_possible; rule:unsupported,,,
-patlican-kebabi,GLU,,often,v2_only (v1 omission?),,,
-peking-duck,GAR,medium,,v1_only,,,
-peking-duck,GLU,,always,v2_only (v1 omission?),,,
-peynirli-borek,SES,,,rule:unsupported,,,
-pho,AGS,,often,v2_only (v1 omission?),,,
-pho,FSH,,often,v2_only (v1 omission?),,,
-pho,GAR,low,,v1_only,,,
-pho,RCE,,always,v2_only (v1 omission?); rule:unsupported,,,
-pho,SES,,,rule:unsupported,,,
-pho,SOY,low,possible,v1_present_v2_possible,,,
-pirinc-pilavi,GLU,,often,v2_only (v1 omission?),,,
-pirinc-pilavi,MLK,,often,v2_only (v1 omission?),,,
-pork-chop,EGG,,,rule:unsupported,,,
-pork-chop,GLU,,,rule:unsupported,,,
-poutine,CEL,,,rule:unsupported,,,
-poutine,GLU,,often,v2_only (v1 omission?),,,
-prime-rib,GAR,,often,v2_only (v1 omission?),,,
-prime-rib,MUS,,,rule:unsupported,,,
-prime-rib,SUL,,,rule:unsupported,,,
-pulled-pork-sandwich,CEL,,,rule:unsupported,,,
-pulled-pork-sandwich,SES,,,rule:unsupported,,,
-pulled-pork-sandwich,SOY,,,rule:unsupported,,,
-ramen,AGS,,often,v2_only (v1 omission?),,,
-ramen,EGG,,often,v2_only (v1 omission?),,,
-ramen,FSH,,,rule:unsupported,,,
-ramen,GAR,medium,,v1_only,,,
-ramen,SES,,often,v2_only (v1 omission?),,,
-ravioli,MLK,,often,v2_only (v1 omission?),,,
-risotto,CEL,,,rule:unsupported,,,
-salcali-makarna,MLK,low,possible,v1_present_v2_possible,,,
-samosa,SES,,,rule:unsupported,,,
-sandvic,MLK,,often,v2_only (v1 omission?),,,
-sandvic,MUS,,,rule:unsupported,,,
-sashimi,SES,low,,v1_only,,,
-scallops,GAR,,often,v2_only (v1 omission?),,,
-scallops,MLK,,often,v2_only (v1 omission?),,,
-scallops,SUL,,,rule:unsupported,,,
-seaweed-salad,GLU,,often,v2_only (v1 omission?),,,
-seaweed-salad,RCE,,,rule:missing,,,
-seaweed-salad,SUL,,,rule:missing,,,
-sehriye-corbasi,CEL,,,rule:unsupported,,,
-shrimp-and-grits,AGS,,often,v2_only (v1 omission?),,,
-shrimp-and-grits,GAR,,often,v2_only (v1 omission?),,,
-shrimp-and-grits,MAZ,,always,v2_only (v1 omission?),,,
-spaghetti-bolognese,CEL,,often,v2_only (v1 omission?),,,
-spaghetti-bolognese,GAR,medium,,v1_only,,,
-spaghetti-bolognese,MLK,,often,v2_only (v1 omission?),,,
-spaghetti-carbonara,AGS,,always,v2_only (v1 omission?),,,
-spring-rolls,FSH,,,rule:unsupported,,,
-spring-rolls,PNT,,,rule:unsupported,,,
-spring-rolls,RCE,,,rule:unsupported,,,
-spring-rolls,SOY,,,rule:unsupported,,,
-strawberry-shortcake,MLK,,always,v2_only (v1 omission?),,,
-sucuklu-yumurta,GAR,,often,v2_only (v1 omission?),,,
-sulu-nohut-yemegi,AGS,,often,v2_only (v1 omission?),,,
-sushi,SES,,often,v2_only (v1 omission?),,,
-tacos,AGS,,often,v2_only (v1 omission?),,,
-tacos,GLU,medium,possible,v1_present_v2_possible,,,
-takoyaki,FSH,,often,v2_only (v1 omission?),,,
-takoyaki,GAR,low,,v1_only,,,
-tantuni,GAR,low,,v1_only,,,
-tas-kebabi,GAR,low,,v1_only,,,
-tas-kebabi,MLK,,often,v2_only (v1 omission?),,,
-taze-fasulye,GAR,low,,v1_only,,,
-tiramisu,GLU,,always,v2_only (v1 omission?),,,
-tiramisu,NUT,low,,v1_only,,,
-tulumba-tatlisi,MLK,,often,v2_only (v1 omission?),,,
-tuna-tartare,SES,,often,v2_only (v1 omission?),,,
-tuna-tartare,SOY,,often,v2_only (v1 omission?),,,
-tursu,GAR,,often,v2_only (v1 omission?),,,
-yaprak-sarma,SUL,,,rule:missing,,,
-yayla-corbasi,GLU,,often,v2_only (v1 omission?),,,
-yogurtlu-makarna,GAR,,often,v2_only (v1 omission?),,,
-zeytinyagli-fasulye,GAR,medium,,v1_only,,,
+adana-kebap,GAR,high,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+adana-kebap,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+apple-pie,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+avokado,LTX,low,,v1_only,remove,proposed,latex is not a food; moved to user information text
+baby-back-ribs,GLU,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+baby-back-ribs,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+baklava,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+baklava,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+beef-carpaccio,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+beef-carpaccio,MUS,low,possible,v1_present_v2_possible,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+beef-carpaccio,SUL,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+beef-tartare,EGG,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+beet-salad,GAR,low,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+beet-salad,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+beet-salad,NUT,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+beignets,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+beyaz-lahana-sarmasi,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+beyaz-lahana-sarmasi,GAR,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+biber-dolmasi,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+biber-dolmasi,SUL,,,rule:missing,set:possible,proposed,implied by vinegar / dried fruit / rice vinegar; recipe-dependent
+bibimbap,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+bibimbap,EGG,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+bibimbap,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+bibimbap,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+bibimbap,SES,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+bread-pudding,NUT,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+breakfast-burrito,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+breakfast-burrito,MAZ,medium,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+breakfast-burrito,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+bruschetta,MLK,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+bulgur-pilavi,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+caesar-salad,GLU,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+caesar-salad,MUS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+cannoli,NUT,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+cannoli,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+carrot-cake,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+ceviche,GAR,medium,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+cheese-plate,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+cheese-plate,MLK,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+cheese-plate,NUT,,often,v2_only (v1 omission?); rule:unsupported,accept_v2,proposed,missing in v1; implied by the standard recipe
+cheesecake,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+chicken-curry,CEL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+chicken-curry,GAR,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+chicken-quesadilla,MAZ,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+chicken-wings,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+chicken-wings,GAR,,often,v2_only (v1 omission?); rule:unsupported,accept_v2,proposed,missing in v1; implied by the standard recipe
+chicken-wings,GLU,medium,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+chicken-wings,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+chicken-wings,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+chocolate-cake,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+chocolate-cake,NUT,low,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+chocolate-cake,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+chocolate-mousse,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+churros,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+churros,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+churros,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+cig-kofte,AGS,high,possible,v1_present_v2_possible,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+cig-kofte,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+cig-kofte,NUT,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+clam-chowder,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+clam-chowder,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+club-sandwich,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+club-sandwich,MLK,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+club-sandwich,MUS,medium,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+club-sandwich,SES,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+crab-cakes,AGS,,,rule:missing,reject,proposed,'crab meat' is not mammalian meat (lexicon false positive)
+crab-cakes,CEL,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+crab-cakes,MUS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+croque-madame,AGS,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+croque-madame,MUS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+cup-cakes,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+cup-cakes,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+domates-corbasi,CEL,low,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+domates-corbasi,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+doner,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+doner,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+doner,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+doner,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+doner,MUS,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+donuts,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+donuts,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+dumplings,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+dumplings,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+dumplings,SES,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+eggs-benedict,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+eggs-benedict,GLU,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+eggs-benedict,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+ekmek,MLK,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+ekmek,SES,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+ekmek,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+escargots,GAR,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+escargots,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+escargots,SUL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+et-sote,GAR,low,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+et-sote,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+filet-mignon,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+filet-mignon,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+fish-and-chips,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+fish-and-chips,MUS,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+foie-gras,MLK,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+french-fries,GLU,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+french-onion-soup,CEL,low,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+french-onion-soup,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+fried-calamari,EGG,medium,possible,v1_present_v2_possible,set:often,proposed,egg is common in calamari batter; v1 medium
+fried-calamari,GAR,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+fried-rice,EGG,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+fried-rice,GAR,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+fried-rice,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+frozen-yogurt,GLU,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+frozen-yogurt,NUT,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+garlic-bread,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+gozleme,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+guacamole,GAR,medium,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+guacamole,MAZ,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+gyoza,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+gyoza,SES,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+gyoza,SUL,,,rule:missing,set:possible,proposed,implied by vinegar / dried fruit / rice vinegar; recipe-dependent
+hamburger,EGG,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+hamburger,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+hamburger,SES,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+hamburger,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+hamsi,MAZ,,often,v2_only (v1 omission?); rule:unsupported,accept_v2,proposed,missing in v1; implied by the standard recipe
+hot-and-sour-soup,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+hot-and-sour-soup,EGG,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+hot-and-sour-soup,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+hot-and-sour-soup,SES,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+hot-and-sour-soup,SOY,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+hot-and-sour-soup,SUL,,,rule:missing,set:possible,proposed,implied by vinegar / dried fruit / rice vinegar; recipe-dependent
+hot-dog,CEL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+hot-dog,MLK,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+hot-dog,SES,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+hot-dog,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+huevos-rancheros,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+ice-cream,NUT,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+ice-cream,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+icli-kofte,AGS,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+icli-kofte,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+icli-kofte,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+ispanak,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+izmir-kofte,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+kabak-mucver,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+kabak-mucver,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+kalburabasti,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+kalburabasti,NUT,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+kazandibi,RCE,,often,v2_only (v1 omission?); rule:unsupported,accept_v2,proposed,missing in v1; implied by the standard recipe
+kebap,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+kebap,MLK,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+kemal-pasa-tatlisi,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+kemal-pasa-tatlisi,NUT,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+kivi,KIW,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+kivi,LTX,low,,v1_only,remove,proposed,latex is not a food; moved to user information text
+kofte,GAR,medium,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+kokorec,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+kuru-fasulye,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+lasagna,CEL,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+lasagna,EGG,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+lobster-bisque,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+lobster-bisque,SUL,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+lobster-roll-sandwich,AGS,,,rule:missing,reject,proposed,'lobster meat' is not mammalian meat (lexicon false positive)
+lobster-roll-sandwich,CEL,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+lobster-roll-sandwich,EGG,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+lobster-roll-sandwich,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+lokma,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+lokma,MLK,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+macaroni-and-cheese,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+macarons,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+macarons,NUT,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+manti,GAR,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+manti,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+menemen,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+mercimek-corbasi,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+midye-dolma,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+midye-dolma,SUL,,,rule:missing,set:possible,proposed,implied by vinegar / dried fruit / rice vinegar; recipe-dependent
+midye-tava,EGG,medium,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+midye-tava,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+midye-tava,NUT,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+miso-soup,FSH,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+miso-soup,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+mumbar-dolmasi,RCE,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+mussels,CEL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+muz,LTX,low,,v1_only,remove,proposed,latex is not a food; moved to user information text
+nachos,MAZ,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+onion-rings,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+pad-thai,CRU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+pad-thai,FSH,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+pad-thai,RCE,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+paella,FSH,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+patates-salatasi,EGG,medium,possible,v1_present_v2_possible,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+patates-salatasi,MUS,medium,possible,v1_present_v2_possible,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+patlican-kebabi,GAR,low,possible,v1_present_v2_possible; rule:unsupported,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+patlican-kebabi,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+peking-duck,GAR,medium,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+peking-duck,GLU,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+peynirli-borek,SES,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+pho,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+pho,FSH,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+pho,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+pho,RCE,,always,v2_only (v1 omission?); rule:unsupported,accept_v2,proposed,missing in v1; implied by the standard recipe
+pho,SES,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+pho,SOY,low,possible,v1_present_v2_possible,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+pirinc-pilavi,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+pirinc-pilavi,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+pork-chop,EGG,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+pork-chop,GLU,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+poutine,CEL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+poutine,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+prime-rib,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+prime-rib,MUS,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+prime-rib,SUL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+pulled-pork-sandwich,CEL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+pulled-pork-sandwich,SES,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+pulled-pork-sandwich,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+ramen,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+ramen,EGG,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+ramen,FSH,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+ramen,GAR,medium,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+ramen,SES,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+ravioli,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+risotto,CEL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+salcali-makarna,MLK,low,possible,v1_present_v2_possible,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+samosa,SES,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+sandvic,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+sandvic,MUS,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+sashimi,SES,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+scallops,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+scallops,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+scallops,SUL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+seaweed-salad,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+seaweed-salad,RCE,,,rule:missing,set:possible,proposed,implied by vinegar / dried fruit / rice vinegar; recipe-dependent
+seaweed-salad,SUL,,,rule:missing,set:possible,proposed,implied by vinegar / dried fruit / rice vinegar; recipe-dependent
+sehriye-corbasi,CEL,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+shrimp-and-grits,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+shrimp-and-grits,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+shrimp-and-grits,MAZ,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+spaghetti-bolognese,CEL,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+spaghetti-bolognese,GAR,medium,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+spaghetti-bolognese,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+spaghetti-carbonara,AGS,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+spring-rolls,FSH,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+spring-rolls,PNT,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+spring-rolls,RCE,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+spring-rolls,SOY,,,rule:unsupported,accept_v2,proposed,hidden ingredient or cross-contact; kept as 'possible'
+strawberry-shortcake,MLK,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+sucuklu-yumurta,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+sulu-nohut-yemegi,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+sushi,SES,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+tacos,AGS,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+tacos,GLU,medium,possible,v1_present_v2_possible,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+takoyaki,FSH,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+takoyaki,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+tantuni,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+tas-kebabi,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+tas-kebabi,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+taze-fasulye,GAR,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+tiramisu,GLU,,always,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+tiramisu,NUT,low,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)
+tulumba-tatlisi,MLK,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+tuna-tartare,SES,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+tuna-tartare,SOY,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+tursu,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+yaprak-sarma,SUL,,,rule:missing,set:possible,proposed,implied by vinegar / dried fruit / rice vinegar; recipe-dependent
+yayla-corbasi,GLU,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+yogurtlu-makarna,GAR,,often,v2_only (v1 omission?),accept_v2,proposed,missing in v1; implied by the standard recipe
+zeytinyagli-fasulye,GAR,medium,,v1_only,set:possible,proposed,reported by v1; kept at least as 'possible' (conservative rule)

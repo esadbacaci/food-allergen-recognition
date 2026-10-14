@@ -1,0 +1,665 @@
+YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
+1,16,Her zaman,draft,2.0,adana-kebap,AGS
+1,22,Olabilir,adjudication,2.0,adana-kebap,GAR
+1,1,Sıklıkla,draft+adjudication,2.0,adana-kebap,GLU
+2,3,Sıklıkla,draft,2.0,apple-pie,EGG
+2,1,Her zaman,draft,2.0,apple-pie,GLU
+2,2,Sıklıkla,draft+adjudication,2.0,apple-pie,MLK
+4,1,Her zaman,draft,2.0,asure,GLU
+4,5,Sıklıkla,draft,2.0,asure,NUT
+4,17,Olabilir,draft,2.0,asure,RCE
+4,9,Olabilir,draft,2.0,asure,SES
+4,12,Olabilir,draft,2.0,asure,SUL
+6,2,Her zaman,draft,2.0,ayran,MLK
+7,16,Her zaman,draft,2.0,baby-back-ribs,AGS
+7,10,Olabilir,draft,2.0,baby-back-ribs,CEL
+7,7,Olabilir,draft,2.0,baby-back-ribs,FSH
+7,22,Sıklıkla,draft,2.0,baby-back-ribs,GAR
+7,1,Olabilir,draft+adjudication,2.0,baby-back-ribs,GLU
+7,11,Sıklıkla,draft,2.0,baby-back-ribs,MUS
+7,6,Olabilir,draft+adjudication,2.0,baby-back-ribs,SOY
+7,12,Olabilir,draft,2.0,baby-back-ribs,SUL
+8,3,Olabilir,draft+adjudication,2.0,baklava,EGG
+8,1,Her zaman,draft,2.0,baklava,GLU
+8,2,Her zaman,draft+adjudication,2.0,baklava,MLK
+8,5,Her zaman,draft,2.0,baklava,NUT
+9,16,Her zaman,draft,2.0,beef-carpaccio,AGS
+9,3,Olabilir,draft,2.0,beef-carpaccio,EGG
+9,2,Sıklıkla,draft+adjudication,2.0,beef-carpaccio,MLK
+9,11,Olabilir,adjudication,2.0,beef-carpaccio,MUS
+9,12,Olabilir,adjudication,2.0,beef-carpaccio,SUL
+10,16,Her zaman,draft,2.0,beef-tartare,AGS
+10,3,Her zaman,draft+adjudication,2.0,beef-tartare,EGG
+10,7,Olabilir,draft,2.0,beef-tartare,FSH
+10,1,Olabilir,draft,2.0,beef-tartare,GLU
+10,11,Sıklıkla,draft,2.0,beef-tartare,MUS
+11,22,Olabilir,adjudication,2.0,beet-salad,GAR
+11,2,Sıklıkla,draft+adjudication,2.0,beet-salad,MLK
+11,11,Olabilir,draft,2.0,beet-salad,MUS
+11,5,Sıklıkla,draft+adjudication,2.0,beet-salad,NUT
+12,3,Sıklıkla,draft,2.0,beignets,EGG
+12,1,Her zaman,draft,2.0,beignets,GLU
+12,2,Her zaman,draft+adjudication,2.0,beignets,MLK
+13,16,Sıklıkla,draft+adjudication,2.0,beyaz-lahana-sarmasi,AGS
+13,22,Olabilir,draft+adjudication,2.0,beyaz-lahana-sarmasi,GAR
+13,2,Olabilir,draft,2.0,beyaz-lahana-sarmasi,MLK
+13,17,Her zaman,draft,2.0,beyaz-lahana-sarmasi,RCE
+14,16,Sıklıkla,draft+adjudication,2.0,biber-dolmasi,AGS
+14,2,Olabilir,draft,2.0,biber-dolmasi,MLK
+14,19,Olabilir,draft,2.0,biber-dolmasi,PIN
+14,17,Her zaman,draft,2.0,biber-dolmasi,RCE
+14,12,Olabilir,adjudication,2.0,biber-dolmasi,SUL
+15,16,Sıklıkla,draft+adjudication,2.0,bibimbap,AGS
+15,3,Her zaman,draft+adjudication,2.0,bibimbap,EGG
+15,22,Sıklıkla,draft+adjudication,2.0,bibimbap,GAR
+15,1,Sıklıkla,draft+adjudication,2.0,bibimbap,GLU
+15,17,Her zaman,draft,2.0,bibimbap,RCE
+15,9,Her zaman,draft+adjudication,2.0,bibimbap,SES
+15,6,Her zaman,draft,2.0,bibimbap,SOY
+16,16,Olabilir,draft,2.0,borek,AGS
+16,3,Her zaman,draft,2.0,borek,EGG
+16,1,Her zaman,draft,2.0,borek,GLU
+16,2,Her zaman,draft,2.0,borek,MLK
+16,9,Olabilir,draft,2.0,borek,SES
+17,3,Her zaman,draft,2.0,bread-pudding,EGG
+17,1,Her zaman,draft,2.0,bread-pudding,GLU
+17,2,Her zaman,draft,2.0,bread-pudding,MLK
+17,5,Olabilir,draft+adjudication,2.0,bread-pudding,NUT
+17,12,Olabilir,draft,2.0,bread-pudding,SUL
+18,16,Sıklıkla,draft+adjudication,2.0,breakfast-burrito,AGS
+18,3,Her zaman,draft,2.0,breakfast-burrito,EGG
+18,1,Her zaman,draft,2.0,breakfast-burrito,GLU
+18,15,Olabilir,adjudication,2.0,breakfast-burrito,MAZ
+18,2,Sıklıkla,draft+adjudication,2.0,breakfast-burrito,MLK
+20,2,Olabilir,draft,2.0,bruksel-lahanasi,MLK
+21,22,Her zaman,draft,2.0,bruschetta,GAR
+21,1,Her zaman,draft,2.0,bruschetta,GLU
+21,2,Olabilir,draft+adjudication,2.0,bruschetta,MLK
+22,1,Her zaman,draft,2.0,bulgur-pilavi,GLU
+22,2,Sıklıkla,draft+adjudication,2.0,bulgur-pilavi,MLK
+23,22,Her zaman,draft,2.0,cacik,GAR
+23,2,Her zaman,draft,2.0,cacik,MLK
+24,3,Her zaman,draft,2.0,caesar-salad,EGG
+24,7,Sıklıkla,draft,2.0,caesar-salad,FSH
+24,22,Her zaman,draft,2.0,caesar-salad,GAR
+24,1,Her zaman,draft+adjudication,2.0,caesar-salad,GLU
+24,2,Her zaman,draft,2.0,caesar-salad,MLK
+24,11,Sıklıkla,draft+adjudication,2.0,caesar-salad,MUS
+25,1,Olabilir,draft,2.0,canak-enginar,GLU
+26,3,Sıklıkla,draft,2.0,cannoli,EGG
+26,1,Her zaman,draft,2.0,cannoli,GLU
+26,2,Her zaman,draft,2.0,cannoli,MLK
+26,5,Sıklıkla,draft+adjudication,2.0,cannoli,NUT
+26,6,Olabilir,draft+adjudication,2.0,cannoli,SOY
+26,12,Olabilir,draft,2.0,cannoli,SUL
+27,2,Her zaman,draft,2.0,caprese-salad,MLK
+27,12,Olabilir,draft,2.0,caprese-salad,SUL
+28,3,Her zaman,draft,2.0,carrot-cake,EGG
+28,1,Her zaman,draft,2.0,carrot-cake,GLU
+28,2,Her zaman,draft+adjudication,2.0,carrot-cake,MLK
+28,5,Sıklıkla,draft,2.0,carrot-cake,NUT
+30,8,Olabilir,draft,2.0,ceviche,CRU
+30,7,Her zaman,draft,2.0,ceviche,FSH
+30,22,Olabilir,adjudication,2.0,ceviche,GAR
+30,15,Olabilir,draft,2.0,ceviche,MAZ
+30,14,Olabilir,draft,2.0,ceviche,MOL
+31,1,Sıklıkla,draft+adjudication,2.0,cheese-plate,GLU
+31,2,Her zaman,draft+adjudication,2.0,cheese-plate,MLK
+31,5,Sıklıkla,draft+adjudication,2.0,cheese-plate,NUT
+31,12,Olabilir,draft,2.0,cheese-plate,SUL
+32,3,Her zaman,draft,2.0,cheesecake,EGG
+32,1,Her zaman,draft,2.0,cheesecake,GLU
+32,2,Her zaman,draft,2.0,cheesecake,MLK
+32,6,Olabilir,draft+adjudication,2.0,cheesecake,SOY
+33,10,Olabilir,draft+adjudication,2.0,chicken-curry,CEL
+33,22,Her zaman,draft+adjudication,2.0,chicken-curry,GAR
+33,2,Sıklıkla,draft,2.0,chicken-curry,MLK
+33,11,Olabilir,draft,2.0,chicken-curry,MUS
+33,5,Olabilir,draft,2.0,chicken-curry,NUT
+34,1,Her zaman,draft,2.0,chicken-quesadilla,GLU
+34,15,Olabilir,draft+adjudication,2.0,chicken-quesadilla,MAZ
+34,2,Her zaman,draft,2.0,chicken-quesadilla,MLK
+35,10,Olabilir,draft,2.0,chicken-wings,CEL
+35,3,Olabilir,draft+adjudication,2.0,chicken-wings,EGG
+35,22,Sıklıkla,draft+adjudication,2.0,chicken-wings,GAR
+35,1,Olabilir,adjudication,2.0,chicken-wings,GLU
+35,2,Sıklıkla,draft+adjudication,2.0,chicken-wings,MLK
+35,6,Olabilir,draft+adjudication,2.0,chicken-wings,SOY
+36,3,Her zaman,draft,2.0,chocolate-cake,EGG
+36,1,Her zaman,draft,2.0,chocolate-cake,GLU
+36,2,Her zaman,draft+adjudication,2.0,chocolate-cake,MLK
+36,5,Olabilir,adjudication,2.0,chocolate-cake,NUT
+36,6,Olabilir,draft+adjudication,2.0,chocolate-cake,SOY
+37,3,Sıklıkla,draft,2.0,chocolate-mousse,EGG
+37,2,Sıklıkla,draft,2.0,chocolate-mousse,MLK
+37,6,Olabilir,draft+adjudication,2.0,chocolate-mousse,SOY
+38,3,Olabilir,draft+adjudication,2.0,churros,EGG
+38,1,Her zaman,draft,2.0,churros,GLU
+38,2,Sıklıkla,draft+adjudication,2.0,churros,MLK
+38,6,Olabilir,draft+adjudication,2.0,churros,SOY
+39,16,Olabilir,adjudication,2.0,cig-kofte,AGS
+39,22,Sıklıkla,draft+adjudication,2.0,cig-kofte,GAR
+39,1,Her zaman,draft,2.0,cig-kofte,GLU
+39,5,Olabilir,draft+adjudication,2.0,cig-kofte,NUT
+41,7,Her zaman,draft,2.0,cipura,FSH
+42,16,Sıklıkla,draft+adjudication,2.0,clam-chowder,AGS
+42,10,Sıklıkla,draft,2.0,clam-chowder,CEL
+42,1,Sıklıkla,draft+adjudication,2.0,clam-chowder,GLU
+42,2,Her zaman,draft,2.0,clam-chowder,MLK
+42,14,Her zaman,draft,2.0,clam-chowder,MOL
+43,16,Sıklıkla,draft+adjudication,2.0,club-sandwich,AGS
+43,3,Her zaman,draft,2.0,club-sandwich,EGG
+43,1,Her zaman,draft,2.0,club-sandwich,GLU
+43,2,Olabilir,draft+adjudication,2.0,club-sandwich,MLK
+43,11,Olabilir,adjudication,2.0,club-sandwich,MUS
+43,9,Olabilir,draft+adjudication,2.0,club-sandwich,SES
+45,10,Sıklıkla,draft+adjudication,2.0,crab-cakes,CEL
+45,8,Her zaman,draft,2.0,crab-cakes,CRU
+45,3,Her zaman,draft,2.0,crab-cakes,EGG
+45,7,Olabilir,draft,2.0,crab-cakes,FSH
+45,1,Her zaman,draft,2.0,crab-cakes,GLU
+45,11,Sıklıkla,draft+adjudication,2.0,crab-cakes,MUS
+46,3,Her zaman,draft,2.0,creme-brulee,EGG
+46,2,Her zaman,draft,2.0,creme-brulee,MLK
+47,16,Her zaman,draft+adjudication,2.0,croque-madame,AGS
+47,3,Her zaman,draft,2.0,croque-madame,EGG
+47,1,Her zaman,draft,2.0,croque-madame,GLU
+47,2,Her zaman,draft,2.0,croque-madame,MLK
+47,11,Sıklıkla,draft+adjudication,2.0,croque-madame,MUS
+48,3,Her zaman,draft,2.0,cup-cakes,EGG
+48,1,Her zaman,draft,2.0,cup-cakes,GLU
+48,2,Her zaman,draft+adjudication,2.0,cup-cakes,MLK
+48,6,Olabilir,draft+adjudication,2.0,cup-cakes,SOY
+49,3,Her zaman,draft,2.0,deviled-eggs,EGG
+49,11,Her zaman,draft,2.0,deviled-eggs,MUS
+51,10,Olabilir,adjudication,2.0,domates-corbasi,CEL
+51,1,Sıklıkla,draft+adjudication,2.0,domates-corbasi,GLU
+51,2,Sıklıkla,draft,2.0,domates-corbasi,MLK
+52,16,Sıklıkla,draft,2.0,doner,AGS
+52,3,Olabilir,draft+adjudication,2.0,doner,EGG
+52,22,Sıklıkla,draft+adjudication,2.0,doner,GAR
+52,1,Sıklıkla,draft+adjudication,2.0,doner,GLU
+52,2,Sıklıkla,draft+adjudication,2.0,doner,MLK
+52,11,Olabilir,draft+adjudication,2.0,doner,MUS
+53,3,Sıklıkla,draft,2.0,donuts,EGG
+53,1,Her zaman,draft,2.0,donuts,GLU
+53,2,Sıklıkla,draft+adjudication,2.0,donuts,MLK
+53,6,Olabilir,draft+adjudication,2.0,donuts,SOY
+54,16,Sıklıkla,draft+adjudication,2.0,dumplings,AGS
+54,8,Olabilir,draft,2.0,dumplings,CRU
+54,3,Olabilir,draft+adjudication,2.0,dumplings,EGG
+54,1,Her zaman,draft,2.0,dumplings,GLU
+54,9,Sıklıkla,draft+adjudication,2.0,dumplings,SES
+54,6,Sıklıkla,draft,2.0,dumplings,SOY
+55,6,Her zaman,draft,2.0,edamame,SOY
+56,16,Sıklıkla,draft+adjudication,2.0,eggs-benedict,AGS
+56,3,Her zaman,draft,2.0,eggs-benedict,EGG
+56,1,Her zaman,draft+adjudication,2.0,eggs-benedict,GLU
+56,2,Her zaman,draft+adjudication,2.0,eggs-benedict,MLK
+57,1,Her zaman,draft,2.0,ekmek,GLU
+57,2,Olabilir,draft+adjudication,2.0,ekmek,MLK
+57,9,Olabilir,draft+adjudication,2.0,ekmek,SES
+57,6,Olabilir,draft+adjudication,2.0,ekmek,SOY
+59,1,Olabilir,draft,2.0,enginar,GLU
+61,22,Her zaman,draft+adjudication,2.0,escargots,GAR
+61,1,Olabilir,draft,2.0,escargots,GLU
+61,2,Her zaman,draft+adjudication,2.0,escargots,MLK
+61,14,Her zaman,draft,2.0,escargots,MOL
+61,12,Olabilir,draft+adjudication,2.0,escargots,SUL
+62,16,Her zaman,draft,2.0,et-sote,AGS
+62,22,Olabilir,adjudication,2.0,et-sote,GAR
+62,2,Sıklıkla,draft+adjudication,2.0,et-sote,MLK
+63,22,Sıklıkla,draft,2.0,falafel,GAR
+63,1,Sıklıkla,draft,2.0,falafel,GLU
+63,9,Sıklıkla,draft,2.0,falafel,SES
+64,16,Her zaman,draft,2.0,filet-mignon,AGS
+64,22,Sıklıkla,draft+adjudication,2.0,filet-mignon,GAR
+64,2,Sıklıkla,draft+adjudication,2.0,filet-mignon,MLK
+64,12,Olabilir,draft,2.0,filet-mignon,SUL
+65,3,Olabilir,draft+adjudication,2.0,fish-and-chips,EGG
+65,7,Her zaman,draft,2.0,fish-and-chips,FSH
+65,1,Her zaman,draft,2.0,fish-and-chips,GLU
+65,11,Olabilir,draft+adjudication,2.0,fish-and-chips,MUS
+65,12,Olabilir,draft,2.0,fish-and-chips,SUL
+66,1,Olabilir,draft,2.0,foie-gras,GLU
+66,2,Olabilir,draft+adjudication,2.0,foie-gras,MLK
+66,12,Olabilir,draft,2.0,foie-gras,SUL
+67,1,Olabilir,draft+adjudication,2.0,french-fries,GLU
+68,16,Olabilir,draft,2.0,french-onion-soup,AGS
+68,10,Olabilir,adjudication,2.0,french-onion-soup,CEL
+68,22,Olabilir,adjudication,2.0,french-onion-soup,GAR
+68,1,Her zaman,draft,2.0,french-onion-soup,GLU
+68,2,Her zaman,draft,2.0,french-onion-soup,MLK
+68,12,Sıklıkla,draft,2.0,french-onion-soup,SUL
+69,3,Her zaman,draft,2.0,french-toast,EGG
+69,1,Her zaman,draft,2.0,french-toast,GLU
+69,2,Her zaman,draft,2.0,french-toast,MLK
+70,3,Sıklıkla,adjudication,2.0,fried-calamari,EGG
+70,22,Olabilir,draft+adjudication,2.0,fried-calamari,GAR
+70,1,Her zaman,draft,2.0,fried-calamari,GLU
+70,14,Her zaman,draft,2.0,fried-calamari,MOL
+71,8,Olabilir,draft,2.0,fried-rice,CRU
+71,3,Sıklıkla,draft+adjudication,2.0,fried-rice,EGG
+71,7,Olabilir,draft,2.0,fried-rice,FSH
+71,22,Olabilir,draft+adjudication,2.0,fried-rice,GAR
+71,1,Sıklıkla,draft+adjudication,2.0,fried-rice,GLU
+71,17,Her zaman,draft,2.0,fried-rice,RCE
+71,9,Olabilir,draft,2.0,fried-rice,SES
+71,6,Sıklıkla,draft,2.0,fried-rice,SOY
+72,1,Olabilir,draft+adjudication,2.0,frozen-yogurt,GLU
+72,2,Her zaman,draft,2.0,frozen-yogurt,MLK
+72,5,Olabilir,draft+adjudication,2.0,frozen-yogurt,NUT
+73,22,Her zaman,draft,2.0,garlic-bread,GAR
+73,1,Her zaman,draft,2.0,garlic-bread,GLU
+73,2,Her zaman,draft+adjudication,2.0,garlic-bread,MLK
+74,3,Sıklıkla,draft,2.0,gnocchi,EGG
+74,1,Her zaman,draft,2.0,gnocchi,GLU
+74,2,Sıklıkla,draft,2.0,gnocchi,MLK
+75,16,Olabilir,draft,2.0,gozleme,AGS
+75,3,Olabilir,draft+adjudication,2.0,gozleme,EGG
+75,1,Her zaman,draft,2.0,gozleme,GLU
+75,2,Sıklıkla,draft,2.0,gozleme,MLK
+76,2,Her zaman,draft,2.0,greek-salad,MLK
+77,1,Her zaman,draft,2.0,grilled-cheese-sandwich,GLU
+77,2,Her zaman,draft,2.0,grilled-cheese-sandwich,MLK
+78,7,Her zaman,draft,2.0,grilled-salmon,FSH
+78,22,Olabilir,draft,2.0,grilled-salmon,GAR
+78,2,Olabilir,draft,2.0,grilled-salmon,MLK
+79,22,Olabilir,adjudication,2.0,guacamole,GAR
+79,15,Olabilir,draft+adjudication,2.0,guacamole,MAZ
+80,16,Sıklıkla,draft+adjudication,2.0,gyoza,AGS
+80,22,Sıklıkla,draft,2.0,gyoza,GAR
+80,1,Her zaman,draft,2.0,gyoza,GLU
+80,9,Sıklıkla,draft+adjudication,2.0,gyoza,SES
+80,6,Sıklıkla,draft,2.0,gyoza,SOY
+80,12,Olabilir,adjudication,2.0,gyoza,SUL
+81,16,Her zaman,draft,2.0,hamburger,AGS
+81,3,Sıklıkla,draft+adjudication,2.0,hamburger,EGG
+81,1,Her zaman,draft,2.0,hamburger,GLU
+81,2,Sıklıkla,draft+adjudication,2.0,hamburger,MLK
+81,11,Sıklıkla,draft,2.0,hamburger,MUS
+81,9,Sıklıkla,draft+adjudication,2.0,hamburger,SES
+81,6,Olabilir,draft+adjudication,2.0,hamburger,SOY
+82,7,Her zaman,draft,2.0,hamsi,FSH
+82,1,Olabilir,draft,2.0,hamsi,GLU
+82,15,Sıklıkla,draft+adjudication,2.0,hamsi,MAZ
+83,3,Her zaman,draft,2.0,haslanmis-yumurta,EGG
+85,16,Sıklıkla,draft+adjudication,2.0,hot-and-sour-soup,AGS
+85,3,Sıklıkla,draft+adjudication,2.0,hot-and-sour-soup,EGG
+85,1,Sıklıkla,draft+adjudication,2.0,hot-and-sour-soup,GLU
+85,9,Olabilir,draft+adjudication,2.0,hot-and-sour-soup,SES
+85,6,Her zaman,draft+adjudication,2.0,hot-and-sour-soup,SOY
+85,12,Olabilir,adjudication,2.0,hot-and-sour-soup,SUL
+86,16,Her zaman,draft,2.0,hot-dog,AGS
+86,10,Olabilir,draft+adjudication,2.0,hot-dog,CEL
+86,1,Her zaman,draft,2.0,hot-dog,GLU
+86,2,Olabilir,draft+adjudication,2.0,hot-dog,MLK
+86,11,Sıklıkla,draft,2.0,hot-dog,MUS
+86,9,Olabilir,draft+adjudication,2.0,hot-dog,SES
+86,6,Olabilir,draft+adjudication,2.0,hot-dog,SOY
+87,3,Her zaman,draft,2.0,huevos-rancheros,EGG
+87,15,Her zaman,draft,2.0,huevos-rancheros,MAZ
+87,2,Sıklıkla,draft+adjudication,2.0,huevos-rancheros,MLK
+88,22,Her zaman,draft,2.0,hummus,GAR
+88,9,Her zaman,draft,2.0,hummus,SES
+89,16,Her zaman,draft,2.0,hunkar-begendi,AGS
+89,1,Her zaman,draft,2.0,hunkar-begendi,GLU
+89,2,Her zaman,draft,2.0,hunkar-begendi,MLK
+90,3,Olabilir,draft,2.0,ice-cream,EGG
+90,1,Olabilir,draft,2.0,ice-cream,GLU
+90,2,Her zaman,draft,2.0,ice-cream,MLK
+90,5,Olabilir,draft+adjudication,2.0,ice-cream,NUT
+90,6,Olabilir,draft+adjudication,2.0,ice-cream,SOY
+91,16,Her zaman,draft+adjudication,2.0,icli-kofte,AGS
+91,3,Olabilir,draft+adjudication,2.0,icli-kofte,EGG
+91,22,Olabilir,adjudication,2.0,icli-kofte,GAR
+91,1,Her zaman,draft,2.0,icli-kofte,GLU
+91,5,Sıklıkla,draft,2.0,icli-kofte,NUT
+93,16,Her zaman,draft,2.0,iskender,AGS
+93,1,Her zaman,draft,2.0,iskender,GLU
+93,2,Her zaman,draft,2.0,iskender,MLK
+94,16,Olabilir,draft,2.0,ispanak,AGS
+94,3,Olabilir,draft,2.0,ispanak,EGG
+94,2,Sıklıkla,draft+adjudication,2.0,ispanak,MLK
+94,17,Olabilir,draft,2.0,ispanak,RCE
+95,16,Her zaman,draft,2.0,izmir-kofte,AGS
+95,3,Olabilir,draft,2.0,izmir-kofte,EGG
+95,22,Olabilir,adjudication,2.0,izmir-kofte,GAR
+95,1,Sıklıkla,draft,2.0,izmir-kofte,GLU
+96,3,Her zaman,draft,2.0,kabak-mucver,EGG
+96,22,Olabilir,adjudication,2.0,kabak-mucver,GAR
+96,1,Her zaman,draft,2.0,kabak-mucver,GLU
+96,2,Sıklıkla,draft+adjudication,2.0,kabak-mucver,MLK
+97,3,Sıklıkla,draft,2.0,kalburabasti,EGG
+97,1,Her zaman,draft,2.0,kalburabasti,GLU
+97,2,Sıklıkla,draft+adjudication,2.0,kalburabasti,MLK
+97,5,Her zaman,draft+adjudication,2.0,kalburabasti,NUT
+98,16,Olabilir,draft,2.0,karnabahar,AGS
+98,3,Olabilir,draft,2.0,karnabahar,EGG
+98,1,Olabilir,draft,2.0,karnabahar,GLU
+98,2,Olabilir,draft,2.0,karnabahar,MLK
+99,16,Her zaman,draft,2.0,karniyarik,AGS
+99,22,Sıklıkla,draft,2.0,karniyarik,GAR
+103,1,Olabilir,draft,2.0,kazandibi,GLU
+103,2,Her zaman,draft,2.0,kazandibi,MLK
+103,17,Sıklıkla,draft+adjudication,2.0,kazandibi,RCE
+104,16,Sıklıkla,draft,2.0,kebap,AGS
+104,1,Sıklıkla,draft+adjudication,2.0,kebap,GLU
+104,2,Olabilir,draft+adjudication,2.0,kebap,MLK
+104,17,Olabilir,draft,2.0,kebap,RCE
+105,3,Her zaman,draft,2.0,kemal-pasa-tatlisi,EGG
+105,1,Her zaman,draft,2.0,kemal-pasa-tatlisi,GLU
+105,2,Her zaman,draft+adjudication,2.0,kemal-pasa-tatlisi,MLK
+105,5,Olabilir,draft+adjudication,2.0,kemal-pasa-tatlisi,NUT
+107,1,Her zaman,draft,2.0,kisir,GLU
+107,5,Olabilir,draft,2.0,kisir,NUT
+108,21,Her zaman,draft+adjudication,2.0,kivi,KIW
+109,16,Her zaman,draft,2.0,kiymali-borek,AGS
+109,3,Sıklıkla,draft,2.0,kiymali-borek,EGG
+109,1,Her zaman,draft,2.0,kiymali-borek,GLU
+109,2,Sıklıkla,draft,2.0,kiymali-borek,MLK
+110,16,Her zaman,draft,2.0,kiymali-pide,AGS
+110,3,Olabilir,draft,2.0,kiymali-pide,EGG
+110,1,Her zaman,draft,2.0,kiymali-pide,GLU
+110,2,Olabilir,draft,2.0,kiymali-pide,MLK
+111,16,Her zaman,draft,2.0,kofte,AGS
+111,3,Olabilir,draft,2.0,kofte,EGG
+111,22,Olabilir,adjudication,2.0,kofte,GAR
+111,1,Sıklıkla,draft,2.0,kofte,GLU
+112,16,Her zaman,draft,2.0,kokorec,AGS
+112,1,Sıklıkla,draft+adjudication,2.0,kokorec,GLU
+113,16,Sıklıkla,draft+adjudication,2.0,kuru-fasulye,AGS
+113,2,Olabilir,draft,2.0,kuru-fasulye,MLK
+114,16,Her zaman,draft,2.0,lahmacun,AGS
+114,22,Sıklıkla,draft,2.0,lahmacun,GAR
+114,1,Her zaman,draft,2.0,lahmacun,GLU
+115,16,Sıklıkla,draft,2.0,lasagna,AGS
+115,10,Sıklıkla,draft+adjudication,2.0,lasagna,CEL
+115,3,Sıklıkla,draft+adjudication,2.0,lasagna,EGG
+115,1,Her zaman,draft,2.0,lasagna,GLU
+115,2,Her zaman,draft,2.0,lasagna,MLK
+115,12,Olabilir,draft,2.0,lasagna,SUL
+116,7,Her zaman,draft,2.0,levrek,FSH
+117,10,Sıklıkla,draft,2.0,lobster-bisque,CEL
+117,8,Her zaman,draft,2.0,lobster-bisque,CRU
+117,1,Olabilir,draft,2.0,lobster-bisque,GLU
+117,2,Her zaman,draft+adjudication,2.0,lobster-bisque,MLK
+117,12,Sıklıkla,draft+adjudication,2.0,lobster-bisque,SUL
+118,10,Sıklıkla,draft+adjudication,2.0,lobster-roll-sandwich,CEL
+118,8,Her zaman,draft,2.0,lobster-roll-sandwich,CRU
+118,3,Sıklıkla,draft+adjudication,2.0,lobster-roll-sandwich,EGG
+118,1,Her zaman,draft,2.0,lobster-roll-sandwich,GLU
+118,2,Sıklıkla,draft+adjudication,2.0,lobster-roll-sandwich,MLK
+119,3,Olabilir,draft+adjudication,2.0,lokma,EGG
+119,1,Her zaman,draft,2.0,lokma,GLU
+119,2,Olabilir,draft+adjudication,2.0,lokma,MLK
+120,3,Olabilir,draft+adjudication,2.0,macaroni-and-cheese,EGG
+120,1,Her zaman,draft,2.0,macaroni-and-cheese,GLU
+120,2,Her zaman,draft,2.0,macaroni-and-cheese,MLK
+120,11,Olabilir,draft,2.0,macaroni-and-cheese,MUS
+121,3,Her zaman,draft,2.0,macarons,EGG
+121,2,Sıklıkla,draft+adjudication,2.0,macarons,MLK
+121,5,Her zaman,draft+adjudication,2.0,macarons,NUT
+123,16,Sıklıkla,draft,2.0,manti,AGS
+123,3,Sıklıkla,draft,2.0,manti,EGG
+123,22,Her zaman,draft+adjudication,2.0,manti,GAR
+123,1,Her zaman,draft,2.0,manti,GLU
+123,2,Her zaman,draft+adjudication,2.0,manti,MLK
+124,3,Her zaman,draft,2.0,menemen,EGG
+124,22,Olabilir,adjudication,2.0,menemen,GAR
+124,2,Olabilir,draft,2.0,menemen,MLK
+125,1,Olabilir,draft,2.0,mercimek-corbasi,GLU
+125,2,Sıklıkla,draft+adjudication,2.0,mercimek-corbasi,MLK
+126,1,Her zaman,draft,2.0,mercimek-koftesi,GLU
+127,22,Olabilir,adjudication,2.0,midye-dolma,GAR
+127,14,Her zaman,draft,2.0,midye-dolma,MOL
+127,19,Sıklıkla,draft,2.0,midye-dolma,PIN
+127,17,Her zaman,draft,2.0,midye-dolma,RCE
+127,12,Olabilir,adjudication,2.0,midye-dolma,SUL
+128,3,Olabilir,adjudication,2.0,midye-tava,EGG
+128,22,Sıklıkla,draft+adjudication,2.0,midye-tava,GAR
+128,1,Her zaman,draft,2.0,midye-tava,GLU
+128,14,Her zaman,draft,2.0,midye-tava,MOL
+128,5,Sıklıkla,draft+adjudication,2.0,midye-tava,NUT
+129,7,Sıklıkla,draft+adjudication,2.0,miso-soup,FSH
+129,22,Olabilir,adjudication,2.0,miso-soup,GAR
+129,1,Olabilir,draft,2.0,miso-soup,GLU
+129,6,Her zaman,draft,2.0,miso-soup,SOY
+130,16,Her zaman,draft,2.0,mumbar-dolmasi,AGS
+130,17,Her zaman,draft+adjudication,2.0,mumbar-dolmasi,RCE
+131,10,Olabilir,draft+adjudication,2.0,mussels,CEL
+131,22,Sıklıkla,draft,2.0,mussels,GAR
+131,1,Olabilir,draft,2.0,mussels,GLU
+131,2,Sıklıkla,draft,2.0,mussels,MLK
+131,14,Her zaman,draft,2.0,mussels,MOL
+131,12,Sıklıkla,draft,2.0,mussels,SUL
+133,16,Olabilir,draft,2.0,nachos,AGS
+133,15,Her zaman,draft+adjudication,2.0,nachos,MAZ
+133,2,Her zaman,draft,2.0,nachos,MLK
+135,3,Her zaman,draft,2.0,omelette,EGG
+135,2,Sıklıkla,draft,2.0,omelette,MLK
+136,3,Sıklıkla,draft,2.0,onion-rings,EGG
+136,1,Her zaman,draft,2.0,onion-rings,GLU
+136,2,Sıklıkla,draft+adjudication,2.0,onion-rings,MLK
+137,14,Her zaman,draft,2.0,oysters,MOL
+137,12,Olabilir,draft,2.0,oysters,SUL
+138,8,Sıklıkla,draft+adjudication,2.0,pad-thai,CRU
+138,3,Her zaman,draft,2.0,pad-thai,EGG
+138,7,Her zaman,draft+adjudication,2.0,pad-thai,FSH
+138,22,Sıklıkla,draft,2.0,pad-thai,GAR
+138,4,Her zaman,draft,2.0,pad-thai,PNT
+138,17,Her zaman,draft+adjudication,2.0,pad-thai,RCE
+138,6,Sıklıkla,draft,2.0,pad-thai,SOY
+139,8,Sıklıkla,draft,2.0,paella,CRU
+139,7,Olabilir,draft+adjudication,2.0,paella,FSH
+139,22,Sıklıkla,draft,2.0,paella,GAR
+139,14,Sıklıkla,draft,2.0,paella,MOL
+139,17,Her zaman,draft,2.0,paella,RCE
+140,3,Her zaman,draft,2.0,pancakes,EGG
+140,1,Her zaman,draft,2.0,pancakes,GLU
+140,2,Her zaman,draft,2.0,pancakes,MLK
+141,2,Her zaman,draft,2.0,panna-cotta,MLK
+142,2,Her zaman,draft,2.0,patates-puresi,MLK
+143,3,Olabilir,adjudication,2.0,patates-salatasi,EGG
+143,11,Olabilir,adjudication,2.0,patates-salatasi,MUS
+144,16,Her zaman,draft,2.0,patlican-kebabi,AGS
+144,22,Olabilir,adjudication,2.0,patlican-kebabi,GAR
+144,1,Sıklıkla,draft+adjudication,2.0,patlican-kebabi,GLU
+145,22,Olabilir,adjudication,2.0,peking-duck,GAR
+145,1,Her zaman,draft+adjudication,2.0,peking-duck,GLU
+145,9,Sıklıkla,draft,2.0,peking-duck,SES
+145,6,Sıklıkla,draft,2.0,peking-duck,SOY
+146,3,Sıklıkla,draft,2.0,peynirli-borek,EGG
+146,1,Her zaman,draft,2.0,peynirli-borek,GLU
+146,2,Her zaman,draft,2.0,peynirli-borek,MLK
+146,9,Olabilir,draft+adjudication,2.0,peynirli-borek,SES
+147,16,Sıklıkla,draft+adjudication,2.0,pho,AGS
+147,7,Sıklıkla,draft+adjudication,2.0,pho,FSH
+147,22,Olabilir,adjudication,2.0,pho,GAR
+147,1,Olabilir,draft,2.0,pho,GLU
+147,17,Her zaman,draft+adjudication,2.0,pho,RCE
+147,9,Olabilir,draft+adjudication,2.0,pho,SES
+147,6,Olabilir,adjudication,2.0,pho,SOY
+148,17,Sıklıkla,draft,2.0,pirasa,RCE
+149,1,Sıklıkla,draft+adjudication,2.0,pirinc-pilavi,GLU
+149,2,Sıklıkla,draft+adjudication,2.0,pirinc-pilavi,MLK
+149,17,Her zaman,draft,2.0,pirinc-pilavi,RCE
+150,16,Olabilir,draft,2.0,pizza,AGS
+150,1,Her zaman,draft,2.0,pizza,GLU
+150,2,Her zaman,draft,2.0,pizza,MLK
+151,16,Her zaman,draft,2.0,pork-chop,AGS
+151,3,Olabilir,draft+adjudication,2.0,pork-chop,EGG
+151,1,Olabilir,draft+adjudication,2.0,pork-chop,GLU
+151,2,Olabilir,draft,2.0,pork-chop,MLK
+153,16,Olabilir,draft,2.0,poutine,AGS
+153,10,Olabilir,draft+adjudication,2.0,poutine,CEL
+153,1,Sıklıkla,draft+adjudication,2.0,poutine,GLU
+153,2,Her zaman,draft,2.0,poutine,MLK
+154,16,Her zaman,draft,2.0,prime-rib,AGS
+154,22,Sıklıkla,draft+adjudication,2.0,prime-rib,GAR
+154,2,Olabilir,draft,2.0,prime-rib,MLK
+154,11,Olabilir,draft+adjudication,2.0,prime-rib,MUS
+154,12,Olabilir,draft+adjudication,2.0,prime-rib,SUL
+155,16,Her zaman,draft,2.0,pulled-pork-sandwich,AGS
+155,10,Olabilir,draft+adjudication,2.0,pulled-pork-sandwich,CEL
+155,3,Sıklıkla,draft,2.0,pulled-pork-sandwich,EGG
+155,7,Olabilir,draft,2.0,pulled-pork-sandwich,FSH
+155,1,Her zaman,draft,2.0,pulled-pork-sandwich,GLU
+155,11,Sıklıkla,draft,2.0,pulled-pork-sandwich,MUS
+155,9,Olabilir,draft+adjudication,2.0,pulled-pork-sandwich,SES
+155,6,Olabilir,draft+adjudication,2.0,pulled-pork-sandwich,SOY
+156,16,Sıklıkla,draft+adjudication,2.0,ramen,AGS
+156,3,Sıklıkla,draft+adjudication,2.0,ramen,EGG
+156,7,Olabilir,draft+adjudication,2.0,ramen,FSH
+156,22,Olabilir,adjudication,2.0,ramen,GAR
+156,1,Her zaman,draft,2.0,ramen,GLU
+156,9,Sıklıkla,draft+adjudication,2.0,ramen,SES
+156,6,Sıklıkla,draft,2.0,ramen,SOY
+157,16,Olabilir,draft,2.0,ravioli,AGS
+157,3,Her zaman,draft,2.0,ravioli,EGG
+157,1,Her zaman,draft,2.0,ravioli,GLU
+157,2,Sıklıkla,draft+adjudication,2.0,ravioli,MLK
+158,3,Her zaman,draft,2.0,red-velvet-cake,EGG
+158,1,Her zaman,draft,2.0,red-velvet-cake,GLU
+158,2,Her zaman,draft,2.0,red-velvet-cake,MLK
+159,10,Olabilir,draft+adjudication,2.0,risotto,CEL
+159,2,Her zaman,draft,2.0,risotto,MLK
+159,17,Her zaman,draft,2.0,risotto,RCE
+159,12,Sıklıkla,draft,2.0,risotto,SUL
+160,2,Her zaman,draft,2.0,sahlep,MLK
+162,1,Her zaman,draft,2.0,salcali-makarna,GLU
+162,2,Olabilir,adjudication,2.0,salcali-makarna,MLK
+163,1,Her zaman,draft,2.0,samosa,GLU
+163,2,Olabilir,draft,2.0,samosa,MLK
+163,11,Olabilir,draft,2.0,samosa,MUS
+163,9,Olabilir,draft+adjudication,2.0,samosa,SES
+164,16,Olabilir,draft,2.0,sandvic,AGS
+164,3,Olabilir,draft,2.0,sandvic,EGG
+164,1,Her zaman,draft,2.0,sandvic,GLU
+164,2,Sıklıkla,draft+adjudication,2.0,sandvic,MLK
+164,11,Olabilir,draft+adjudication,2.0,sandvic,MUS
+165,8,Olabilir,draft,2.0,sashimi,CRU
+165,7,Her zaman,draft,2.0,sashimi,FSH
+165,1,Olabilir,draft,2.0,sashimi,GLU
+165,14,Olabilir,draft,2.0,sashimi,MOL
+165,9,Olabilir,adjudication,2.0,sashimi,SES
+165,6,Sıklıkla,draft,2.0,sashimi,SOY
+166,22,Sıklıkla,draft+adjudication,2.0,scallops,GAR
+166,2,Sıklıkla,draft+adjudication,2.0,scallops,MLK
+166,14,Her zaman,draft,2.0,scallops,MOL
+166,12,Olabilir,draft+adjudication,2.0,scallops,SUL
+167,1,Sıklıkla,draft+adjudication,2.0,seaweed-salad,GLU
+167,17,Olabilir,adjudication,2.0,seaweed-salad,RCE
+167,9,Her zaman,draft,2.0,seaweed-salad,SES
+167,6,Sıklıkla,draft,2.0,seaweed-salad,SOY
+167,12,Olabilir,adjudication,2.0,seaweed-salad,SUL
+169,10,Olabilir,draft+adjudication,2.0,sehriye-corbasi,CEL
+169,1,Her zaman,draft,2.0,sehriye-corbasi,GLU
+169,2,Olabilir,draft,2.0,sehriye-corbasi,MLK
+170,16,Sıklıkla,draft+adjudication,2.0,shrimp-and-grits,AGS
+170,8,Her zaman,draft,2.0,shrimp-and-grits,CRU
+170,22,Sıklıkla,draft+adjudication,2.0,shrimp-and-grits,GAR
+170,15,Her zaman,draft+adjudication,2.0,shrimp-and-grits,MAZ
+170,2,Her zaman,draft,2.0,shrimp-and-grits,MLK
+171,1,Her zaman,draft,2.0,simit,GLU
+171,9,Her zaman,draft,2.0,simit,SES
+173,16,Her zaman,draft,2.0,spaghetti-bolognese,AGS
+173,10,Sıklıkla,draft+adjudication,2.0,spaghetti-bolognese,CEL
+173,22,Olabilir,adjudication,2.0,spaghetti-bolognese,GAR
+173,1,Her zaman,draft,2.0,spaghetti-bolognese,GLU
+173,2,Sıklıkla,draft+adjudication,2.0,spaghetti-bolognese,MLK
+173,12,Olabilir,draft,2.0,spaghetti-bolognese,SUL
+174,16,Her zaman,draft+adjudication,2.0,spaghetti-carbonara,AGS
+174,3,Her zaman,draft,2.0,spaghetti-carbonara,EGG
+174,1,Her zaman,draft,2.0,spaghetti-carbonara,GLU
+174,2,Her zaman,draft,2.0,spaghetti-carbonara,MLK
+175,16,Olabilir,draft,2.0,spring-rolls,AGS
+175,8,Olabilir,draft,2.0,spring-rolls,CRU
+175,7,Olabilir,draft+adjudication,2.0,spring-rolls,FSH
+175,1,Sıklıkla,draft,2.0,spring-rolls,GLU
+175,4,Olabilir,draft+adjudication,2.0,spring-rolls,PNT
+175,17,Olabilir,draft+adjudication,2.0,spring-rolls,RCE
+175,6,Sıklıkla,draft+adjudication,2.0,spring-rolls,SOY
+176,16,Her zaman,draft,2.0,steak,AGS
+176,22,Olabilir,draft,2.0,steak,GAR
+176,2,Olabilir,draft,2.0,steak,MLK
+177,3,Sıklıkla,draft,2.0,strawberry-shortcake,EGG
+177,1,Her zaman,draft,2.0,strawberry-shortcake,GLU
+177,2,Her zaman,draft+adjudication,2.0,strawberry-shortcake,MLK
+178,3,Her zaman,draft,2.0,su-boregi,EGG
+178,1,Her zaman,draft,2.0,su-boregi,GLU
+178,2,Her zaman,draft,2.0,su-boregi,MLK
+179,16,Her zaman,draft,2.0,sucuklu-yumurta,AGS
+179,3,Her zaman,draft,2.0,sucuklu-yumurta,EGG
+179,22,Sıklıkla,draft+adjudication,2.0,sucuklu-yumurta,GAR
+179,2,Olabilir,draft,2.0,sucuklu-yumurta,MLK
+180,16,Olabilir,draft,2.0,sulu-bamya-yemegi,AGS
+182,16,Olabilir,draft,2.0,sulu-bezelye-yemegi,AGS
+183,16,Olabilir,draft,2.0,sulu-mercimek-yemegi,AGS
+183,1,Olabilir,draft,2.0,sulu-mercimek-yemegi,GLU
+183,17,Olabilir,draft,2.0,sulu-mercimek-yemegi,RCE
+184,16,Sıklıkla,draft+adjudication,2.0,sulu-nohut-yemegi,AGS
+184,2,Olabilir,draft,2.0,sulu-nohut-yemegi,MLK
+185,16,Olabilir,draft,2.0,sulu-patates-yemegi,AGS
+186,8,Olabilir,draft,2.0,sushi,CRU
+186,3,Olabilir,draft,2.0,sushi,EGG
+186,7,Sıklıkla,draft,2.0,sushi,FSH
+186,1,Olabilir,draft,2.0,sushi,GLU
+186,17,Her zaman,draft,2.0,sushi,RCE
+186,9,Sıklıkla,draft+adjudication,2.0,sushi,SES
+186,6,Sıklıkla,draft,2.0,sushi,SOY
+187,2,Her zaman,draft,2.0,sutlac,MLK
+187,17,Her zaman,draft,2.0,sutlac,RCE
+188,16,Sıklıkla,draft+adjudication,2.0,tacos,AGS
+188,1,Olabilir,adjudication,2.0,tacos,GLU
+188,15,Sıklıkla,draft,2.0,tacos,MAZ
+188,2,Olabilir,draft,2.0,tacos,MLK
+189,3,Her zaman,draft,2.0,takoyaki,EGG
+189,7,Sıklıkla,draft+adjudication,2.0,takoyaki,FSH
+189,22,Olabilir,adjudication,2.0,takoyaki,GAR
+189,1,Her zaman,draft,2.0,takoyaki,GLU
+189,14,Her zaman,draft,2.0,takoyaki,MOL
+189,6,Sıklıkla,draft,2.0,takoyaki,SOY
+190,16,Her zaman,draft,2.0,tantuni,AGS
+190,22,Olabilir,adjudication,2.0,tantuni,GAR
+190,1,Her zaman,draft,2.0,tantuni,GLU
+191,1,Her zaman,draft,2.0,tarhana-corbasi,GLU
+191,2,Her zaman,draft,2.0,tarhana-corbasi,MLK
+192,16,Her zaman,draft,2.0,tas-kebabi,AGS
+192,22,Olabilir,adjudication,2.0,tas-kebabi,GAR
+192,1,Olabilir,draft,2.0,tas-kebabi,GLU
+192,2,Sıklıkla,draft+adjudication,2.0,tas-kebabi,MLK
+193,22,Olabilir,draft,2.0,tavuk-sote,GAR
+193,2,Olabilir,draft,2.0,tavuk-sote,MLK
+194,16,Olabilir,draft,2.0,taze-fasulye,AGS
+194,22,Olabilir,adjudication,2.0,taze-fasulye,GAR
+195,3,Her zaman,draft,2.0,tiramisu,EGG
+195,1,Her zaman,draft+adjudication,2.0,tiramisu,GLU
+195,2,Her zaman,draft,2.0,tiramisu,MLK
+195,5,Olabilir,adjudication,2.0,tiramisu,NUT
+195,12,Olabilir,draft,2.0,tiramisu,SUL
+196,3,Her zaman,draft,2.0,tulumba-tatlisi,EGG
+196,1,Her zaman,draft,2.0,tulumba-tatlisi,GLU
+196,2,Sıklıkla,draft+adjudication,2.0,tulumba-tatlisi,MLK
+197,3,Olabilir,draft,2.0,tuna-tartare,EGG
+197,7,Her zaman,draft,2.0,tuna-tartare,FSH
+197,1,Olabilir,draft,2.0,tuna-tartare,GLU
+197,9,Sıklıkla,draft+adjudication,2.0,tuna-tartare,SES
+197,6,Sıklıkla,draft+adjudication,2.0,tuna-tartare,SOY
+199,22,Sıklıkla,draft+adjudication,2.0,tursu,GAR
+199,12,Olabilir,draft,2.0,tursu,SUL
+201,3,Her zaman,draft,2.0,waffles,EGG
+201,1,Her zaman,draft,2.0,waffles,GLU
+201,2,Her zaman,draft,2.0,waffles,MLK
+202,16,Olabilir,draft,2.0,yaprak-sarma,AGS
+202,19,Sıklıkla,draft,2.0,yaprak-sarma,PIN
+202,17,Her zaman,draft,2.0,yaprak-sarma,RCE
+202,12,Olabilir,adjudication,2.0,yaprak-sarma,SUL
+203,3,Sıklıkla,draft,2.0,yayla-corbasi,EGG
+203,1,Sıklıkla,draft+adjudication,2.0,yayla-corbasi,GLU
+203,2,Her zaman,draft,2.0,yayla-corbasi,MLK
+203,17,Her zaman,draft,2.0,yayla-corbasi,RCE
+205,2,Her zaman,draft,2.0,yogurt,MLK
+206,22,Sıklıkla,draft+adjudication,2.0,yogurtlu-makarna,GAR
+206,1,Her zaman,draft,2.0,yogurtlu-makarna,GLU
+206,2,Her zaman,draft,2.0,yogurtlu-makarna,MLK

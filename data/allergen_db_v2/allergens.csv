@@ -1,0 +1,23 @@
+AlerjenID,Kod,AlerjenAdi,AlerjenAdiEN,Grup,YasalDayanak
+1,GLU,Gluten içeren tahıllar,Cereals containing gluten,A_regulated,Reg. (EU) 1169/2011 Annex II item 1; TGK Etiketleme Yönetmeliği Ek-1 item 1
+2,MLK,Süt,Milk,A_regulated,Annex II item 7; TGK Ek-1 item 7
+3,EGG,Yumurta,Eggs,A_regulated,Annex II item 3; TGK Ek-1 item 3
+4,PNT,Yer fıstığı,Peanuts,A_regulated,Annex II item 5; TGK Ek-1 item 5
+5,NUT,Sert kabuklu meyveler,Tree nuts,A_regulated,Annex II item 8; TGK Ek-1 item 8
+6,SOY,Soya,Soybeans,A_regulated,Annex II item 6; TGK Ek-1 item 6
+7,FSH,Balık,Fish,A_regulated,Annex II item 4; TGK Ek-1 item 4
+8,CRU,Kabuklu deniz ürünleri (kabuklular),Crustaceans,A_regulated,Annex II item 2; TGK Ek-1 item 2
+9,SES,Susam,Sesame seeds,A_regulated,Annex II item 11; TGK Ek-1 item 11
+10,CEL,Kereviz,Celery,A_regulated,Annex II item 9; TGK Ek-1 item 9
+11,MUS,Hardal,Mustard,A_regulated,Annex II item 10; TGK Ek-1 item 10
+12,SUL,Kükürt dioksit ve sülfitler,Sulphur dioxide and sulphites,A_regulated,Annex II item 12; TGK Ek-1 item 12
+13,LUP,Acı bakla (lupin),Lupin,A_regulated,Annex II item 13; TGK Ek-1 item 13
+14,MOL,Yumuşakçalar,Molluscs,A_regulated,Annex II item 14; TGK Ek-1 item 14
+15,MAZ,Mısır,Maize (corn),B_additional_food,Not regulated; reported food allergen (user-selectable)
+16,AGS,Memeli eti (alfa-gal sendromu),Mammalian meat (alpha-gal syndrome),C_syndrome,"Not regulated; delayed IgE reaction to galactose-α-1,3-galactose"
+17,RCE,Pirinç,Rice,B_additional_food,Not regulated; reported food allergen (user-selectable)
+18,SUN,Ayçiçeği tohumu,Sunflower seed,B_additional_food,Not regulated; reported food allergen (user-selectable)
+19,PIN,Çam fıstığı,Pine nut,B_additional_food,Not regulated (pine nut is not on the Annex II tree-nut list); reported food allergen
+20,PNA,Ananas,Pineapple,B_additional_food,Not regulated; reported food allergen (user-selectable)
+21,KIW,Kivi,Kiwi fruit,B_additional_food,Not regulated; reported food allergen (user-selectable)
+22,GAR,Sarımsak,Garlic,B_additional_food,Not regulated; reported food hypersensitivity (user-selectable)

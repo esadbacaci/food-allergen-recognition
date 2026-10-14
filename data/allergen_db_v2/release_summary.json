@@ -1,0 +1,18 @@
+{
+  "version": "2.0",
+  "classes": 206,
+  "relations": 664,
+  "by_level": {
+    "Her zaman": 261,
+    "Olabilir": 229,
+    "Sıklıkla": 174
+  },
+  "by_source": {
+    "draft": 406,
+    "adjudication": 47,
+    "draft+adjudication": 211
+  },
+  "regulated_relations": 504,
+  "classes_without_draft": [],
+  "unconfirmed_decisions": 264
+}
