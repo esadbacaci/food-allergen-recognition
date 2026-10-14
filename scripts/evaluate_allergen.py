@@ -86,13 +86,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default=str(paths.REPO_DATA / "allergen_db_v1"))
     ap.add_argument("--model", default="effv2s")
+    ap.add_argument("--group", default="main", choices=["main", "final"])
     args = ap.parse_args()
     db = Path(args.db)
     classes = read_class_map()
     prof, covered, names = class_profiles(db, [c["class_id"] for c in classes])
     per_seed = []
     for s in SEEDS:
-        rd = paths.RUNS / "main" / args.model / f"seed{s}"
+        rd = paths.RUNS / args.group / args.model / f"seed{s}"
         if not (rd / "DONE").exists():
             continue
         z = np.load(rd / "logits_test.npz")
@@ -124,14 +125,14 @@ def main():
                          "Withheld (%)": f"{np.mean([r[policy]['withheld_share'] for r in per_seed]) * 100:.1f}"})
     out = paths.RUNS / "analysis"
     out.mkdir(parents=True, exist_ok=True)
-    tag = Path(args.db).name
+    tag = f"{args.group}_{Path(args.db).name}"
     with open(out / f"allergen_metrics_{args.model}_{tag}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)
     (out / f"allergen_metrics_{args.model}_{tag}.json").write_text(
         json.dumps({"excluded_test_images_no_db_entry": int((~covered[np.load(
-            paths.RUNS / 'main' / args.model / f'seed{SEEDS[0]}' / 'logits_test.npz')['labels']]).sum()),
+            paths.RUNS / args.group / args.model / f'seed{SEEDS[0]}' / 'logits_test.npz')['labels']]).sum()),
             "classes_without_db_entry": [c["class_id"] for c, ok in zip(classes, covered) if not ok],
             "per_seed": per_seed}, default=str, indent=1), encoding="utf-8")
     for r in rows:

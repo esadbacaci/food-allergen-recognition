@@ -19,14 +19,14 @@ import torch
 import torch.nn as nn
 from sklearn.metrics import f1_score
 
-from .data import make_loaders
+from .data import gpu_preprocess, make_loaders
 from .models import TRANSFORMERS, build_model, param_groups
 
 DEFAULTS = dict(
     model="effb0", seed=1, epochs=20, warmup_epochs=2, lr=1e-3, weight_decay=0.05,
     optimizer="adamw", schedule="cosine", label_smoothing=0.1, class_weights=True,
     llrd=None, aug="strong", img_size=224, effective_batch=64, physical_batch=64,
-    num_workers=12, eval_test=True, keep_best_weights=True,
+    num_workers=8, eval_workers=4, eval_test=True, keep_best_weights=True, image_dir="images",
 )
 
 
@@ -58,9 +58,7 @@ def predict(model, loader, device, channels_last):
     model.eval()
     outs, ys = [], []
     for x, y in loader:
-        x = x.to(device, non_blocking=True)
-        if channels_last:
-            x = x.contiguous(memory_format=torch.channels_last)
+        x = gpu_preprocess(x, device, channels_last)
         with torch.autocast("cuda", dtype=torch.bfloat16):
             out = model(x)
         outs.append(out.float().cpu())
@@ -102,7 +100,7 @@ def run(cfg, run_dir):
     accum = cfg["effective_batch"] // cfg["physical_batch"]
     assert accum * cfg["physical_batch"] == cfg["effective_batch"]
     data = make_loaders(cfg["physical_batch"], cfg["seed"], cfg["img_size"], cfg["aug"],
-                        cfg["num_workers"])
+                        cfg["num_workers"], cfg["eval_workers"], image_dir=cfg["image_dir"])
     n_cls = len(data["class_ids"])
     model = build_model(cfg["model"], n_cls).to(device)
     channels_last = cfg["model"] not in TRANSFORMERS
@@ -142,13 +140,14 @@ def run(cfg, run_dir):
     for epoch in range(start_epoch, cfg["epochs"]):
         model.train()
         t0 = time.time()
-        loss_sum, correct, seen = 0.0, 0, 0
+        # running sums stay on the GPU: one synchronisation per epoch instead of per step
+        loss_sum = torch.zeros((), device=device)
+        correct = torch.zeros((), device=device, dtype=torch.long)
+        seen = 0
         opt.zero_grad(set_to_none=True)
         for it, (x, y) in enumerate(data["train"]):
-            x = x.to(device, non_blocking=True)
+            x = gpu_preprocess(x, device, channels_last, erase=cfg["aug"] == "strong")
             y = y.to(device, non_blocking=True)
-            if channels_last:
-                x = x.contiguous(memory_format=torch.channels_last)
             with torch.autocast("cuda", dtype=torch.bfloat16):
                 out = model(x)
             loss = criterion(out.float(), y)
@@ -160,9 +159,10 @@ def run(cfg, run_dir):
                 opt.step()
                 opt.zero_grad(set_to_none=True)
                 step += 1
-            loss_sum += loss.item() * y.size(0)
-            correct += (out.argmax(1) == y).sum().item()
+            loss_sum += loss.detach() * y.size(0)
+            correct += (out.argmax(1) == y).sum()
             seen += y.size(0)
+        loss_sum, correct = loss_sum.item(), correct.item()
         train_time = time.time() - t0
         t_train += train_time
 

@@ -63,6 +63,24 @@ def ablation_runs():
             yield paths.RUNS / "ablation" / name / f"seed{seed}", cfg
 
 
+FINAL_CHOICE_FILE = paths.REPO_DATA / "final_choice.json"
+FINAL = dict(img_size=320, epochs=30, warmup_epochs=2, image_dir="images_448")
+
+
+def final_runs():
+    """Deployed model: the backbone with the best mean VALIDATION accuracy in `main`
+    (scripts/select_final.py; the test set plays no part in the choice), retrained at
+    320 px for 30 epochs with the same recipe and learning rate. Reported separately
+    from the controlled comparison."""
+    choice = json.loads(FINAL_CHOICE_FILE.read_text())
+    m = choice["model"]
+    extra = dict(FINAL)
+    if m == "vit_b16":  # torchvision ViT-B/16 weights are tied to 224 px position embeddings
+        extra["img_size"] = 224
+    for seed in SEEDS:
+        yield paths.RUNS / "final" / m / f"seed{seed}", dict(base_cfg(m), lr=choice["lr"], seed=seed, **extra)
+
+
 def pilot_runs():
     yield paths.RUNS / "pilot" / "effb0", dict(base_cfg("effb0"), lr=1e-3, seed=0, epochs=1,
                                                warmup_epochs=1, eval_test=False,
@@ -70,4 +88,4 @@ def pilot_runs():
 
 
 EXPERIMENTS = {"pilot": pilot_runs, "sweep": sweep_runs, "main": main_runs,
-               "ablation": ablation_runs}
+               "ablation": ablation_runs, "final": final_runs}

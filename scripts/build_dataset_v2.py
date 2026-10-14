@@ -11,6 +11,7 @@ Stages (each one caches its output, so they can be run separately):
     python scripts/build_dataset_v2.py --stage index_v1
     python scripts/build_dataset_v2.py --stage index_f101
     python scripts/build_dataset_v2.py --stage build
+    python scripts/build_dataset_v2.py --stage cache --short-side 448   (final model)
 
 Design (see data/dataset_report_v2.json for the resulting numbers):
   * Food-101 part = the official archive (all 101 classes, official train/test lists).
@@ -150,7 +151,7 @@ def stratified_split(items_by_class, fractions, rng):
 
 
 def _resize_one(args):
-    src, dst = args
+    src, dst, side = args if len(args) == 3 else (*args, SHORT_SIDE)
     from PIL import Image, ImageOps
     if os.path.exists(dst):
         return True
@@ -158,7 +159,7 @@ def _resize_one(args):
         with Image.open(src) as im:
             im = ImageOps.exif_transpose(im).convert("RGB")
             w, h = im.size
-            s = SHORT_SIDE / min(w, h)
+            s = side / min(w, h)
             if s < 1:
                 im = im.resize((max(1, round(w * s)), max(1, round(h * s))), Image.BICUBIC)
             os.makedirs(os.path.dirname(dst), exist_ok=True)
@@ -399,8 +400,32 @@ def stage_build():
           "| resize failures:", len(failed))
 
 
+def stage_cache(side):
+    """Extra resized copy of the v2 images (same manifest) for high-resolution training,
+    written to 01_veri/v2/images_<side> from the original files."""
+    with open(paths.MANIFEST_V2, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    out = paths.V2_DIR / f"images_{side}"
+    jobs = []
+    for r in rows:
+        if r["source"] == "food101":
+            src = paths.FOOD101_DIR / "images" / r["cls"].replace("-", "_") / (r["uid"][len("f101_"):] + ".jpg")
+        else:
+            src = paths.V1_DATASET / r["orig_name"]
+        jobs.append((str(src), str(out / r["path"]), side))
+    print(f"Writing {len(jobs)} images with shorter side {side} to {out} ...", flush=True)
+    with Pool(WORKERS) as p:
+        ok = p.map(_resize_one, jobs, chunksize=64)
+    bad = [jobs[k][0] for k, good in enumerate(ok) if not good]
+    print(f"done, failures: {len(bad)}", bad[:5])
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--stage", required=True, choices=["index_v1", "index_f101", "build"])
-    stage = ap.parse_args().stage
-    {"index_v1": stage_index_v1, "index_f101": stage_index_f101, "build": stage_build}[stage]()
+    ap.add_argument("--stage", required=True, choices=["index_v1", "index_f101", "build", "cache"])
+    ap.add_argument("--short-side", type=int, default=448, help="for --stage cache")
+    a = ap.parse_args()
+    if a.stage == "cache":
+        stage_cache(a.short_side)
+    else:
+        {"index_v1": stage_index_v1, "index_f101": stage_index_f101, "build": stage_build}[a.stage]()

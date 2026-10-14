@@ -106,6 +106,27 @@ def main():
     write_csv(OUT / "main_table.csv", table)
     write_md(OUT / "main_table.md", list(table[0]), table)
 
+    # ------------------------------------------------------------- final (deployed) model
+    final_rows = []
+    for rd in sorted((paths.RUNS / "final").glob("*/seed*")):
+        if (rd / "DONE").exists():
+            lg, y = load(rd)
+            row = dict(model=rd.parent.name, seed=rd.name)
+            for name, kw in [("all", {}), ("f101_official_101way", dict(mask=is_f101, restrict_to=f101_idx)),
+                             ("turkish", dict(mask=is_tr))]:
+                for k, v in M.classification(lg, y, **kw).items():
+                    row[f"{name}_{k}"] = v
+            final_rows.append(row)
+    if final_rows:
+        write_csv(OUT / "final_per_run.csv", final_rows)
+        ft = [{"Model": DISPLAY[final_rows[0]["model"]] + " (320 px, 30 epochs)", "Seeds": len(final_rows),
+               **{col: fmt(*M.mean_sd([r[key] for r in final_rows])) for col, key in
+                  [("Top-1 (%)", "all_acc"), ("Top-5 (%)", "all_top5"), ("Macro-F1 (%)", "all_macro_f1"),
+                   ("Food-101 official test, 101-way (%)", "f101_official_101way_acc"),
+                   ("Turkish subset (%)", "turkish_acc")]}}]
+        write_csv(OUT / "final_table.csv", ft)
+        write_md(OUT / "final_table.md", list(ft[0]), ft)
+
     # ------------------------------------------------------------- McNemar + Holm
     mc_rows = []
     for s in SEEDS:
