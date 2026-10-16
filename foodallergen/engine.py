@@ -92,6 +92,10 @@ def run(cfg, run_dir):
         log_f.write(line + "\n")
         log_f.flush()
 
+    # Several runs share one process: release the CUDA cache of the previous model. Otherwise the
+    # 8 GB card fills up and the Windows driver silently falls back to system memory (3x slower).
+    gc.collect()
+    torch.cuda.empty_cache()
     set_seed(cfg["seed"])
     torch.backends.cudnn.benchmark = True
     torch.backends.cuda.matmul.allow_tf32 = True
@@ -215,4 +219,7 @@ def run(cfg, run_dir):
     (run_dir / "DONE").write_text(time.strftime("%Y-%m-%d %H:%M:%S"))
     log(f"finished: best epoch {best_epoch} | {json.dumps(metrics)}")
     log_f.close()
+    del model, opt, best_state, data
+    gc.collect()
+    torch.cuda.empty_cache()
     return metrics
