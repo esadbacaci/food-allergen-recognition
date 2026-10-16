@@ -64,6 +64,19 @@ def gpu_temp():
         return None, "GPU bilgisi alınamadı"
 
 
+def training_alive():
+    """True if a 'scripts/run.py' training process exists."""
+    import subprocess
+    cmd = ("@(Get-CimInstance Win32_Process -Filter \"Name='python.exe'\" | "
+           "Where-Object { $_.CommandLine -match 'scripts.run\\.py' }).Count")
+    try:
+        out = subprocess.run(["powershell", "-NoProfile", "-Command", cmd], capture_output=True,
+                             text=True, timeout=60).stdout.strip()
+        return int(out or 0) > 0
+    except Exception:
+        return True  # unknown: do not claim that training stopped
+
+
 def progress_text():
     import io
     from contextlib import redirect_stdout
@@ -140,8 +153,12 @@ def main():
                 done_announced = True
             idle = (time.time() - last_epoch_time()) / 60
             if not done_announced and idle > STALL_MINUTES and not stall_warned:
-                send(cfg, f"⏸️ {idle:.0f} dakikadır yeni epoch yok. Bilgisayar uykuya geçmiş ya da eğitim durmuş "
-                          f"olabilir. Gerekirse 02_kod\\EGITIMI_DEVAM_ETTIR.cmd çalıştırın.")
+                if training_alive():
+                    send(cfg, f"🐢 Eğitim ÇALIŞIYOR ama yavaşladı: son epoch {idle:.0f} dakika önce bitti. "
+                              f"Sizin bir şey yapmanıza gerek yok; otomatik kontrol nedenini inceleyecek.")
+                else:
+                    send(cfg, f"⛔ Eğitim süreci DURMUŞ (son epoch {idle:.0f} dakika önce). "
+                              f"02_kod\\EGITIMI_DEVAM_ETTIR.cmd dosyasına çift tıklayın; kaldığı yerden devam eder.")
                 stall_warned = True
             if idle < 5:
                 stall_warned = False
