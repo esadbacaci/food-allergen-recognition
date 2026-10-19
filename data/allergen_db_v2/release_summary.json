@@ -1,7 +1,7 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "classes": 206,
-  "relations": 664,
+  "relations": 666,
   "by_level": {
     "Her zaman": 261,
     "Olabilir": 229,
@@ -12,7 +12,8 @@
     "adjudication": 47,
     "draft+adjudication": 211
   },
-  "regulated_relations": 504,
+  "regulated_relations": 506,
   "classes_without_draft": [],
-  "unconfirmed_decisions": 0
+  "unconfirmed_decisions": 0,
+  "expert_corrections": 11
 }

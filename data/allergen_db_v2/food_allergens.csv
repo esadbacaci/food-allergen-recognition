@@ -210,7 +210,7 @@ YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
 62,22,Olabilir,adjudication,2.0,et-sote,GAR
 62,2,Sıklıkla,draft+adjudication,2.0,et-sote,MLK
 63,22,Sıklıkla,draft,2.0,falafel,GAR
-63,1,Sıklıkla,draft,2.0,falafel,GLU
+63,1,Olabilir,expert,2.1,falafel,GLU
 63,9,Sıklıkla,draft,2.0,falafel,SES
 64,16,Her zaman,draft,2.0,filet-mignon,AGS
 64,22,Sıklıkla,draft+adjudication,2.0,filet-mignon,GAR
@@ -330,7 +330,7 @@ YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
 96,22,Olabilir,adjudication,2.0,kabak-mucver,GAR
 96,1,Her zaman,draft,2.0,kabak-mucver,GLU
 96,2,Sıklıkla,draft+adjudication,2.0,kabak-mucver,MLK
-97,3,Sıklıkla,draft,2.0,kalburabasti,EGG
+97,3,Olabilir,expert,2.1,kalburabasti,EGG
 97,1,Her zaman,draft,2.0,kalburabasti,GLU
 97,2,Sıklıkla,draft+adjudication,2.0,kalburabasti,MLK
 97,5,Her zaman,draft+adjudication,2.0,kalburabasti,NUT
@@ -363,7 +363,7 @@ YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
 110,1,Her zaman,draft,2.0,kiymali-pide,GLU
 110,2,Olabilir,draft,2.0,kiymali-pide,MLK
 111,16,Her zaman,draft,2.0,kofte,AGS
-111,3,Olabilir,draft,2.0,kofte,EGG
+111,3,Sıklıkla,expert,2.1,kofte,EGG
 111,22,Olabilir,adjudication,2.0,kofte,GAR
 111,1,Sıklıkla,draft,2.0,kofte,GLU
 112,16,Her zaman,draft,2.0,kokorec,AGS
@@ -382,9 +382,9 @@ YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
 116,7,Her zaman,draft,2.0,levrek,FSH
 117,10,Sıklıkla,draft,2.0,lobster-bisque,CEL
 117,8,Her zaman,draft,2.0,lobster-bisque,CRU
-117,1,Olabilir,draft,2.0,lobster-bisque,GLU
+117,1,Sıklıkla,expert,2.1,lobster-bisque,GLU
 117,2,Her zaman,draft+adjudication,2.0,lobster-bisque,MLK
-117,12,Sıklıkla,draft+adjudication,2.0,lobster-bisque,SUL
+117,12,Olabilir,expert,2.1,lobster-bisque,SUL
 118,10,Sıklıkla,draft+adjudication,2.0,lobster-roll-sandwich,CEL
 118,8,Her zaman,draft,2.0,lobster-roll-sandwich,CRU
 118,3,Sıklıkla,draft+adjudication,2.0,lobster-roll-sandwich,EGG
@@ -420,7 +420,7 @@ YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
 128,22,Sıklıkla,draft+adjudication,2.0,midye-tava,GAR
 128,1,Her zaman,draft,2.0,midye-tava,GLU
 128,14,Her zaman,draft,2.0,midye-tava,MOL
-128,5,Sıklıkla,draft+adjudication,2.0,midye-tava,NUT
+128,5,Olabilir,expert,2.1,midye-tava,NUT
 129,7,Sıklıkla,draft+adjudication,2.0,miso-soup,FSH
 129,22,Olabilir,adjudication,2.0,miso-soup,GAR
 129,1,Olabilir,draft,2.0,miso-soup,GLU
@@ -502,7 +502,7 @@ YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
 154,12,Olabilir,draft+adjudication,2.0,prime-rib,SUL
 155,16,Her zaman,draft,2.0,pulled-pork-sandwich,AGS
 155,10,Olabilir,draft+adjudication,2.0,pulled-pork-sandwich,CEL
-155,3,Sıklıkla,draft,2.0,pulled-pork-sandwich,EGG
+155,3,Olabilir,expert,2.1,pulled-pork-sandwich,EGG
 155,7,Olabilir,draft,2.0,pulled-pork-sandwich,FSH
 155,1,Her zaman,draft,2.0,pulled-pork-sandwich,GLU
 155,11,Sıklıkla,draft,2.0,pulled-pork-sandwich,MUS
@@ -540,7 +540,7 @@ YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
 164,11,Olabilir,draft+adjudication,2.0,sandvic,MUS
 165,8,Olabilir,draft,2.0,sashimi,CRU
 165,7,Her zaman,draft,2.0,sashimi,FSH
-165,1,Olabilir,draft,2.0,sashimi,GLU
+165,1,Sıklıkla,expert,2.1,sashimi,GLU
 165,14,Olabilir,draft,2.0,sashimi,MOL
 165,9,Olabilir,adjudication,2.0,sashimi,SES
 165,6,Sıklıkla,draft,2.0,sashimi,SOY
@@ -582,7 +582,7 @@ YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
 175,6,Sıklıkla,draft+adjudication,2.0,spring-rolls,SOY
 176,16,Her zaman,draft,2.0,steak,AGS
 176,22,Olabilir,draft,2.0,steak,GAR
-176,2,Olabilir,draft,2.0,steak,MLK
+176,2,Sıklıkla,expert,2.1,steak,MLK
 177,3,Sıklıkla,draft,2.0,strawberry-shortcake,EGG
 177,1,Her zaman,draft,2.0,strawberry-shortcake,GLU
 177,2,Her zaman,draft+adjudication,2.0,strawberry-shortcake,MLK
@@ -663,3 +663,5 @@ YiyecekID,AlerjenID,Miktar,Kaynak,Surum,class_id,code
 206,22,Sıklıkla,draft+adjudication,2.0,yogurtlu-makarna,GAR
 206,1,Her zaman,draft,2.0,yogurtlu-makarna,GLU
 206,2,Her zaman,draft,2.0,yogurtlu-makarna,MLK
+201,6,Sıklıkla,expert,2.1,waffles,SOY
+201,5,Sıklıkla,expert,2.1,waffles,NUT

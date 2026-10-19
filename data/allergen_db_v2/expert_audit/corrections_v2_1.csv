@@ -1,0 +1,12 @@
+class_id,code,v2_0,v2_1,note
+kalburabasti,EGG,Sıklıkla,Olabilir,"Un içerir; ceviz, süt ürünleri ve yumurta tarife bağlıdır."
+falafel,GLU,Sıklıkla,Olabilir,Tahinli sos yaygındır; bağlayıcı ve yoğurtlu sos değişebilir.
+midye-tava,NUT,Sıklıkla,Olabilir,"Midye ve un içerir; kaplama, tarator ve ortak fritöz kontrol edilir."
+steak,MLK,Olabilir,Sıklıkla,Tereyağı yaygındır; marinad ve sos içeriği değişebilir.
+waffles,SOY,Yok,Sıklıkla,"Hamur un, yumurta ve süt içerir; çikolata ve süslemeler değişebilir."
+waffles,NUT,Yok,Sıklıkla,"Hamur un, yumurta ve süt içerir; çikolata ve süslemeler değişebilir."
+pulled-pork-sandwich,EGG,Sıklıkla,Olabilir,"Ekmek gluten içerir; BBQ sos, coleslaw ve ekmek türü değişebilir."
+lobster-bisque,GLU,Olabilir,Sıklıkla,"Istakoz içerir; krema, un, kereviz, et suyu ve şarap değişebilir."
+lobster-bisque,SUL,Sıklıkla,Olabilir,"Istakoz içerir; krema, un, kereviz, et suyu ve şarap değişebilir."
+kofte,EGG,Olabilir,Sıklıkla,Ekmek/galeta unu ve yumurta yaygındır; hazır harç değişebilir.
+sashimi,GLU,Olabilir,Sıklıkla,"Deniz ürünü türü, soya sosu, wasabi karışımı ve susam değişebilir."

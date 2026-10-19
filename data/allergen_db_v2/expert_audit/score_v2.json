@@ -1,0 +1,169 @@
+{
+  "dishes": 60,
+  "per_allergen": {
+    "GLU": {
+      "expert_positive": 29,
+      "db_positive": 28,
+      "tp": 27,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.9642857142857143,
+      "recall": 0.9310344827586207,
+      "kappa": 0.8997772828507795,
+      "agreement": 0.95
+    },
+    "CRU": {
+      "expert_positive": 2,
+      "db_positive": 2,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "agreement": 1.0
+    },
+    "EGG": {
+      "expert_positive": 13,
+      "db_positive": 14,
+      "tp": 12,
+      "fp": 2,
+      "fn": 1,
+      "precision": 0.8571428571428571,
+      "recall": 0.9230769230769231,
+      "kappa": 0.856687898089172,
+      "agreement": 0.95
+    },
+    "FSH": {
+      "expert_positive": 5,
+      "db_positive": 5,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "agreement": 1.0
+    },
+    "PNT": {
+      "expert_positive": 0,
+      "db_positive": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "kappa": null,
+      "agreement": 1.0
+    },
+    "SOY": {
+      "expert_positive": 4,
+      "db_positive": 3,
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.75,
+      "kappa": 0.8484848484848485,
+      "agreement": 0.9833333333333333
+    },
+    "MLK": {
+      "expert_positive": 28,
+      "db_positive": 27,
+      "tp": 27,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9642857142857143,
+      "kappa": 0.9664429530201343,
+      "agreement": 0.9833333333333333
+    },
+    "NUT": {
+      "expert_positive": 4,
+      "db_positive": 4,
+      "tp": 3,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.75,
+      "recall": 0.75,
+      "kappa": 0.7321428571428572,
+      "agreement": 0.9666666666666667
+    },
+    "CEL": {
+      "expert_positive": 2,
+      "db_positive": 2,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "agreement": 1.0
+    },
+    "MUS": {
+      "expert_positive": 2,
+      "db_positive": 2,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "agreement": 1.0
+    },
+    "SES": {
+      "expert_positive": 1,
+      "db_positive": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "agreement": 1.0
+    },
+    "SUL": {
+      "expert_positive": 0,
+      "db_positive": 1,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "kappa": 0.0,
+      "agreement": 0.9833333333333333
+    },
+    "LUP": {
+      "expert_positive": 0,
+      "db_positive": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "kappa": null,
+      "agreement": 1.0
+    },
+    "MOL": {
+      "expert_positive": 3,
+      "db_positive": 3,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "agreement": 1.0
+    },
+    "pooled": {
+      "decisions": 840,
+      "tp": 87,
+      "fp": 5,
+      "fn": 6,
+      "precision": 0.9456521739130435,
+      "recall": 0.9354838709677419,
+      "kappa": 0.9331829225963207,
+      "agreement": 0.986904761904762
+    }
+  }
+}
