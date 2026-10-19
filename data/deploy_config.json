@@ -1,0 +1,21 @@
+{
+  "model": "maxvit_t",
+  "run": "maxvit_t/seed1",
+  "input_size": 224,
+  "resize_shorter_side": 256,
+  "interpolation": "bicubic",
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "temperature": 0.8228794814728904,
+  "abstain_threshold": 0.8208474516868591,
+  "abstain_rule": "temperature-scaled max probability below the threshold that gives 95% selective accuracy on the validation set -> ask the user to confirm among top-3",
+  "onnx_sha256": "5b6f7384f89aaa8226f8c19b7b14a16e6b84dd12581ddc520310a5a31514837c"
+}

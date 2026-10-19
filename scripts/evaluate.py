@@ -53,6 +53,24 @@ def write_md(path, header, rows):
     Path(path).write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def calibration_entry(vl, vy, tl, ty, target=0.95):
+    """Temperature and abstention threshold are fitted on VALIDATION logits only; the test set
+    reports ECE/NLL before and after scaling, the risk-coverage curve and the coverage and
+    selective accuracy obtained with the validation threshold (the deployed rule)."""
+    T = M.fit_temperature(vl, vy)
+    p0, p1 = M.calibrated_probs(tl), M.calibrated_probs(tl, T)
+    cov, sel, thr, aurc = M.risk_coverage(p1, ty)
+    vcov, vsel, vthr, _ = M.risk_coverage(M.calibrated_probs(vl, T), vy)
+    tau = M.coverage_at_accuracy(vcov, vsel, vthr, target)["threshold"]
+    keep = p1.max(1) >= tau
+    at_tau = dict(target=target, threshold=tau, test_coverage=float(keep.mean()),
+                  test_selective_acc=float((p1.argmax(1) == ty)[keep].mean()))
+    return dict(temperature=T, ece_before=M.ece(p0, ty), ece_after=M.ece(p1, ty),
+                nll_before=M.nll(p0, ty), nll_after=M.nll(p1, ty), aurc=aurc, val_threshold=at_tau,
+                **{f"coverage_at_{int(t * 100)}": M.coverage_at_accuracy(cov, sel, thr, t)
+                   for t in (0.90, 0.95, 0.98)}), cov, sel
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     classes = read_class_map()
@@ -180,18 +198,20 @@ def main():
                 continue
             vl, vy = load(rd, "val")
             tl, ty = load(rd, "test")
-            T = M.fit_temperature(vl, vy)
-            p0, p1 = M.calibrated_probs(tl), M.calibrated_probs(tl, T)
-            cov, sel, thr, aurc = M.risk_coverage(p1, ty)
-            out.append(dict(seed=s, temperature=T, ece_before=M.ece(p0, ty), ece_after=M.ece(p1, ty),
-                            nll_before=M.nll(p0, ty), nll_after=M.nll(p1, ty), aurc=aurc,
-                            **{f"coverage_at_{int(t * 100)}": M.coverage_at_accuracy(cov, sel, thr, t)
-                               for t in (0.90, 0.95, 0.98)}))
+            entry, cov, sel = calibration_entry(vl, vy, tl, ty)
+            out.append(dict(seed=s, **entry))
             if s == SEEDS[0]:
                 curves[m] = (cov, sel)
         if out:
             calib[m] = out
     (OUT / "calibration.json").write_text(json.dumps(calib, indent=2))
+    final_calib = {}
+    for rd in sorted((paths.RUNS / "final").glob("*/seed*")):
+        if (rd / "DONE").exists():
+            (vl, vy), (tl, ty) = load(rd, "val"), load(rd, "test")
+            final_calib[f"{rd.parent.name}/{rd.name}"] = calibration_entry(vl, vy, tl, ty)[0]
+    if final_calib:
+        (OUT / "calibration_final.json").write_text(json.dumps(final_calib, indent=2))
     if curves:
         import matplotlib
         matplotlib.use("Agg")

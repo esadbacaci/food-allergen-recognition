@@ -14,8 +14,9 @@ question, addressed by the expert audit).
 Warning policies:
   top1          allergens of the top-1 class (the deployed behaviour)
   top3_union    allergens of any of the top-3 classes (conservative alerting)
-  abstain@95    top-1, but predictions below the confidence threshold that gives 95 %
-                selective accuracy on the validation set are withheld ("not sure");
+  abstain@95    top-1, but predictions whose temperature-scaled confidence is below the
+                threshold that gives 95 % selective accuracy on the validation set are
+                withheld ("not sure"); temperature and threshold are fitted on validation only;
                 metrics on the accepted images + the share withheld
 Images whose true class has no database entry are excluded (reported).
 """
@@ -55,10 +56,10 @@ def class_profiles(db_dir, class_ids):
     return prof, np.array(covered), {int(k): v for k, v in names.items()}
 
 
-def evaluate(logits, labels, prof, covered, threshold=None):
+def evaluate(logits, labels, prof, covered, threshold=None, temperature=1.0):
     keep = covered[labels]
     lg, y = logits[keep], labels[keep]
-    probs = M.calibrated_probs(lg)
+    probs = M.calibrated_probs(lg, temperature)
     top = np.argsort(-lg, axis=1)
     res = {}
     for policy in ("top1", "top3_union", "abstain"):
@@ -99,10 +100,11 @@ def main():
         z = np.load(rd / "logits_test.npz")
         zv = np.load(rd / "logits_val.npz")
         vl, vy = zv["logits"].astype(np.float32), zv["labels"]
-        cov, sel, thr, _ = M.risk_coverage(M.calibrated_probs(vl), vy)
+        T = M.fit_temperature(vl, vy)  # same rule as the deployed application (validation only)
+        cov, sel, thr, _ = M.risk_coverage(M.calibrated_probs(vl, T), vy)
         th = M.coverage_at_accuracy(cov, sel, thr, 0.95)["threshold"]
-        r = evaluate(z["logits"].astype(np.float32), z["labels"], prof, covered, th)
-        r["threshold_95"] = th
+        r = evaluate(z["logits"].astype(np.float32), z["labels"], prof, covered, th, T)
+        r["threshold_95"], r["temperature"] = th, T
         per_seed.append(r)
     if not per_seed:
         sys.exit("no finished runs")
