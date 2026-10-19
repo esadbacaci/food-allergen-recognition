@@ -119,7 +119,9 @@ def main():
             final_rows.append(row)
     if final_rows:
         write_csv(OUT / "final_per_run.csv", final_rows)
-        ft = [{"Model": DISPLAY[final_rows[0]["model"]] + " (320 px, 30 epochs)", "Seeds": len(final_rows),
+        fcfg = json.loads(next((paths.RUNS / "final").glob("*/seed*/config.json")).read_text())
+        ft = [{"Model": DISPLAY[final_rows[0]["model"]] + f" ({fcfg['img_size']} px, {fcfg['epochs']} epochs)",
+               "Seeds": len(final_rows),
                **{col: fmt(*M.mean_sd([r[key] for r in final_rows])) for col, key in
                   [("Top-1 (%)", "all_acc"), ("Top-5 (%)", "all_top5"), ("Macro-F1 (%)", "all_macro_f1"),
                    ("Food-101 official test, 101-way (%)", "f101_official_101way_acc"),
