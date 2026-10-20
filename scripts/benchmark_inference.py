@@ -1,6 +1,6 @@
 """Parameters, FLOPs and single-image latency under identical conditions for every backbone.
 
-    python scripts/benchmark_inference.py [--weights main]   -> 03_deneyler/analysis/efficiency.csv
+    python scripts/benchmark_inference.py [--weights main] [--flops-only]   -> 03_deneyler/analysis/efficiency.csv
 
 Conditions (the same for all models; answers reviewer 2/3 on Table 4):
   * batch size 1, 224x224, FP32, weights of a trained run when available;
@@ -79,9 +79,25 @@ def onnx_cpu_latency(model, x):
     return statistics.median(times), so.intra_op_num_threads
 
 
+def count_gflops(model, x):
+    """GFLOPs (two per multiply-accumulate) with torch.utils.flop_counter. The fused fast path of
+    nn.MultiheadAttention (used by torchvision's ViT at inference) is invisible to the counter, so it is
+    disabled while counting; otherwise the attention projections and matmuls of ViT-B/16 are missed."""
+    fast = torch.backends.mha.get_fastpath_enabled()
+    torch.backends.mha.set_fastpath_enabled(False)
+    try:
+        with FlopCounterMode(display=False) as fc, torch.no_grad():
+            model(x)
+    finally:
+        torch.backends.mha.set_fastpath_enabled(fast)
+    return fc.get_total_flops() / 1e9
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--weights", default="main", help="experiment group whose seed1 weights to load")
+    ap.add_argument("--flops-only", action="store_true",
+                    help="recount FLOPs only and update the GFLOPs column of the existing efficiency.csv")
     args = ap.parse_args()
     n_cls = len(read_class_map())
     x = torch.randn(1, 3, 224, 224)
@@ -93,9 +109,11 @@ def main():
             model.load_state_dict(torch.load(w, map_location="cpu"))
         model.eval()
         params = sum(p.numel() for p in model.parameters()) / 1e6
-        with FlopCounterMode(display=False) as fc, torch.no_grad():
-            model(x)
-        gflops = fc.get_total_flops() / 1e9
+        gflops = count_gflops(model, x)
+        if args.flops_only:
+            rows.append({"Model": DISPLAY[m], "GFLOPs": f"{gflops:.2f}"})
+            print(rows[-1], flush=True)
+            continue
         g = gpu_latency(model, x)
         c, threads = onnx_cpu_latency(model, x)
         rows.append({"Model": DISPLAY[m], "Parameters (M)": f"{params:.2f}",
@@ -103,6 +121,17 @@ def main():
                      "CPU ONNX latency (ms, median)": f"{c:.1f}", "CPU threads": threads})
         print(rows[-1], flush=True)
     out = paths.RUNS / "analysis"
+    if args.flops_only:
+        new = {r["Model"]: r["GFLOPs"] for r in rows}
+        old_rows = list(csv.DictReader(open(out / "efficiency.csv", encoding="utf-8")))
+        for r in old_rows:
+            r["GFLOPs"] = new[r["Model"]]
+        with open(out / "efficiency.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=list(old_rows[0]))
+            w.writeheader()
+            w.writerows(old_rows)
+        print("GFLOPs updated in", out / "efficiency.csv")
+        return
     out.mkdir(parents=True, exist_ok=True)
     with open(out / "efficiency.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))

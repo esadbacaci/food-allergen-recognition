@@ -38,6 +38,10 @@ dietitian. Live demo: https://foodrecognition.com.tr
 | `scripts/evaluate_allergen_risk.py` | allergen consequences of errors and the risk-aware rule (conformal thresholds) |
 | `scripts/evaluate_ood.py` | non-food (Caltech-101) test of the classifier and of the food gate |
 | `scripts/benchmark_inference.py`, `scripts/export_onnx.py` | efficiency; ONNX export verified on the whole test set |
+| `scripts/check_near_duplicates.py` | Turkish test accuracy without test images that have a same-class training look-alike at looser pHash thresholds |
+| `scripts/allergen_strict_reference.py` | allergen metrics with the stricter reference of the dietitian audit (only 'always' / 'often' count as present) |
+| `scripts/conformal_split_check.py` | risk-aware rule with temperature and thresholds fitted on disjoint halves of the validation set |
+| `scripts/label_check_form.py` | label check of two images per Turkish class by a second person |
 | `scripts/finalize_allergen_db_v2.py`, `scripts/apply_expert_audit.py`, `scripts/score_expert_audit.py` | database build, dietitian audit and its corrections |
 | `data/manifest_v2.csv` | every image: class, source, split, MD5, perceptual hash, original file name |
 | `data/class_map_v2.csv` | class index, English / Turkish names, group, per-split counts |
