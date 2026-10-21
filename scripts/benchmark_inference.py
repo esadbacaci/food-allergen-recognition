@@ -80,16 +80,25 @@ def onnx_cpu_latency(model, x):
 
 
 def count_gflops(model, x):
-    """GFLOPs (two per multiply-accumulate) with torch.utils.flop_counter. The fused fast path of
-    nn.MultiheadAttention (used by torchvision's ViT at inference) is invisible to the counter, so it is
-    disabled while counting; otherwise the attention projections and matmuls of ViT-B/16 are missed."""
+    """GFLOPs (two per multiply-accumulate) with torch.utils.flop_counter. nn.MultiheadAttention (used by
+    torchvision's ViT) hides work from the counter: its fused fast path hides the projections, and its
+    scaled-dot-product kernel hides the attention matmuls. While counting, the fast path is disabled and the
+    attention weights are requested (need_weights=True), which computes the attention with countable bmm ops."""
     fast = torch.backends.mha.get_fastpath_enabled()
     torch.backends.mha.set_fastpath_enabled(False)
+    mha_forward = torch.nn.MultiheadAttention.forward
+
+    def forward_with_weights(self, *a, **k):
+        k["need_weights"] = True
+        return mha_forward(self, *a, **k)
+
+    torch.nn.MultiheadAttention.forward = forward_with_weights
     try:
         with FlopCounterMode(display=False) as fc, torch.no_grad():
             model(x)
     finally:
         torch.backends.mha.set_fastpath_enabled(fast)
+        torch.nn.MultiheadAttention.forward = mha_forward
     return fc.get_total_flops() / 1e9
 
 
