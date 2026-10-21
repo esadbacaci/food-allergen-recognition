@@ -6,7 +6,9 @@
 In the main analysis one validation set selects the checkpoint, fits the temperature and sets the conformal
 allergen thresholds. Here the validation images are split at random (stratified by class, 10 repetitions) into
 two disjoint halves: the temperature is fitted on half A and the thresholds on half B only, and the rule is
-evaluated on the test set. Deployed MaxViT-T, three seeds, database v2.1.
+evaluated on the test set. Deployed MaxViT-T, three seeds, database v2.1. Allergens with fewer than 99
+positive images in half B get a zero threshold (every image warned) and are reported separately, not in the
+false-negative and specificity summaries.
 Output: 03_deneyler/analysis/conformal_split_check.json
 """
 import json
@@ -49,12 +51,22 @@ def main():
                               else np.inf for j in range(m.shape[1])])
             warn = (M.calibrated_probs(tl, T) @ mf) >= theta
             miss = truth & ~warn
-            fnr = [miss[:, j].sum() / truth[:, j].sum() for j in range(m.shape[1]) if truth[:, j].any()]
-            out.append(dict(seed=s, rep=rep, max_fnr=float(max(fnr)), gluten_fnr=float(fnr[g]),
+            # allergens with at least 99 positives in half B, i.e. a non-degenerate conformal threshold (k >= 1);
+            # with fewer positives the threshold is 0 and every image receives the warning
+            nb = m[vy[~a]].sum(0)
+            ok = [j for j in range(m.shape[1]) if truth[:, j].any() and nb[j] >= 99]
+            zero = [names[j] for j in range(m.shape[1]) if truth[:, j].any() and nb[j] < 99]
+            fnr = {j: miss[:, j].sum() / truth[:, j].sum() for j in ok}
+            spec = {j: (~warn[:, j] & ~truth[:, j]).sum() / (~truth[:, j]).sum() for j in ok}
+            out.append(dict(seed=s, rep=rep, max_fnr=float(max(fnr.values())), gluten_fnr=float(fnr[g]),
+                            gluten_spec=float(spec[g]), min_spec=float(min(spec.values())),
                             images_missed=float(miss.any(1).mean()),
-                            all_allergens_meet_target=bool(max(fnr) <= 0.01)))
+                            all_allergens_meet_target=bool(max(fnr.values()) <= 0.01), zero_threshold=zero))
     summ = {k: [float(np.mean([o[k] for o in out])), float(np.max([o[k] for o in out]))]
             for k in ("max_fnr", "gluten_fnr", "images_missed")}
+    summ.update({k: [float(np.mean([o[k] for o in out])), float(np.min([o[k] for o in out]))]
+                 for k in ("gluten_spec", "min_spec")})
+    summ["zero_threshold_allergens"] = sorted({z for o in out for z in o["zero_threshold"]})
     summ["share_runs_all_allergens_meet_target"] = float(np.mean([o["all_allergens_meet_target"] for o in out]))
     summ["n_runs"] = len(out)
     (paths.RUNS / "analysis" / "conformal_split_check.json").write_text(json.dumps(dict(summary=summ, runs=out),
