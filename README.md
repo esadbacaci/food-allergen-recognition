@@ -1,8 +1,7 @@
 # Food image classification linked to an allergen database (Food-101 + Turkish cuisine)
 
 Code, data splits, allergen database and results for the article
-*"Food Image Classification Linked to an Allergen Database: A Reproducible Pipeline Evaluated on Food-101
-and Turkish Cuisine"* (M. E. Bacacı and B. Takgil, Düzce University; Applied Sciences, under revision).
+*"Food Classification and Allergen Matching Using Deep Learning for People with Food Allergies"* (M. E. Bacacı and B. Takgil, Düzce University; Applied Sciences, under revision).
 
 The system has two parts with an explicit boundary:
 
