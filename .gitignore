@@ -13,3 +13,9 @@ data/allergen_db_v2/expert_audit/*.xlsx
 
 # Telegram bot token (secret)
 telegram_config.json
+
+# personal helper scripts (not part of the published code)
+EGITIMI_DEVAM_ETTIR.cmd
+TELEGRAM_BOT_BASLAT.cmd
+durum.cmd
+scripts/telegram_bot.py

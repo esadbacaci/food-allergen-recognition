@@ -4,13 +4,14 @@
   "relations": 666,
   "by_level": {
     "Her zaman": 261,
-    "Olabilir": 229,
-    "Sıklıkla": 174
+    "Olabilir": 230,
+    "Sıklıkla": 175
   },
   "by_source": {
-    "draft": 406,
+    "draft": 399,
+    "draft+adjudication": 209,
     "adjudication": 47,
-    "draft+adjudication": 211
+    "expert": 11
   },
   "regulated_relations": 506,
   "classes_without_draft": [],
